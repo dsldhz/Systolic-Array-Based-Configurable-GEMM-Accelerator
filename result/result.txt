@@ -1,0 +1,100 @@
+P=4
+--- Test Start: Reading from unified input_mem.csv ---
+Loading data from input_mem.csv into RAM A and RAM B...
+T=26: Reset released.
+T=28: Start pulse issued.
+T=444661787: Global computation done signal received.
+Writing result from RAM C to output_c.csv in HEX format...
+Result successfully written to output_c.csv.
+--- Test Finished ---
+- testbench_top.v:274: Verilog $finish
+
+period:222330879
+freq:2000MHz
+time:111165 us
+
+Chip area for module '\accelerator': 2785.286000
+Total Power   ==  1.265e-03 W
+
+bufferA:(4*8)*2^(3)
+A_area:604.68950889
+A_power:109.5507+2000*5.04945 uw
+
+bufferB:(4*8)*2^(3)
+B_area:604.68950889
+B_power:109.5507+2000*5.04945 uw
+
+Score = (2785.286000+2*604.68950889)^(2) * (period/freq) * [1.265+2*(109.5507+freq*5.04945)*10^(-3)]
+      = 3.846164785 * 10^(13)
+
+
+
+P=8
+--- Test Start: Reading from unified input_mem.csv ---
+Loading data from input_mem.csv into RAM A and RAM B...
+T=26: Reset released.
+T=28: Start pulse issued.
+T=191905819: Global computation done signal received.
+Writing result from RAM C to output_c.csv in HEX format...
+Result successfully written to output_c.csv.
+--- Test Finished ---
+- testbench_top.v:274: Verilog $finish
+
+period:95952895
+freq:2000MHz
+time:47976us
+
+Chip area for module '\accelerator': 5513.382000
+Total Power   ==  2.470e-03 W
+
+bufferA:(8*8)*2^(4)
+A_area:1081.2007656
+A_power:176.4693+9.0271125*freq uw
+
+bufferB:(8*8)*2^(4)
+B_area:1081.2007656
+B_power:176.4693+9.0271125*freq uw
+
+
+Score = (5513.382000+2*1081.2007656)^(2) * (period/freq) * [2.470+2*(176.4693+9.0271125*freq)*10^(-3)]
+      = 1.100447599 * 10^(14)
+
+
+
+P=2
+--- Test Start: Reading from unified input_mem.csv ---
+Loading data from input_mem.csv into RAM A and RAM B...
+T=26: Reset released.
+T=28: Start pulse issued.
+T=1208221723: Global computation done signal received.
+Writing result from RAM C to output_c.csv in HEX format...
+Result successfully written to output_c.csv.
+--- Test Finished ---
+- testbench_top.v:274: Verilog $finish
+
+period:604110847
+freq:2000MHz
+time:302055 us
+
+Chip area for module '\accelerator': 1788.318000
+Total Power   ==  8.069e-04 W
+
+bufferA:(2*8)*2^(2)
+A_area:604.68950889
+A_power:109.5507+2000*5.04945 uw
+
+bufferB:(2*8)*2^(2)
+B_area:604.68950889
+B_power:109.5507+2000*5.04945 uw
+
+A&B:(4*8)*2^(2)
+area:604.68950889
+power:109.5507+2000*5.04945 uw
+
+AB分开
+Score = (1788.318000+2*604.68950889)^(2) * (period/freq) * [0.8069+2*(109.5507+2000*5.04945)*10^(-3)]
+      = 5.760824885*10^(13)
+AB合并
+Score = (1788.318000+604.68950889)^(2) * (period/freq) * [0.8069+(109.5507+2000*5.04945)*10^(-3)]
+      = 1.90533998*10^(13)
+

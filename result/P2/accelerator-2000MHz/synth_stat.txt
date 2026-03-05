@@ -1,0 +1,51 @@
+
+24. Printing statistics.
+
+=== accelerator ===
+
+   Number of wires:               1333
+   Number of wire bits:           1333
+   Number of public wires:         853
+   Number of public wire bits:     853
+   Number of ports:                546
+   Number of port bits:            546
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                810
+     AND2_X1                       167
+     AND2_X4                        22
+     AND3_X1                        10
+     AND3_X4                         2
+     AND4_X1                        41
+     AOI211_X1                       3
+     AOI21_X1                       12
+     AOI221_X4                       3
+     AOI22_X1                        2
+     BUF_X2                          2
+     CLKBUF_X2                       8
+     CLKGATE_X1                     23
+     DFFR_X1                       141
+     DFFS_X1                         3
+     DFF_X1                         56
+     INV_X1                         45
+     MUX2_X1                        20
+     NAND2_X1                       33
+     NAND2_X2                        1
+     NAND3_X1                        9
+     NAND4_X1                        3
+     NOR2_X1                        45
+     NOR2_X2                         1
+     NOR3_X1                        15
+     NOR4_X1                         6
+     OAI211_X1                       5
+     OAI21_X1                       77
+     OR2_X1                         10
+     OR3_X1                          2
+     OR4_X1                          1
+     XNOR2_X1                       21
+     XOR2_X1                        21
+
+   Chip area for module '\accelerator': 1788.318000
+     of which used for sequential elements: 1019.312000 (57.00%)
+

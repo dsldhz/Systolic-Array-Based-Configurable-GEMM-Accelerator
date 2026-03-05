@@ -1,0 +1,123 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2025  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.53+39 (git sha1 388955031, clang++ 18.1.8 -fPIC -O3)
+
+-- Executing script file `-' --
+[TCL: yosys -import] Command name collision: found pre-existing command `cd' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `eval' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `exec' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `read' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `trace' -> skip.
+
+1. Executing Verilog-2005 frontend: /data/stu25/s2300012745/work/yosys-sta/lab8/result/P2/accelerator-2000MHz/accelerator.netlist.fixed.v
+Parsing Verilog input from `/data/stu25/s2300012745/work/yosys-sta/lab8/result/P2/accelerator-2000MHz/accelerator.netlist.fixed.v' to AST representation.
+Generating RTLIL representation for module `\accelerator'.
+Successfully finished Verilog frontend.
+
+2. Executing Liberty frontend: /data/stu25/s2300012745/work/yosys-sta/scripts/../pdk/nangate45/lib/Nangate45_typ.lib
+Imported 134 cell types from liberty file.
+
+3. Executing HIERARCHY pass (managing design hierarchy).
+
+3.1. Analyzing design hierarchy..
+Top module:  \accelerator
+
+3.2. Analyzing design hierarchy..
+Top module:  \accelerator
+Removed 0 unused modules.
+
+4. Executing CHECK pass (checking for obvious problems).
+Checking module accelerator...
+Warning: Wire accelerator.\q_from_buffer_a [15] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [14] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [13] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [12] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [11] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [10] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [9] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [8] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [7] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [6] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [5] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [4] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [3] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [2] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [1] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [0] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [15] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [14] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [13] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [12] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [11] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [10] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [9] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [8] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [7] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [6] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [5] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [4] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [3] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [2] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [1] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [0] is used but has no driver.
+Found and reported 32 problems.
+
+5. Printing statistics.
+
+=== accelerator ===
+
+   Number of wires:                706
+   Number of wire bits:           1349
+   Number of public wires:         706
+   Number of public wire bits:    1349
+   Number of ports:                 24
+   Number of port bits:            546
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                818
+     AND2_X1                       167
+     AND2_X4                        22
+     AND3_X1                        10
+     AND3_X4                         2
+     AND4_X1                        41
+     AOI211_X1                       3
+     AOI21_X1                       12
+     AOI221_X4                       3
+     AOI22_X1                        2
+     BUF_X2                          2
+     BUF_X8                          8
+     CLKBUF_X2                       8
+     CLKGATE_X1                     23
+     DFFR_X1                       141
+     DFFS_X1                         3
+     DFF_X1                         56
+     INV_X1                         45
+     MUX2_X1                        20
+     NAND2_X1                       33
+     NAND2_X2                        1
+     NAND3_X1                        9
+     NAND4_X1                        3
+     NOR2_X1                        45
+     NOR2_X2                         1
+     NOR3_X1                        15
+     NOR4_X1                         6
+     OAI211_X1                       5
+     OAI21_X1                       77
+     OR2_X1                         10
+     OR3_X1                          2
+     OR4_X1                          1
+     XNOR2_X1                       21
+     XOR2_X1                        21
+
+   Chip area for module '\accelerator': 1815.982000
+     of which used for sequential elements: 1019.312000 (56.13%)
+
+Warnings: 32 unique messages, 32 total
+End of script. Logfile hash: 7a6f10326d, CPU: user 0.18s system 0.01s, MEM: 36.38 MB peak
+Yosys 0.53+39 (git sha1 388955031, clang++ 18.1.8 -fPIC -O3)
+Time spent: 42% 2x read_verilog (0 sec), 24% 1x stat (0 sec), ...

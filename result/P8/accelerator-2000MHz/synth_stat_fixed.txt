@@ -1,0 +1,57 @@
+
+5. Printing statistics.
+
+=== accelerator ===
+
+   Number of wires:               1581
+   Number of wire bits:           8378
+   Number of public wires:        1581
+   Number of public wire bits:    8378
+   Number of ports:                 24
+   Number of port bits:           6594
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               3605
+     AND2_X1                      2108
+     AND2_X2                         8
+     AND2_X4                        16
+     AND3_X1                         9
+     AND3_X4                         1
+     AND4_X1                       134
+     AOI211_X1                       3
+     AOI21_X1                       49
+     AOI221_X4                       1
+     AOI22_X1                       70
+     BUF_X2                          4
+     BUF_X4                         17
+     BUF_X8                         86
+     CLKBUF_X2                      28
+     CLKGATE_X1                     23
+     DFFR_X1                       253
+     DFFS_X1                         3
+     DFF_X1                        146
+     INV_X1                         98
+     INV_X2                          3
+     MUX2_X1                        25
+     NAND2_X1                       34
+     NAND3_X1                       51
+     NAND4_X1                        2
+     NOR2_X1                        72
+     NOR2_X2                         4
+     NOR2_X4                         2
+     NOR3_X1                        18
+     NOR4_X1                         5
+     OAI211_X1                      17
+     OAI21_X1                      204
+     OAI22_X1                       35
+     OR2_X1                         21
+     OR2_X2                          7
+     OR3_X1                          1
+     OR4_X1                          1
+     XNOR2_X1                       23
+     XOR2_X1                        23
+
+   Chip area for module '\accelerator': 5810.770000
+     of which used for sequential elements: 2022.132000 (34.80%)
+

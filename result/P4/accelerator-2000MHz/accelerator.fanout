@@ -1,0 +1,15 @@
+Generate the report at 2025-07-01T02:08:34, GitVersion: aa25008b3778a76ae1975c839d4cc459f7f7b3b7.
++------------------------------------------+-----------+--------+-------------+-------------+------+
+| Net / Pin                                | MaxFanout | Fanout | FanoutSlack | LibCellPort | Note |
++------------------------------------------+-----------+--------+-------------+-------------+------+
+| start_global_computation                 |           |        |             |             |      |
+| start_global_computation                 | NA        | 2      | NA          |             |      |
+| main_ram_a_q[5]                          |           |        |             |             |      |
+| main_ram_a_q[5]                          | NA        | 1      | NA          |             |      |
+| main_ram_a_q[0]                          |           |        |             |             |      |
+| main_ram_a_q[0]                          | NA        | 1      | NA          |             |      |
+| u_skew_b.in_ram_addr_$_DFFE_PP0P__Q_D[9] |           |        |             |             |      |
+| _1789_:ZN                                | NA        | 1      | NA          | XNOR2_X1/ZN |      |
+| _0440_                                   |           |        |             |             |      |
+| u_skew_b.zero_cnt_$_DFFE_PP0N__Q:QN      | NA        | 0      | NA          | DFFR_X1/QN  |      |
++------------------------------------------+-----------+--------+-------------+-------------+------+

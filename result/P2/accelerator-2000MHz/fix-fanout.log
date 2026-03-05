@@ -1,0 +1,396 @@
+[Data config set] lib = /data/stu25/s2300012745/work/yosys-sta/scripts/../pdk/nangate45/lib/Nangate45_typ.lib
+[Data config set] sdc = /data/stu25/s2300012745/work/yosys-sta/scripts/default.sdc
+[Data config set] tech lef = /data/stu25/s2300012745/work/yosys-sta/scripts/../pdk/nangate45/lef/Nangate45_tech.lef
+Read LEF file : /data/stu25/s2300012745/work/yosys-sta/scripts/../pdk/nangate45/lef/Nangate45_tech.lef
+[Data config set] lef = /data/stu25/s2300012745/work/yosys-sta/scripts/../pdk/nangate45/lef/Nangate45_stdcell.lef
+Read LEF file : /data/stu25/s2300012745/work/yosys-sta/scripts/../pdk/nangate45/lef/Nangate45_stdcell.lef
+[Data config set] verilog = /data/stu25/s2300012745/work/yosys-sta/lab8/result/P2/accelerator-2000MHz/accelerator.netlist.syn.v
+Read Verilog file success : /data/stu25/s2300012745/work/yosys-sta/lab8/result/P2/accelerator-2000MHz/accelerator.netlist.syn.v
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I20250701 04:04:57.811239 4186879 VerilogParserRustC.cc:41] load verilog file /data/stu25/s2300012745/work/yosys-sta/lab8/result/P2/accelerator-2000MHz/accelerator.netlist.syn.v
+r str /data/stu25/s2300012745/work/yosys-sta/lab8/result/P2/accelerator-2000MHz/accelerator.netlist.syn.v
+Processed 1000 pins...
+Processed 1000 nets...
+I20250701 04:04:58.007959 4186879 Sta.cc:303] load lib start
+I20250701 04:04:58.010159 4186996 Sta.cc:281] read liberty /data/stu25/s2300012745/work/yosys-sta/scripts/../pdk/nangate45/lib/Nangate45_typ.lib start 
+I20250701 04:04:58.010515 4186996 LibParserRustC.cc:1285] load liberty file /data/stu25/s2300012745/work/yosys-sta/scripts/../pdk/nangate45/lib/Nangate45_typ.lib
+rust read lib file /data/stu25/s2300012745/work/yosys-sta/scripts/../pdk/nangate45/lib/Nangate45_typ.lib
+I20250701 04:04:58.516183 4186996 LibParserRustC.cc:1294] load liberty file /data/stu25/s2300012745/work/yosys-sta/scripts/../pdk/nangate45/lib/Nangate45_typ.lib success.
+I20250701 04:04:58.516222 4186996 Sta.cc:291] read liberty /data/stu25/s2300012745/work/yosys-sta/scripts/../pdk/nangate45/lib/Nangate45_typ.lib end 
+I20250701 04:04:58.516362 4186879 Sta.cc:322] load lib end
+I20250701 04:04:58.518326 4187058 LibParserRustC.cc:1304] link liberty file /data/stu25/s2300012745/work/yosys-sta/scripts/../pdk/nangate45/lib/Nangate45_typ.lib start.
+I20250701 04:04:58.519613 4187058 LibParserRustC.cc:666] unkown attri name: technology in /data/stu25/s2300012745/work/yosys-sta/scripts/../pdk/nangate45/lib/Nangate45_typ.lib line no 45
+I20250701 04:04:59.625798 4187058 LibParserRustC.cc:1310] link liberty file /data/stu25/s2300012745/work/yosys-sta/scripts/../pdk/nangate45/lib/Nangate45_typ.lib success.
+I20250701 04:04:59.625942 4186879 TimingIDBAdapter.cc:739] core area width -0um height -0um
+I20250701 04:04:59.626048 4186879 TimingIDBAdapter.cc:824] build inst num: 1
+I20250701 04:04:59.630671 4186879 TimingIDBAdapter.cc:903] build net num: 1
+I20250701 04:04:59.637158 4186879 TimingIDBAdapter.cc:912] build instance num: 810
+I20250701 04:04:59.637194 4186879 TimingIDBAdapter.cc:913] build port num: 546
+I20250701 04:04:59.637200 4186879 TimingIDBAdapter.cc:914] build net num: 1333
+I20250701 04:04:59.637207 4186879 Sta.cc:175] read sdc /data/stu25/s2300012745/work/yosys-sta/scripts/default.sdc start 
+I20250701 04:04:59.637967 4186879 CmdCreateClock.cc:119] create clock core_clock for pin/port: clk
+I20250701 04:04:59.637995 4186879 Sta.cc:192] read sdc /data/stu25/s2300012745/work/yosys-sta/scripts/default.sdc end 
+I20250701 04:04:59.638000 4186879 StaBuildGraph.cc:315] build graph start
+I20250701 04:04:59.645929 4186879 StaBuildGraph.cc:216] net q_from_buffer_a[0] has no driver.
+I20250701 04:04:59.645956 4186879 StaBuildGraph.cc:216] net q_from_buffer_a[10] has no driver.
+I20250701 04:04:59.645959 4186879 StaBuildGraph.cc:216] net q_from_buffer_a[11] has no driver.
+I20250701 04:04:59.645961 4186879 StaBuildGraph.cc:216] net q_from_buffer_a[12] has no driver.
+I20250701 04:04:59.645964 4186879 StaBuildGraph.cc:216] net q_from_buffer_a[13] has no driver.
+I20250701 04:04:59.645967 4186879 StaBuildGraph.cc:216] net q_from_buffer_a[14] has no driver.
+I20250701 04:04:59.645968 4186879 StaBuildGraph.cc:216] net q_from_buffer_a[15] has no driver.
+I20250701 04:04:59.645972 4186879 StaBuildGraph.cc:216] net q_from_buffer_a[1] has no driver.
+I20250701 04:04:59.645973 4186879 StaBuildGraph.cc:216] net q_from_buffer_a[2] has no driver.
+I20250701 04:04:59.645975 4186879 StaBuildGraph.cc:216] net q_from_buffer_a[3] has no driver.
+I20250701 04:04:59.645978 4186879 StaBuildGraph.cc:216] net q_from_buffer_a[4] has no driver.
+I20250701 04:04:59.645980 4186879 StaBuildGraph.cc:216] net q_from_buffer_a[5] has no driver.
+I20250701 04:04:59.645982 4186879 StaBuildGraph.cc:216] net q_from_buffer_a[6] has no driver.
+I20250701 04:04:59.645985 4186879 StaBuildGraph.cc:216] net q_from_buffer_a[7] has no driver.
+I20250701 04:04:59.645987 4186879 StaBuildGraph.cc:216] net q_from_buffer_a[8] has no driver.
+I20250701 04:04:59.645990 4186879 StaBuildGraph.cc:216] net q_from_buffer_a[9] has no driver.
+I20250701 04:04:59.645992 4186879 StaBuildGraph.cc:216] net q_from_buffer_b[0] has no driver.
+I20250701 04:04:59.645994 4186879 StaBuildGraph.cc:216] net q_from_buffer_b[10] has no driver.
+I20250701 04:04:59.645996 4186879 StaBuildGraph.cc:216] net q_from_buffer_b[11] has no driver.
+I20250701 04:04:59.645999 4186879 StaBuildGraph.cc:216] net q_from_buffer_b[12] has no driver.
+I20250701 04:04:59.646001 4186879 StaBuildGraph.cc:216] net q_from_buffer_b[13] has no driver.
+I20250701 04:04:59.646003 4186879 StaBuildGraph.cc:216] net q_from_buffer_b[14] has no driver.
+I20250701 04:04:59.646006 4186879 StaBuildGraph.cc:216] net q_from_buffer_b[15] has no driver.
+I20250701 04:04:59.646008 4186879 StaBuildGraph.cc:216] net q_from_buffer_b[1] has no driver.
+I20250701 04:04:59.646011 4186879 StaBuildGraph.cc:216] net q_from_buffer_b[2] has no driver.
+I20250701 04:04:59.646013 4186879 StaBuildGraph.cc:216] net q_from_buffer_b[3] has no driver.
+I20250701 04:04:59.646016 4186879 StaBuildGraph.cc:216] net q_from_buffer_b[4] has no driver.
+I20250701 04:04:59.646018 4186879 StaBuildGraph.cc:216] net q_from_buffer_b[5] has no driver.
+I20250701 04:04:59.646020 4186879 StaBuildGraph.cc:216] net q_from_buffer_b[6] has no driver.
+I20250701 04:04:59.646023 4186879 StaBuildGraph.cc:216] net q_from_buffer_b[7] has no driver.
+I20250701 04:04:59.646025 4186879 StaBuildGraph.cc:216] net q_from_buffer_b[8] has no driver.
+I20250701 04:04:59.646027 4186879 StaBuildGraph.cc:216] net q_from_buffer_b[9] has no driver.
+I20250701 04:04:59.649987 4186879 StaBuildGraph.cc:332] build graph end
+I20250701 04:04:59.651141 4186879 Sta.cc:2616] update timing start
+I20250701 04:04:59.651391 4186879 StaApplySdc.cc:694] apply sdc start
+I20250701 04:04:59.651407 4186879 StaApplySdc.cc:725] apply sdc end
+I20250701 04:04:59.651412 4186879 StaClockPropagation.cc:324] ideal clock propagation start
+I20250701 04:04:59.651415 4186879 StaClockPropagation.cc:354] clock propagation clock num: 1
+I20250701 04:04:59.651443 4186879 StaClockPropagation.cc:203] clock propagate end to vertex u_skew_b.zero_cnt_$_DFFE_PP0N__Q:CK
+I20250701 04:04:59.651909 4186879 StaClockPropagation.cc:422] ideal clock propagation end
+I20250701 04:04:59.651913 4186879 StaCheck.cc:129] found loop fwd start
+I20250701 04:04:59.652261 4186879 StaCheck.cc:148] found loop fwd end
+I20250701 04:04:59.652267 4186879 StaCheck.cc:150] found loop bwd start
+I20250701 04:04:59.652541 4186879 StaCheck.cc:172] found loop bwd end
+I20250701 04:04:59.652576 4186879 StaClockSlewDelayPropagation.cc:107] clock slew delay propagation start
+I20250701 04:04:59.652580 4186879 StaClockSlewDelayPropagation.cc:125] propagating current clock queue vertexes number is 1
+I20250701 04:04:59.652632 4186879 StaClockSlewDelayPropagation.cc:125] propagating current clock queue vertexes number is 69
+I20250701 04:04:59.652860 4186879 StaClockSlewDelayPropagation.cc:125] propagating current clock queue vertexes number is 23
+I20250701 04:04:59.652974 4186879 StaClockSlewDelayPropagation.cc:125] propagating current clock queue vertexes number is 154
+I20250701 04:04:59.653695 4186879 StaClockSlewDelayPropagation.cc:158] clock slew delay propagation end
+I20250701 04:04:59.653714 4186879 StaClockSlewDelayPropagation.cc:161] clock slew delay propagation memory usage 0MB
+I20250701 04:04:59.653724 4186879 StaClockSlewDelayPropagation.cc:164] clock slew delay propagation time elapsed 0.001147s
+I20250701 04:04:59.654011 4186879 StaClockPropagation.cc:326] propagated(kNormal) clock propagation start
+I20250701 04:04:59.654016 4186879 StaClockPropagation.cc:354] clock propagation clock num: 1
+I20250701 04:04:59.654019 4186879 StaClockPropagation.cc:424] propagated(kNormal) clock propagation end
+I20250701 04:04:59.654022 4186879 StaApplySdc.cc:694] apply sdc start
+I20250701 04:04:59.654026 4186879 StaApplySdc.cc:725] apply sdc end
+I20250701 04:04:59.654027 4186879 StaClockPropagation.cc:328] propagated(kGenerated) clock propagation start
+I20250701 04:04:59.654031 4186879 StaClockPropagation.cc:354] clock propagation clock num: 1
+I20250701 04:04:59.654032 4186879 StaClockPropagation.cc:426] propagated(kGenerated) clock propagation end
+I20250701 04:04:59.654035 4186879 StaApplySdc.cc:694] apply sdc start
+I20250701 04:04:59.654037 4186879 StaApplySdc.cc:725] apply sdc end
+I20250701 04:04:59.654040 4186879 StaBuildPropTag.cc:325] build propagation tag start
+I20250701 04:04:59.654043 4186879 StaDataPropagation.cc:676] data fwd propagation start
+I20250701 04:04:59.654057 4186879 StaDataPropagationBFS.cc:166] data fwd propagation bfs start
+I20250701 04:04:59.654220 4186879 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 362
+I20250701 04:04:59.655970 4187404 StaDataPropagationBFS.cc:82] Thread 131445544498880 date fwd propagate found start vertex.main_ram_a_q[0]
+I20250701 04:04:59.655975 4187359 StaDataPropagationBFS.cc:82] Thread 131445955741376 date fwd propagate found start vertex.main_ram_a_q[13]
+I20250701 04:04:59.655970 4187355 StaDataPropagationBFS.cc:82] Thread 131445578069696 date fwd propagate found start vertex.main_ram_a_q[10]
+I20250701 04:04:59.655979 4187360 StaDataPropagationBFS.cc:82] Thread 131445947348672 date fwd propagate found start vertex.main_ram_a_q[14]
+I20250701 04:04:59.655995 4187363 StaDataPropagationBFS.cc:82] Thread 131445922170560 date fwd propagate found start vertex.main_ram_a_q[1]
+I20250701 04:04:59.655999 4187362 StaDataPropagationBFS.cc:82] Thread 131445930563264 date fwd propagate found start vertex.main_ram_a_q[3]
+I20250701 04:04:59.655978 4187357 StaDataPropagationBFS.cc:82] Thread 131445594855104 date fwd propagate found start vertex.main_ram_a_q[12]
+I20250701 04:04:59.655999 4187361 StaDataPropagationBFS.cc:82] Thread 131445938955968 date fwd propagate found start vertex.main_ram_a_q[15]
+I20250701 04:04:59.655995 4187364 StaDataPropagationBFS.cc:82] Thread 131445913777856 date fwd propagate found start vertex.main_ram_a_q[2]
+I20250701 04:04:59.655975 4187356 StaDataPropagationBFS.cc:82] Thread 131445586462400 date fwd propagate found start vertex.main_ram_a_q[11]
+E20250701 04:04:59.656935 4187402 Lib.cc:181] Warning: val outside table ranges:  val = 0; min_val = 0.00117378; max_val = 0.198535
+E20250701 04:04:59.656941 4187364 Lib.cc:181] Warning: val outside table ranges:  val = 0; min_val = 0.00117378; max_val = 0.198535
+E20250701 04:04:59.656935 4187382 Lib.cc:181] Warning: val outside table ranges:  val = 0; min_val = 0.00117378; max_val = 0.198535
+E20250701 04:04:59.656945 4187401 Lib.cc:181] Warning: val outside table ranges:  val = 0; min_val = 0.00117378; max_val = 0.198535
+E20250701 04:04:59.656952 4187393 Lib.cc:181] Warning: val outside table ranges:  val = 0; min_val = 0.00117378; max_val = 0.198535
+E20250701 04:04:59.656935 4187365 Lib.cc:181] Warning: val outside table ranges:  val = 0; min_val = 0.00117378; max_val = 0.198535
+E20250701 04:04:59.656939 4187383 Lib.cc:181] Warning: val outside table ranges:  val = 0; min_val = 0.00117378; max_val = 0.198535
+E20250701 04:04:59.656950 4187362 Lib.cc:181] Warning: val outside table ranges:  val = 0; min_val = 0.00117378; max_val = 0.198535
+E20250701 04:04:59.656939 4187384 Lib.cc:181] Warning: val outside table ranges:  val = 0; min_val = 0.00117378; max_val = 0.198535
+E20250701 04:04:59.656935 4187386 Lib.cc:181] Warning: val outside table ranges:  val = 0; min_val = 0.00117378; max_val = 0.198535
+I20250701 04:04:59.660655 4186879 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 503
+I20250701 04:04:59.665942 4186879 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 765
+I20250701 04:04:59.671509 4186879 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 371
+I20250701 04:04:59.674925 4186879 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 318
+I20250701 04:04:59.678588 4186879 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 76
+I20250701 04:04:59.681010 4186879 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 189
+I20250701 04:04:59.684121 4186879 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 102
+I20250701 04:04:59.694671 4186879 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 171
+I20250701 04:04:59.700511 4186879 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 83
+I20250701 04:04:59.703439 4186879 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 97
+I20250701 04:04:59.705984 4186879 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 27
+I20250701 04:04:59.708151 4186879 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 38
+I20250701 04:04:59.711994 4186879 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 17
+I20250701 04:04:59.714757 4186879 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 25
+I20250701 04:04:59.717195 4186879 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 17
+I20250701 04:04:59.719293 4186879 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 30
+I20250701 04:04:59.721830 4186879 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 17
+I20250701 04:04:59.724184 4186879 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 22
+I20250701 04:04:59.726820 4186879 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 13
+I20250701 04:04:59.729064 4186879 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 14
+I20250701 04:04:59.731423 4186879 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 6
+I20250701 04:04:59.733807 4186879 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 6
+I20250701 04:04:59.738404 4186879 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 2
+I20250701 04:04:59.741181 4186879 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 2
+I20250701 04:04:59.743570 4186879 StaDataPropagationBFS.cc:229] data fwd propagation bfs end
+I20250701 04:04:59.743638 4186879 StaDataPropagationBFS.cc:232] data fwd propagation bfs memory usage 2485.4MB
+I20250701 04:04:59.743650 4186879 StaDataPropagationBFS.cc:234] data fwd propagation bfs time elapsed 0.089593s
+I20250701 04:04:59.743657 4186879 StaDataPropagation.cc:695] data fwd propagation end
+I20250701 04:04:59.743664 4186879 StaDataPropagation.cc:676] data fwd propagation start
+I20250701 04:04:59.743680 4186879 StaDataPropagationBFS.cc:166] data fwd propagation bfs start
+I20250701 04:04:59.743891 4186879 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 0
+I20250701 04:04:59.746090 4186879 StaDataPropagationBFS.cc:229] data fwd propagation bfs end
+I20250701 04:04:59.746155 4186879 StaDataPropagationBFS.cc:232] data fwd propagation bfs memory usage 0MB
+I20250701 04:04:59.746169 4186879 StaDataPropagationBFS.cc:234] data fwd propagation bfs time elapsed 0.002489s
+I20250701 04:04:59.746176 4186879 StaDataPropagation.cc:695] data fwd propagation end
+I20250701 04:04:59.746181 4186879 StaAnalyze.cc:543] analyze timing path start
+I20250701 04:04:59.746186 4186879 StaAnalyze.cc:551] analyze timing path end vertex 1 total 750 start
+E20250701 04:04:59.746192 4186879 StaAnalyze.cc:328] The output port addr_to_buffer_a_read[0] is not constrained
+E20250701 04:04:59.746196 4186879 StaAnalyze.cc:328] The output port addr_to_buffer_a_read[0] is not constrained
+I20250701 04:04:59.746201 4186879 StaAnalyze.cc:585] analyze timing path end vertex 1 total 750 end
+E20250701 04:04:59.746203 4186879 StaAnalyze.cc:328] The output port addr_to_buffer_a_read[1] is not constrained
+E20250701 04:04:59.746207 4186879 StaAnalyze.cc:328] The output port addr_to_buffer_a_read[1] is not constrained
+E20250701 04:04:59.746212 4186879 StaAnalyze.cc:328] The output port addr_to_buffer_a_write[0] is not constrained
+E20250701 04:04:59.746214 4186879 StaAnalyze.cc:328] The output port addr_to_buffer_a_write[0] is not constrained
+E20250701 04:04:59.746218 4186879 StaAnalyze.cc:328] The output port addr_to_buffer_a_write[1] is not constrained
+E20250701 04:04:59.746222 4186879 StaAnalyze.cc:328] The output port addr_to_buffer_a_write[1] is not constrained
+E20250701 04:04:59.746232 4186879 StaAnalyze.cc:328] The output port addr_to_buffer_b_read[0] is not constrained
+E20250701 04:04:59.746235 4186879 StaAnalyze.cc:328] The output port addr_to_buffer_b_read[0] is not constrained
+I20250701 04:04:59.746238 4186879 StaAnalyze.cc:551] analyze timing path end vertex 11 total 750 start
+I20250701 04:04:59.746240 4186879 StaAnalyze.cc:585] analyze timing path end vertex 11 total 750 end
+I20250701 04:04:59.746253 4186879 StaAnalyze.cc:551] analyze timing path end vertex 21 total 750 start
+I20250701 04:04:59.746255 4186879 StaAnalyze.cc:585] analyze timing path end vertex 21 total 750 end
+I20250701 04:04:59.746259 4186879 StaAnalyze.cc:551] analyze timing path end vertex 31 total 750 start
+I20250701 04:04:59.746263 4186879 StaAnalyze.cc:585] analyze timing path end vertex 31 total 750 end
+I20250701 04:04:59.746268 4186879 StaAnalyze.cc:551] analyze timing path end vertex 41 total 750 start
+I20250701 04:04:59.746271 4186879 StaAnalyze.cc:585] analyze timing path end vertex 41 total 750 end
+I20250701 04:04:59.746276 4186879 StaAnalyze.cc:551] analyze timing path end vertex 51 total 750 start
+I20250701 04:04:59.746279 4186879 StaAnalyze.cc:585] analyze timing path end vertex 51 total 750 end
+I20250701 04:04:59.746282 4186879 StaAnalyze.cc:551] analyze timing path end vertex 61 total 750 start
+I20250701 04:04:59.746285 4186879 StaAnalyze.cc:585] analyze timing path end vertex 61 total 750 end
+I20250701 04:04:59.746289 4186879 StaAnalyze.cc:551] analyze timing path end vertex 71 total 750 start
+I20250701 04:04:59.746292 4186879 StaAnalyze.cc:585] analyze timing path end vertex 71 total 750 end
+I20250701 04:04:59.746296 4186879 StaAnalyze.cc:551] analyze timing path end vertex 81 total 750 start
+I20250701 04:04:59.746300 4186879 StaAnalyze.cc:585] analyze timing path end vertex 81 total 750 end
+I20250701 04:04:59.746304 4186879 StaAnalyze.cc:551] analyze timing path end vertex 91 total 750 start
+I20250701 04:04:59.746308 4186879 StaAnalyze.cc:585] analyze timing path end vertex 91 total 750 end
+I20250701 04:04:59.746313 4186879 StaAnalyze.cc:551] analyze timing path end vertex 101 total 750 start
+I20250701 04:04:59.746318 4186879 StaAnalyze.cc:585] analyze timing path end vertex 101 total 750 end
+I20250701 04:04:59.746325 4186879 StaAnalyze.cc:551] analyze timing path end vertex 111 total 750 start
+I20250701 04:04:59.746328 4186879 StaAnalyze.cc:585] analyze timing path end vertex 111 total 750 end
+I20250701 04:04:59.746333 4186879 StaAnalyze.cc:551] analyze timing path end vertex 121 total 750 start
+I20250701 04:04:59.746336 4186879 StaAnalyze.cc:585] analyze timing path end vertex 121 total 750 end
+I20250701 04:04:59.746340 4186879 StaAnalyze.cc:551] analyze timing path end vertex 131 total 750 start
+I20250701 04:04:59.746342 4186879 StaAnalyze.cc:585] analyze timing path end vertex 131 total 750 end
+I20250701 04:04:59.746347 4186879 StaAnalyze.cc:551] analyze timing path end vertex 141 total 750 start
+I20250701 04:04:59.746351 4186879 StaAnalyze.cc:585] analyze timing path end vertex 141 total 750 end
+I20250701 04:04:59.746356 4186879 StaAnalyze.cc:551] analyze timing path end vertex 151 total 750 start
+I20250701 04:04:59.746357 4186879 StaAnalyze.cc:585] analyze timing path end vertex 151 total 750 end
+I20250701 04:04:59.746361 4186879 StaAnalyze.cc:551] analyze timing path end vertex 161 total 750 start
+I20250701 04:04:59.746364 4186879 StaAnalyze.cc:585] analyze timing path end vertex 161 total 750 end
+I20250701 04:04:59.746369 4186879 StaAnalyze.cc:551] analyze timing path end vertex 171 total 750 start
+I20250701 04:04:59.746378 4186879 StaAnalyze.cc:585] analyze timing path end vertex 171 total 750 end
+I20250701 04:04:59.746382 4186879 StaAnalyze.cc:551] analyze timing path end vertex 181 total 750 start
+I20250701 04:04:59.746385 4186879 StaAnalyze.cc:585] analyze timing path end vertex 181 total 750 end
+I20250701 04:04:59.746392 4186879 StaAnalyze.cc:551] analyze timing path end vertex 191 total 750 start
+I20250701 04:04:59.746394 4186879 StaAnalyze.cc:585] analyze timing path end vertex 191 total 750 end
+I20250701 04:04:59.746399 4186879 StaAnalyze.cc:551] analyze timing path end vertex 201 total 750 start
+I20250701 04:04:59.746403 4186879 StaAnalyze.cc:585] analyze timing path end vertex 201 total 750 end
+I20250701 04:04:59.746408 4186879 StaAnalyze.cc:551] analyze timing path end vertex 211 total 750 start
+I20250701 04:04:59.746412 4186879 StaAnalyze.cc:585] analyze timing path end vertex 211 total 750 end
+I20250701 04:04:59.746418 4186879 StaAnalyze.cc:551] analyze timing path end vertex 221 total 750 start
+I20250701 04:04:59.746421 4186879 StaAnalyze.cc:585] analyze timing path end vertex 221 total 750 end
+I20250701 04:04:59.746426 4186879 StaAnalyze.cc:551] analyze timing path end vertex 231 total 750 start
+I20250701 04:04:59.746431 4186879 StaAnalyze.cc:585] analyze timing path end vertex 231 total 750 end
+I20250701 04:04:59.746438 4186879 StaAnalyze.cc:551] analyze timing path end vertex 241 total 750 start
+I20250701 04:04:59.746440 4186879 StaAnalyze.cc:585] analyze timing path end vertex 241 total 750 end
+I20250701 04:04:59.746446 4186879 StaAnalyze.cc:551] analyze timing path end vertex 251 total 750 start
+I20250701 04:04:59.746448 4186879 StaAnalyze.cc:585] analyze timing path end vertex 251 total 750 end
+I20250701 04:04:59.746451 4186879 StaAnalyze.cc:551] analyze timing path end vertex 261 total 750 start
+I20250701 04:04:59.746454 4186879 StaAnalyze.cc:585] analyze timing path end vertex 261 total 750 end
+I20250701 04:04:59.746457 4186879 StaAnalyze.cc:551] analyze timing path end vertex 271 total 750 start
+I20250701 04:04:59.746459 4186879 StaAnalyze.cc:585] analyze timing path end vertex 271 total 750 end
+I20250701 04:04:59.746464 4186879 StaAnalyze.cc:551] analyze timing path end vertex 281 total 750 start
+I20250701 04:04:59.746465 4186879 StaAnalyze.cc:585] analyze timing path end vertex 281 total 750 end
+I20250701 04:04:59.746469 4186879 StaAnalyze.cc:551] analyze timing path end vertex 291 total 750 start
+I20250701 04:04:59.746471 4186879 StaAnalyze.cc:585] analyze timing path end vertex 291 total 750 end
+I20250701 04:04:59.746474 4186879 StaAnalyze.cc:551] analyze timing path end vertex 301 total 750 start
+I20250701 04:04:59.746476 4186879 StaAnalyze.cc:585] analyze timing path end vertex 301 total 750 end
+I20250701 04:04:59.746479 4186879 StaAnalyze.cc:551] analyze timing path end vertex 311 total 750 start
+I20250701 04:04:59.746482 4186879 StaAnalyze.cc:585] analyze timing path end vertex 311 total 750 end
+I20250701 04:04:59.746485 4186879 StaAnalyze.cc:551] analyze timing path end vertex 321 total 750 start
+I20250701 04:04:59.746487 4186879 StaAnalyze.cc:585] analyze timing path end vertex 321 total 750 end
+I20250701 04:04:59.746490 4186879 StaAnalyze.cc:551] analyze timing path end vertex 331 total 750 start
+I20250701 04:04:59.746493 4186879 StaAnalyze.cc:585] analyze timing path end vertex 331 total 750 end
+I20250701 04:04:59.746497 4186879 StaAnalyze.cc:551] analyze timing path end vertex 341 total 750 start
+I20250701 04:04:59.746500 4186879 StaAnalyze.cc:585] analyze timing path end vertex 341 total 750 end
+I20250701 04:04:59.746505 4186879 StaAnalyze.cc:551] analyze timing path end vertex 351 total 750 start
+I20250701 04:04:59.746508 4186879 StaAnalyze.cc:585] analyze timing path end vertex 351 total 750 end
+I20250701 04:04:59.746511 4186879 StaAnalyze.cc:551] analyze timing path end vertex 361 total 750 start
+I20250701 04:04:59.746513 4186879 StaAnalyze.cc:585] analyze timing path end vertex 361 total 750 end
+I20250701 04:04:59.746516 4186879 StaAnalyze.cc:551] analyze timing path end vertex 371 total 750 start
+I20250701 04:04:59.746519 4186879 StaAnalyze.cc:585] analyze timing path end vertex 371 total 750 end
+I20250701 04:04:59.746522 4186879 StaAnalyze.cc:551] analyze timing path end vertex 381 total 750 start
+I20250701 04:04:59.746524 4186879 StaAnalyze.cc:585] analyze timing path end vertex 381 total 750 end
+I20250701 04:04:59.746557 4186879 StaAnalyze.cc:303] add path data num 4 to u_central_control.tile_k_cnt_$_DFFE_PP0P__Q_7:D
+I20250701 04:04:59.746603 4186879 StaAnalyze.cc:551] analyze timing path end vertex 391 total 750 start
+I20250701 04:04:59.746613 4186879 StaAnalyze.cc:585] analyze timing path end vertex 391 total 750 end
+I20250701 04:04:59.746696 4186879 StaAnalyze.cc:551] analyze timing path end vertex 401 total 750 start
+I20250701 04:04:59.746706 4186879 StaAnalyze.cc:585] analyze timing path end vertex 401 total 750 end
+I20250701 04:04:59.746768 4186879 StaAnalyze.cc:551] analyze timing path end vertex 411 total 750 start
+I20250701 04:04:59.746779 4186879 StaAnalyze.cc:585] analyze timing path end vertex 411 total 750 end
+I20250701 04:04:59.746831 4186879 StaAnalyze.cc:551] analyze timing path end vertex 421 total 750 start
+I20250701 04:04:59.746845 4186879 StaAnalyze.cc:585] analyze timing path end vertex 421 total 750 end
+I20250701 04:04:59.746883 4186879 StaAnalyze.cc:551] analyze timing path end vertex 431 total 750 start
+I20250701 04:04:59.746896 4186879 StaAnalyze.cc:585] analyze timing path end vertex 431 total 750 end
+I20250701 04:04:59.746928 4186879 StaAnalyze.cc:551] analyze timing path end vertex 441 total 750 start
+I20250701 04:04:59.746937 4186879 StaAnalyze.cc:585] analyze timing path end vertex 441 total 750 end
+I20250701 04:04:59.746968 4186879 StaAnalyze.cc:551] analyze timing path end vertex 451 total 750 start
+I20250701 04:04:59.746975 4186879 StaAnalyze.cc:585] analyze timing path end vertex 451 total 750 end
+I20250701 04:04:59.746994 4186879 StaAnalyze.cc:303] add path data num 2 to u_central_control.state_$_DFF_PP0__Q_8:D
+I20250701 04:04:59.747005 4186879 StaAnalyze.cc:551] analyze timing path end vertex 461 total 750 start
+I20250701 04:04:59.747015 4186879 StaAnalyze.cc:585] analyze timing path end vertex 461 total 750 end
+I20250701 04:04:59.747071 4186879 StaAnalyze.cc:551] analyze timing path end vertex 471 total 750 start
+I20250701 04:04:59.747078 4186879 StaAnalyze.cc:585] analyze timing path end vertex 471 total 750 end
+I20250701 04:04:59.747128 4186879 StaAnalyze.cc:551] analyze timing path end vertex 481 total 750 start
+I20250701 04:04:59.747139 4186879 StaAnalyze.cc:585] analyze timing path end vertex 481 total 750 end
+I20250701 04:04:59.747176 4186879 StaAnalyze.cc:551] analyze timing path end vertex 491 total 750 start
+I20250701 04:04:59.747187 4186879 StaAnalyze.cc:585] analyze timing path end vertex 491 total 750 end
+I20250701 04:04:59.747225 4186879 StaAnalyze.cc:551] analyze timing path end vertex 501 total 750 start
+I20250701 04:04:59.747236 4186879 StaAnalyze.cc:585] analyze timing path end vertex 501 total 750 end
+I20250701 04:04:59.747267 4186879 StaAnalyze.cc:303] add path data num 4 to u_central_control.tile_j_cnt_$_DFFE_PP0P__Q_7:D
+I20250701 04:04:59.747284 4186879 StaAnalyze.cc:551] analyze timing path end vertex 511 total 750 start
+I20250701 04:04:59.747296 4186879 StaAnalyze.cc:585] analyze timing path end vertex 511 total 750 end
+I20250701 04:04:59.747332 4186879 StaAnalyze.cc:551] analyze timing path end vertex 521 total 750 start
+I20250701 04:04:59.747344 4186879 StaAnalyze.cc:585] analyze timing path end vertex 521 total 750 end
+I20250701 04:04:59.747380 4186879 StaAnalyze.cc:551] analyze timing path end vertex 531 total 750 start
+I20250701 04:04:59.747390 4186879 StaAnalyze.cc:585] analyze timing path end vertex 531 total 750 end
+I20250701 04:04:59.747463 4186879 StaAnalyze.cc:551] analyze timing path end vertex 541 total 750 start
+I20250701 04:04:59.747476 4186879 StaAnalyze.cc:585] analyze timing path end vertex 541 total 750 end
+I20250701 04:04:59.747539 4186879 StaAnalyze.cc:551] analyze timing path end vertex 551 total 750 start
+I20250701 04:04:59.747550 4186879 StaAnalyze.cc:585] analyze timing path end vertex 551 total 750 end
+I20250701 04:04:59.747575 4186879 StaAnalyze.cc:303] add path data num 4 to u_skew_a.in_ram_addr_$_DFFE_PP0N__Q_13:D
+I20250701 04:04:59.747591 4186879 StaAnalyze.cc:551] analyze timing path end vertex 561 total 750 start
+I20250701 04:04:59.747603 4186879 StaAnalyze.cc:585] analyze timing path end vertex 561 total 750 end
+I20250701 04:04:59.747641 4186879 StaAnalyze.cc:551] analyze timing path end vertex 571 total 750 start
+I20250701 04:04:59.747651 4186879 StaAnalyze.cc:585] analyze timing path end vertex 571 total 750 end
+I20250701 04:04:59.747712 4186879 StaAnalyze.cc:551] analyze timing path end vertex 581 total 750 start
+I20250701 04:04:59.747725 4186879 StaAnalyze.cc:585] analyze timing path end vertex 581 total 750 end
+I20250701 04:04:59.747776 4186879 StaAnalyze.cc:551] analyze timing path end vertex 591 total 750 start
+I20250701 04:04:59.747787 4186879 StaAnalyze.cc:585] analyze timing path end vertex 591 total 750 end
+I20250701 04:04:59.747828 4186879 StaAnalyze.cc:551] analyze timing path end vertex 601 total 750 start
+I20250701 04:04:59.747839 4186879 StaAnalyze.cc:585] analyze timing path end vertex 601 total 750 end
+I20250701 04:04:59.747860 4186879 StaAnalyze.cc:303] add path data num 4 to u_skew_a.out_buf_d_$_DFFE_PP0P__Q_4:D
+I20250701 04:04:59.747879 4186879 StaAnalyze.cc:551] analyze timing path end vertex 611 total 750 start
+I20250701 04:04:59.747889 4186879 StaAnalyze.cc:585] analyze timing path end vertex 611 total 750 end
+I20250701 04:04:59.747931 4186879 StaAnalyze.cc:551] analyze timing path end vertex 621 total 750 start
+I20250701 04:04:59.747947 4186879 StaAnalyze.cc:585] analyze timing path end vertex 621 total 750 end
+I20250701 04:04:59.747983 4186879 StaAnalyze.cc:551] analyze timing path end vertex 631 total 750 start
+I20250701 04:04:59.747996 4186879 StaAnalyze.cc:585] analyze timing path end vertex 631 total 750 end
+I20250701 04:04:59.748034 4186879 StaAnalyze.cc:551] analyze timing path end vertex 641 total 750 start
+I20250701 04:04:59.748045 4186879 StaAnalyze.cc:585] analyze timing path end vertex 641 total 750 end
+I20250701 04:04:59.748119 4186879 StaAnalyze.cc:551] analyze timing path end vertex 651 total 750 start
+I20250701 04:04:59.748131 4186879 StaAnalyze.cc:585] analyze timing path end vertex 651 total 750 end
+I20250701 04:04:59.748178 4186879 StaAnalyze.cc:303] add path data num 4 to u_skew_b.in_buff_$_DFFE_PP__Q_8:D
+I20250701 04:04:59.748203 4186879 StaAnalyze.cc:551] analyze timing path end vertex 661 total 750 start
+I20250701 04:04:59.748212 4186879 StaAnalyze.cc:585] analyze timing path end vertex 661 total 750 end
+I20250701 04:04:59.748260 4186879 StaAnalyze.cc:551] analyze timing path end vertex 671 total 750 start
+I20250701 04:04:59.748273 4186879 StaAnalyze.cc:585] analyze timing path end vertex 671 total 750 end
+I20250701 04:04:59.748318 4186879 StaAnalyze.cc:551] analyze timing path end vertex 681 total 750 start
+I20250701 04:04:59.748330 4186879 StaAnalyze.cc:585] analyze timing path end vertex 681 total 750 end
+I20250701 04:04:59.748375 4186879 StaAnalyze.cc:551] analyze timing path end vertex 691 total 750 start
+I20250701 04:04:59.748389 4186879 StaAnalyze.cc:585] analyze timing path end vertex 691 total 750 end
+I20250701 04:04:59.748467 4186879 StaAnalyze.cc:551] analyze timing path end vertex 701 total 750 start
+I20250701 04:04:59.748486 4186879 StaAnalyze.cc:585] analyze timing path end vertex 701 total 750 end
+I20250701 04:04:59.748513 4186879 StaAnalyze.cc:303] add path data num 4 to u_skew_b.out_buf_d_$_DFFE_PP0P__Q_12:D
+I20250701 04:04:59.748531 4186879 StaAnalyze.cc:551] analyze timing path end vertex 711 total 750 start
+I20250701 04:04:59.748545 4186879 StaAnalyze.cc:585] analyze timing path end vertex 711 total 750 end
+I20250701 04:04:59.748587 4186879 StaAnalyze.cc:551] analyze timing path end vertex 721 total 750 start
+I20250701 04:04:59.748601 4186879 StaAnalyze.cc:585] analyze timing path end vertex 721 total 750 end
+I20250701 04:04:59.748647 4186879 StaAnalyze.cc:551] analyze timing path end vertex 731 total 750 start
+I20250701 04:04:59.748667 4186879 StaAnalyze.cc:585] analyze timing path end vertex 731 total 750 end
+I20250701 04:04:59.748723 4186879 StaAnalyze.cc:551] analyze timing path end vertex 741 total 750 start
+I20250701 04:04:59.748741 4186879 StaAnalyze.cc:585] analyze timing path end vertex 741 total 750 end
+I20250701 04:04:59.748807 4186879 StaAnalyze.cc:589] analyze timing path end
+I20250701 04:04:59.748814 4186879 StaApplySdc.cc:694] apply sdc start
+I20250701 04:04:59.748819 4186879 StaApplySdc.cc:725] apply sdc end
+I20250701 04:04:59.748822 4186879 StaDataPropagation.cc:698] data bwd propagation start
+I20250701 04:04:59.750566 4186879 StaDataPropagation.cc:249] propagate start vertex u_central_control.tile_k_cnt_$_DFFE_PP0P__Q_7:CK
+I20250701 04:04:59.750602 4186879 StaDataPropagation.cc:172] Thread 131445994184768 data bwd propagate found end vertex.u_central_control.we_c_buf_$_DFF_PP0__Q:D
+I20250701 04:04:59.750615 4186879 StaDataPropagation.cc:172] Thread 131445994184768 data bwd propagate found end vertex.u_central_control.state_$_DFF_PP0__Q_3:D
+I20250701 04:04:59.750626 4186879 StaDataPropagation.cc:172] Thread 131445994184768 data bwd propagate found end vertex.u_central_control.state_$_DFF_PP0__Q_7:D
+I20250701 04:04:59.750636 4186879 StaDataPropagation.cc:172] Thread 131445994184768 data bwd propagate found end vertex.u_central_control.tile_k_cnt_$_DFFE_PP0P__Q:D
+I20250701 04:04:59.750653 4186879 StaDataPropagation.cc:172] Thread 131445994184768 data bwd propagate found end vertex.u_central_control.tile_k_cnt_$_DFFE_PP0P__Q_1:D
+I20250701 04:04:59.750667 4186879 StaDataPropagation.cc:172] Thread 131445994184768 data bwd propagate found end vertex.u_central_control.tile_k_cnt_$_DFFE_PP0P__Q_2:D
+I20250701 04:04:59.750692 4186879 StaDataPropagation.cc:172] Thread 131445994184768 data bwd propagate found end vertex.u_central_control.tile_k_cnt_$_DFFE_PP0P__Q_3:D
+I20250701 04:04:59.750758 4186879 StaDataPropagation.cc:172] Thread 131445994184768 data bwd propagate found end vertex.u_central_control.tile_k_cnt_$_DFFE_PP0P__Q_4:D
+I20250701 04:04:59.750777 4186879 StaDataPropagation.cc:172] Thread 131445994184768 data bwd propagate found end vertex.u_central_control.tile_k_cnt_$_DFFE_PP0P__Q_5:D
+I20250701 04:04:59.750793 4186879 StaDataPropagation.cc:172] Thread 131445994184768 data bwd propagate found end vertex.u_central_control.tile_k_cnt_$_DFFE_PP0P__Q_6:D
+I20250701 04:04:59.758965 4186879 StaDataPropagation.cc:703] data bwd propagation end
+I20250701 04:04:59.759014 4186879 Sta.cc:2677] update timing end
+I20250701 04:04:59.759073 4186879 Sta.cc:2680] update timing memory usage 2485.66MB
+I20250701 04:04:59.759091 4186879 Sta.cc:2682] update timing time elapsed 0.107951s
+assign q_from_buffer_a[0] = 1'b0 is not processed.
+assign q_from_buffer_a[10] = 1'b0 is not processed.
+assign q_from_buffer_a[11] = 1'b0 is not processed.
+assign q_from_buffer_a[12] = 1'b0 is not processed.
+assign q_from_buffer_a[13] = 1'b0 is not processed.
+assign q_from_buffer_a[14] = 1'b0 is not processed.
+assign q_from_buffer_a[15] = 1'b0 is not processed.
+assign q_from_buffer_a[1] = 1'b0 is not processed.
+assign q_from_buffer_a[2] = 1'b0 is not processed.
+assign q_from_buffer_a[3] = 1'b0 is not processed.
+assign q_from_buffer_a[4] = 1'b0 is not processed.
+assign q_from_buffer_a[5] = 1'b0 is not processed.
+assign q_from_buffer_a[6] = 1'b0 is not processed.
+assign q_from_buffer_a[7] = 1'b0 is not processed.
+assign q_from_buffer_a[8] = 1'b0 is not processed.
+assign q_from_buffer_a[9] = 1'b0 is not processed.
+assign q_from_buffer_b[0] = 1'b0 is not processed.
+assign q_from_buffer_b[10] = 1'b0 is not processed.
+assign q_from_buffer_b[11] = 1'b0 is not processed.
+assign q_from_buffer_b[12] = 1'b0 is not processed.
+assign q_from_buffer_b[13] = 1'b0 is not processed.
+assign q_from_buffer_b[14] = 1'b0 is not processed.
+assign q_from_buffer_b[15] = 1'b0 is not processed.
+assign q_from_buffer_b[1] = 1'b0 is not processed.
+assign q_from_buffer_b[2] = 1'b0 is not processed.
+assign q_from_buffer_b[3] = 1'b0 is not processed.
+assign q_from_buffer_b[4] = 1'b0 is not processed.
+assign q_from_buffer_b[5] = 1'b0 is not processed.
+assign q_from_buffer_b[6] = 1'b0 is not processed.
+assign q_from_buffer_b[7] = 1'b0 is not processed.
+assign q_from_buffer_b[8] = 1'b0 is not processed.
+assign q_from_buffer_b[9] = 1'b0 is not processed.
+[1;31m
+  _____       _ _     _____        _         
+ |_   _|     (_) |   |  __ \      | |        
+   | |  _ __  _| |_  | |  | | __ _| |_ __ _  
+   | | | '_ \| | __| | |  | |/ _` | __/ _` | 
+  _| |_| | | | | |_  | |__| | (_| | || (_| | 
+ |_____|_| |_|_|\__| |_____/ \__,_|\__\__,_| 
+                                             
+[0m
+[1;35m
+  ______ _        ______                      _    
+ |  ____(_)      |  ____|                    | |   
+ | |__   ___  __ | |__ __ _ _ __   ___  _   _| |_  
+ |  __| | \ \/ / |  __/ _` | '_ \ / _ \| | | | __| 
+ | |    | |>  <  | | | (_| | | | | (_) | |_| | |_  
+ |_|    |_/_/\_\ |_|  \__,_|_| |_|\___/ \__,_|\__| 
+                                                   
+[0m
+I20250701 04:04:59.759846 4186879 FixFanout.cpp:55] [Result: ] Find 2 Net with fanout violation.
+I20250701 04:04:59.759857 4186879 FixFanout.cpp:56] [Result: ] Insert 8 Buffers.
+iNO fixfanout run successfully.
+I20250701 04:04:59.759982 4186879 verilog_write.cpp:59] start write verilog file /data/stu25/s2300012745/work/yosys-sta/lab8/result/P2/accelerator-2000MHz/accelerator.netlist.fixed.v
+I20250701 04:04:59.789306 4186879 verilog_write.cpp:77] finish write verilog file /data/stu25/s2300012745/work/yosys-sta/lab8/result/P2/accelerator-2000MHz/accelerator.netlist.fixed.v

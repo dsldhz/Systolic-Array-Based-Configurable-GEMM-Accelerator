@@ -1,0 +1,15 @@
+Generate the report at 2025-07-01T03:41:34, GitVersion: aa25008b3778a76ae1975c839d4cc459f7f7b3b7.
++-----------------------------------------------+---------------+---------------+----------------+-------------+------+
+| Net / Pin                                     | MaxSlewTime   | SlewTime      | SlewSlack      | LibCellPort | Note |
++-----------------------------------------------+---------------+---------------+----------------+-------------+------+
+| u_central_control.clear_c_buf_$_NOT__A_Y      |               |               |                |             |      |
+| u_central_control.clear_c_buf_$_DFF_PP0__Q:QN | 0.199r/0.199f | 0.275r/0.125f | -0.077r/0.074f | DFFR_X1/QN  | R    |
+| u_central_control.clear_c_buf_$_NOT__A_Y      |               |               |                |             |      |
+| fanout_buf_53:A                               | 0.199r/0.199f | 0.275r/0.125f | -0.077r/0.074f | BUF_X8/A    | R    |
+| u_central_control.clear_c_buf_$_NOT__A_Y      |               |               |                |             |      |
+| fanout_buf_54:A                               | 0.199r/0.199f | 0.275r/0.125f | -0.077r/0.074f | BUF_X8/A    | R    |
+| u_central_control.clear_c_buf_$_NOT__A_Y      |               |               |                |             |      |
+| fanout_buf_55:A                               | 0.199r/0.199f | 0.275r/0.125f | -0.077r/0.074f | BUF_X8/A    | R    |
+| u_central_control.clear_c_buf_$_NOT__A_Y      |               |               |                |             |      |
+| fanout_buf_56:A                               | 0.199r/0.199f | 0.275r/0.125f | -0.077r/0.074f | BUF_X8/A    | R    |
++-----------------------------------------------+---------------+---------------+----------------+-------------+------+

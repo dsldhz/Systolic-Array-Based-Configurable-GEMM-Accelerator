@@ -1,0 +1,36 @@
+
+4. Executing CHECK pass (checking for obvious problems).
+Checking module accelerator...
+Warning: Wire accelerator.\q_from_buffer_a [15] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [14] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [13] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [12] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [11] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [10] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [9] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [8] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [7] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [6] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [5] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [4] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [3] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [2] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [1] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [0] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [15] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [14] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [13] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [12] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [11] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [10] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [9] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [8] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [7] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [6] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [5] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [4] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [3] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [2] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [1] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [0] is used but has no driver.
+Found and reported 32 problems.

@@ -1,0 +1,224 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2025  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.53+39 (git sha1 388955031, clang++ 18.1.8 -fPIC -O3)
+
+-- Executing script file `-' --
+[TCL: yosys -import] Command name collision: found pre-existing command `cd' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `eval' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `exec' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `read' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `trace' -> skip.
+
+1. Executing Verilog-2005 frontend: /data/stu25/s2300012745/work/yosys-sta/lab8/result/P8/accelerator-2000MHz/accelerator.netlist.fixed.v
+Parsing Verilog input from `/data/stu25/s2300012745/work/yosys-sta/lab8/result/P8/accelerator-2000MHz/accelerator.netlist.fixed.v' to AST representation.
+Generating RTLIL representation for module `\accelerator'.
+Successfully finished Verilog frontend.
+
+2. Executing Liberty frontend: /data/stu25/s2300012745/work/yosys-sta/scripts/../pdk/nangate45/lib/Nangate45_typ.lib
+Imported 134 cell types from liberty file.
+
+3. Executing HIERARCHY pass (managing design hierarchy).
+
+3.1. Analyzing design hierarchy..
+Top module:  \accelerator
+
+3.2. Analyzing design hierarchy..
+Top module:  \accelerator
+Removed 0 unused modules.
+
+4. Executing CHECK pass (checking for obvious problems).
+Checking module accelerator...
+Warning: Wire accelerator.\q_from_buffer_a [63] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [62] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [61] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [60] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [59] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [58] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [57] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [56] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [55] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [54] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [53] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [52] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [51] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [50] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [49] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [48] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [47] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [46] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [45] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [44] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [43] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [42] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [41] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [40] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [39] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [38] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [37] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [36] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [35] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [34] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [33] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [32] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [31] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [30] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [29] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [28] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [27] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [26] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [25] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [24] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [23] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [22] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [21] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [20] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [19] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [18] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [17] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [16] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [15] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [14] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [13] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [12] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [11] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [10] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [9] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [8] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [7] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [6] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [5] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [4] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [3] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [2] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [1] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_a [0] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [63] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [62] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [61] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [60] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [59] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [58] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [57] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [56] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [55] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [54] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [53] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [52] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [51] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [50] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [49] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [48] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [47] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [46] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [45] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [44] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [43] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [42] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [41] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [40] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [39] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [38] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [37] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [36] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [35] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [34] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [33] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [32] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [31] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [30] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [29] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [28] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [27] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [26] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [25] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [24] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [23] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [22] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [21] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [20] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [19] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [18] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [17] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [16] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [15] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [14] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [13] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [12] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [11] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [10] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [9] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [8] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [7] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [6] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [5] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [4] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [3] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [2] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [1] is used but has no driver.
+Warning: Wire accelerator.\q_from_buffer_b [0] is used but has no driver.
+Found and reported 128 problems.
+
+5. Printing statistics.
+
+=== accelerator ===
+
+   Number of wires:               1581
+   Number of wire bits:           8378
+   Number of public wires:        1581
+   Number of public wire bits:    8378
+   Number of ports:                 24
+   Number of port bits:           6594
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               3605
+     AND2_X1                      2108
+     AND2_X2                         8
+     AND2_X4                        16
+     AND3_X1                         9
+     AND3_X4                         1
+     AND4_X1                       134
+     AOI211_X1                       3
+     AOI21_X1                       49
+     AOI221_X4                       1
+     AOI22_X1                       70
+     BUF_X2                          4
+     BUF_X4                         17
+     BUF_X8                         86
+     CLKBUF_X2                      28
+     CLKGATE_X1                     23
+     DFFR_X1                       253
+     DFFS_X1                         3
+     DFF_X1                        146
+     INV_X1                         98
+     INV_X2                          3
+     MUX2_X1                        25
+     NAND2_X1                       34
+     NAND3_X1                       51
+     NAND4_X1                        2
+     NOR2_X1                        72
+     NOR2_X2                         4
+     NOR2_X4                         2
+     NOR3_X1                        18
+     NOR4_X1                         5
+     OAI211_X1                      17
+     OAI21_X1                      204
+     OAI22_X1                       35
+     OR2_X1                         21
+     OR2_X2                          7
+     OR3_X1                          1
+     OR4_X1                          1
+     XNOR2_X1                       23
+     XOR2_X1                        23
+
+   Chip area for module '\accelerator': 5810.770000
+     of which used for sequential elements: 2022.132000 (34.80%)
+
+Warnings: 128 unique messages, 128 total
+End of script. Logfile hash: 65aca73c3a, CPU: user 0.48s system 0.03s, MEM: 69.07 MB peak
+Yosys 0.53+39 (git sha1 388955031, clang++ 18.1.8 -fPIC -O3)
+Time spent: 79% 2x read_verilog (0 sec), 8% 1x stat (0 sec), ...

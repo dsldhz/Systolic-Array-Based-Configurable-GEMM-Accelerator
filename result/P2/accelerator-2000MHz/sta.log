@@ -1,0 +1,1238 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I20250701 04:05:00.016458 4188874 Sta.cc:377] read verilog file /data/stu25/s2300012745/work/yosys-sta/lab8/result/P2/accelerator-2000MHz/accelerator.netlist.fixed.v start
+I20250701 04:05:00.016559 4188874 VerilogParserRustC.cc:41] load verilog file /data/stu25/s2300012745/work/yosys-sta/lab8/result/P2/accelerator-2000MHz/accelerator.netlist.fixed.v
+r str /data/stu25/s2300012745/work/yosys-sta/lab8/result/P2/accelerator-2000MHz/accelerator.netlist.fixed.v
+I20250701 04:05:00.023643 4188874 Sta.cc:385] read verilog end
+I20250701 04:05:00.023697 4188874 Sta.cc:303] load lib start
+I20250701 04:05:00.024706 4188919 Sta.cc:281] read liberty /data/stu25/s2300012745/work/yosys-sta/scripts/../pdk/nangate45/lib/Nangate45_typ.lib start 
+I20250701 04:05:00.025188 4188919 LibParserRustC.cc:1285] load liberty file /data/stu25/s2300012745/work/yosys-sta/scripts/../pdk/nangate45/lib/Nangate45_typ.lib
+rust read lib file /data/stu25/s2300012745/work/yosys-sta/scripts/../pdk/nangate45/lib/Nangate45_typ.lib
+I20250701 04:05:00.525638 4188919 LibParserRustC.cc:1294] load liberty file /data/stu25/s2300012745/work/yosys-sta/scripts/../pdk/nangate45/lib/Nangate45_typ.lib success.
+I20250701 04:05:00.525676 4188919 Sta.cc:291] read liberty /data/stu25/s2300012745/work/yosys-sta/scripts/../pdk/nangate45/lib/Nangate45_typ.lib end 
+I20250701 04:05:00.525795 4188874 Sta.cc:322] load lib end
+I20250701 04:05:00.525854 4188874 Sta.cc:411] link design accelerator start
+I20250701 04:05:00.528960 4189258 LibParserRustC.cc:1304] link liberty file /data/stu25/s2300012745/work/yosys-sta/scripts/../pdk/nangate45/lib/Nangate45_typ.lib start.
+I20250701 04:05:00.530819 4189258 LibParserRustC.cc:666] unkown attri name: technology in /data/stu25/s2300012745/work/yosys-sta/scripts/../pdk/nangate45/lib/Nangate45_typ.lib line no 45
+I20250701 04:05:01.628496 4189258 LibParserRustC.cc:1310] link liberty file /data/stu25/s2300012745/work/yosys-sta/scripts/../pdk/nangate45/lib/Nangate45_typ.lib success.
+I20250701 04:05:01.640380 4188874 Sta.cc:792] assign \main_ram_c_d[0] = \q_from_buffer_c[0]
+I20250701 04:05:01.640414 4188874 Sta.cc:792] assign \main_ram_c_d[100] = \q_from_buffer_c[100]
+I20250701 04:05:01.640420 4188874 Sta.cc:792] assign \main_ram_c_d[101] = \q_from_buffer_c[101]
+I20250701 04:05:01.640426 4188874 Sta.cc:792] assign \main_ram_c_d[102] = \q_from_buffer_c[102]
+I20250701 04:05:01.640434 4188874 Sta.cc:792] assign \main_ram_c_d[103] = \q_from_buffer_c[103]
+I20250701 04:05:01.640440 4188874 Sta.cc:792] assign \main_ram_c_d[104] = \q_from_buffer_c[104]
+I20250701 04:05:01.640447 4188874 Sta.cc:792] assign \main_ram_c_d[105] = \q_from_buffer_c[105]
+I20250701 04:05:01.640453 4188874 Sta.cc:792] assign \main_ram_c_d[106] = \q_from_buffer_c[106]
+I20250701 04:05:01.640458 4188874 Sta.cc:792] assign \main_ram_c_d[107] = \q_from_buffer_c[107]
+I20250701 04:05:01.640465 4188874 Sta.cc:792] assign \main_ram_c_d[108] = \q_from_buffer_c[108]
+I20250701 04:05:01.640468 4188874 Sta.cc:792] assign \main_ram_c_d[109] = \q_from_buffer_c[109]
+I20250701 04:05:01.640476 4188874 Sta.cc:792] assign \main_ram_c_d[10] = \q_from_buffer_c[10]
+I20250701 04:05:01.640484 4188874 Sta.cc:792] assign \main_ram_c_d[110] = \q_from_buffer_c[110]
+I20250701 04:05:01.640494 4188874 Sta.cc:792] assign \main_ram_c_d[111] = \q_from_buffer_c[111]
+I20250701 04:05:01.640501 4188874 Sta.cc:792] assign \main_ram_c_d[112] = \q_from_buffer_c[112]
+I20250701 04:05:01.640511 4188874 Sta.cc:792] assign \main_ram_c_d[113] = \q_from_buffer_c[113]
+I20250701 04:05:01.640518 4188874 Sta.cc:792] assign \main_ram_c_d[114] = \q_from_buffer_c[114]
+I20250701 04:05:01.640524 4188874 Sta.cc:792] assign \main_ram_c_d[115] = \q_from_buffer_c[115]
+I20250701 04:05:01.640532 4188874 Sta.cc:792] assign \main_ram_c_d[116] = \q_from_buffer_c[116]
+I20250701 04:05:01.640537 4188874 Sta.cc:792] assign \main_ram_c_d[117] = \q_from_buffer_c[117]
+I20250701 04:05:01.640542 4188874 Sta.cc:792] assign \main_ram_c_d[118] = \q_from_buffer_c[118]
+I20250701 04:05:01.640547 4188874 Sta.cc:792] assign \main_ram_c_d[119] = \q_from_buffer_c[119]
+I20250701 04:05:01.640550 4188874 Sta.cc:792] assign \main_ram_c_d[11] = \q_from_buffer_c[11]
+I20250701 04:05:01.640555 4188874 Sta.cc:792] assign \main_ram_c_d[120] = \q_from_buffer_c[120]
+I20250701 04:05:01.640560 4188874 Sta.cc:792] assign \main_ram_c_d[121] = \q_from_buffer_c[121]
+I20250701 04:05:01.640565 4188874 Sta.cc:792] assign \main_ram_c_d[122] = \q_from_buffer_c[122]
+I20250701 04:05:01.640570 4188874 Sta.cc:792] assign \main_ram_c_d[123] = \q_from_buffer_c[123]
+I20250701 04:05:01.640575 4188874 Sta.cc:792] assign \main_ram_c_d[124] = \q_from_buffer_c[124]
+I20250701 04:05:01.640580 4188874 Sta.cc:792] assign \main_ram_c_d[125] = \q_from_buffer_c[125]
+I20250701 04:05:01.640585 4188874 Sta.cc:792] assign \main_ram_c_d[126] = \q_from_buffer_c[126]
+I20250701 04:05:01.640590 4188874 Sta.cc:792] assign \main_ram_c_d[127] = \q_from_buffer_c[127]
+I20250701 04:05:01.640595 4188874 Sta.cc:792] assign \main_ram_c_d[12] = \q_from_buffer_c[12]
+I20250701 04:05:01.640604 4188874 Sta.cc:792] assign \main_ram_c_d[13] = \q_from_buffer_c[13]
+I20250701 04:05:01.640609 4188874 Sta.cc:792] assign \main_ram_c_d[14] = \q_from_buffer_c[14]
+I20250701 04:05:01.640614 4188874 Sta.cc:792] assign \main_ram_c_d[15] = \q_from_buffer_c[15]
+I20250701 04:05:01.640619 4188874 Sta.cc:792] assign \main_ram_c_d[16] = \q_from_buffer_c[16]
+I20250701 04:05:01.640623 4188874 Sta.cc:792] assign \main_ram_c_d[17] = \q_from_buffer_c[17]
+I20250701 04:05:01.640628 4188874 Sta.cc:792] assign \main_ram_c_d[18] = \q_from_buffer_c[18]
+I20250701 04:05:01.640635 4188874 Sta.cc:792] assign \main_ram_c_d[19] = \q_from_buffer_c[19]
+I20250701 04:05:01.640643 4188874 Sta.cc:792] assign \main_ram_c_d[1] = \q_from_buffer_c[1]
+I20250701 04:05:01.640650 4188874 Sta.cc:792] assign \main_ram_c_d[20] = \q_from_buffer_c[20]
+I20250701 04:05:01.640658 4188874 Sta.cc:792] assign \main_ram_c_d[21] = \q_from_buffer_c[21]
+I20250701 04:05:01.640666 4188874 Sta.cc:792] assign \main_ram_c_d[22] = \q_from_buffer_c[22]
+I20250701 04:05:01.640671 4188874 Sta.cc:792] assign \main_ram_c_d[23] = \q_from_buffer_c[23]
+I20250701 04:05:01.640676 4188874 Sta.cc:792] assign \main_ram_c_d[24] = \q_from_buffer_c[24]
+I20250701 04:05:01.640681 4188874 Sta.cc:792] assign \main_ram_c_d[25] = \q_from_buffer_c[25]
+I20250701 04:05:01.640688 4188874 Sta.cc:792] assign \main_ram_c_d[26] = \q_from_buffer_c[26]
+I20250701 04:05:01.640697 4188874 Sta.cc:792] assign \main_ram_c_d[27] = \q_from_buffer_c[27]
+I20250701 04:05:01.640707 4188874 Sta.cc:792] assign \main_ram_c_d[28] = \q_from_buffer_c[28]
+I20250701 04:05:01.640715 4188874 Sta.cc:792] assign \main_ram_c_d[29] = \q_from_buffer_c[29]
+I20250701 04:05:01.640722 4188874 Sta.cc:792] assign \main_ram_c_d[2] = \q_from_buffer_c[2]
+I20250701 04:05:01.640727 4188874 Sta.cc:792] assign \main_ram_c_d[30] = \q_from_buffer_c[30]
+I20250701 04:05:01.640733 4188874 Sta.cc:792] assign \main_ram_c_d[31] = \q_from_buffer_c[31]
+I20250701 04:05:01.640740 4188874 Sta.cc:792] assign \main_ram_c_d[32] = \q_from_buffer_c[32]
+I20250701 04:05:01.640745 4188874 Sta.cc:792] assign \main_ram_c_d[33] = \q_from_buffer_c[33]
+I20250701 04:05:01.640751 4188874 Sta.cc:792] assign \main_ram_c_d[34] = \q_from_buffer_c[34]
+I20250701 04:05:01.640758 4188874 Sta.cc:792] assign \main_ram_c_d[35] = \q_from_buffer_c[35]
+I20250701 04:05:01.640767 4188874 Sta.cc:792] assign \main_ram_c_d[36] = \q_from_buffer_c[36]
+I20250701 04:05:01.640774 4188874 Sta.cc:792] assign \main_ram_c_d[37] = \q_from_buffer_c[37]
+I20250701 04:05:01.640780 4188874 Sta.cc:792] assign \main_ram_c_d[38] = \q_from_buffer_c[38]
+I20250701 04:05:01.640789 4188874 Sta.cc:792] assign \main_ram_c_d[39] = \q_from_buffer_c[39]
+I20250701 04:05:01.640800 4188874 Sta.cc:792] assign \main_ram_c_d[3] = \q_from_buffer_c[3]
+I20250701 04:05:01.640807 4188874 Sta.cc:792] assign \main_ram_c_d[40] = \q_from_buffer_c[40]
+I20250701 04:05:01.640815 4188874 Sta.cc:792] assign \main_ram_c_d[41] = \q_from_buffer_c[41]
+I20250701 04:05:01.640822 4188874 Sta.cc:792] assign \main_ram_c_d[42] = \q_from_buffer_c[42]
+I20250701 04:05:01.640827 4188874 Sta.cc:792] assign \main_ram_c_d[43] = \q_from_buffer_c[43]
+I20250701 04:05:01.640834 4188874 Sta.cc:792] assign \main_ram_c_d[44] = \q_from_buffer_c[44]
+I20250701 04:05:01.640841 4188874 Sta.cc:792] assign \main_ram_c_d[45] = \q_from_buffer_c[45]
+I20250701 04:05:01.640846 4188874 Sta.cc:792] assign \main_ram_c_d[46] = \q_from_buffer_c[46]
+I20250701 04:05:01.640856 4188874 Sta.cc:792] assign \main_ram_c_d[47] = \q_from_buffer_c[47]
+I20250701 04:05:01.640863 4188874 Sta.cc:792] assign \main_ram_c_d[48] = \q_from_buffer_c[48]
+I20250701 04:05:01.640870 4188874 Sta.cc:792] assign \main_ram_c_d[49] = \q_from_buffer_c[49]
+I20250701 04:05:01.640877 4188874 Sta.cc:792] assign \main_ram_c_d[4] = \q_from_buffer_c[4]
+I20250701 04:05:01.640884 4188874 Sta.cc:792] assign \main_ram_c_d[50] = \q_from_buffer_c[50]
+I20250701 04:05:01.640892 4188874 Sta.cc:792] assign \main_ram_c_d[51] = \q_from_buffer_c[51]
+I20250701 04:05:01.640902 4188874 Sta.cc:792] assign \main_ram_c_d[52] = \q_from_buffer_c[52]
+I20250701 04:05:01.640908 4188874 Sta.cc:792] assign \main_ram_c_d[53] = \q_from_buffer_c[53]
+I20250701 04:05:01.640915 4188874 Sta.cc:792] assign \main_ram_c_d[54] = \q_from_buffer_c[54]
+I20250701 04:05:01.640923 4188874 Sta.cc:792] assign \main_ram_c_d[55] = \q_from_buffer_c[55]
+I20250701 04:05:01.640929 4188874 Sta.cc:792] assign \main_ram_c_d[56] = \q_from_buffer_c[56]
+I20250701 04:05:01.640936 4188874 Sta.cc:792] assign \main_ram_c_d[57] = \q_from_buffer_c[57]
+I20250701 04:05:01.640944 4188874 Sta.cc:792] assign \main_ram_c_d[58] = \q_from_buffer_c[58]
+I20250701 04:05:01.640952 4188874 Sta.cc:792] assign \main_ram_c_d[59] = \q_from_buffer_c[59]
+I20250701 04:05:01.640959 4188874 Sta.cc:792] assign \main_ram_c_d[5] = \q_from_buffer_c[5]
+I20250701 04:05:01.640966 4188874 Sta.cc:792] assign \main_ram_c_d[60] = \q_from_buffer_c[60]
+I20250701 04:05:01.640972 4188874 Sta.cc:792] assign \main_ram_c_d[61] = \q_from_buffer_c[61]
+I20250701 04:05:01.640980 4188874 Sta.cc:792] assign \main_ram_c_d[62] = \q_from_buffer_c[62]
+I20250701 04:05:01.640986 4188874 Sta.cc:792] assign \main_ram_c_d[63] = \q_from_buffer_c[63]
+I20250701 04:05:01.640993 4188874 Sta.cc:792] assign \main_ram_c_d[64] = \q_from_buffer_c[64]
+I20250701 04:05:01.641002 4188874 Sta.cc:792] assign \main_ram_c_d[65] = \q_from_buffer_c[65]
+I20250701 04:05:01.641009 4188874 Sta.cc:792] assign \main_ram_c_d[66] = \q_from_buffer_c[66]
+I20250701 04:05:01.641016 4188874 Sta.cc:792] assign \main_ram_c_d[67] = \q_from_buffer_c[67]
+I20250701 04:05:01.641024 4188874 Sta.cc:792] assign \main_ram_c_d[68] = \q_from_buffer_c[68]
+I20250701 04:05:01.641031 4188874 Sta.cc:792] assign \main_ram_c_d[69] = \q_from_buffer_c[69]
+I20250701 04:05:01.641038 4188874 Sta.cc:792] assign \main_ram_c_d[6] = \q_from_buffer_c[6]
+I20250701 04:05:01.641045 4188874 Sta.cc:792] assign \main_ram_c_d[70] = \q_from_buffer_c[70]
+I20250701 04:05:01.641052 4188874 Sta.cc:792] assign \main_ram_c_d[71] = \q_from_buffer_c[71]
+I20250701 04:05:01.641059 4188874 Sta.cc:792] assign \main_ram_c_d[72] = \q_from_buffer_c[72]
+I20250701 04:05:01.641067 4188874 Sta.cc:792] assign \main_ram_c_d[73] = \q_from_buffer_c[73]
+I20250701 04:05:01.641073 4188874 Sta.cc:792] assign \main_ram_c_d[74] = \q_from_buffer_c[74]
+I20250701 04:05:01.641081 4188874 Sta.cc:792] assign \main_ram_c_d[75] = \q_from_buffer_c[75]
+I20250701 04:05:01.641088 4188874 Sta.cc:792] assign \main_ram_c_d[76] = \q_from_buffer_c[76]
+I20250701 04:05:01.641095 4188874 Sta.cc:792] assign \main_ram_c_d[77] = \q_from_buffer_c[77]
+I20250701 04:05:01.641103 4188874 Sta.cc:792] assign \main_ram_c_d[78] = \q_from_buffer_c[78]
+I20250701 04:05:01.641111 4188874 Sta.cc:792] assign \main_ram_c_d[79] = \q_from_buffer_c[79]
+I20250701 04:05:01.641119 4188874 Sta.cc:792] assign \main_ram_c_d[7] = \q_from_buffer_c[7]
+I20250701 04:05:01.641125 4188874 Sta.cc:792] assign \main_ram_c_d[80] = \q_from_buffer_c[80]
+I20250701 04:05:01.641132 4188874 Sta.cc:792] assign \main_ram_c_d[81] = \q_from_buffer_c[81]
+I20250701 04:05:01.641139 4188874 Sta.cc:792] assign \main_ram_c_d[82] = \q_from_buffer_c[82]
+I20250701 04:05:01.641146 4188874 Sta.cc:792] assign \main_ram_c_d[83] = \q_from_buffer_c[83]
+I20250701 04:05:01.641153 4188874 Sta.cc:792] assign \main_ram_c_d[84] = \q_from_buffer_c[84]
+I20250701 04:05:01.641160 4188874 Sta.cc:792] assign \main_ram_c_d[85] = \q_from_buffer_c[85]
+I20250701 04:05:01.641167 4188874 Sta.cc:792] assign \main_ram_c_d[86] = \q_from_buffer_c[86]
+I20250701 04:05:01.641175 4188874 Sta.cc:792] assign \main_ram_c_d[87] = \q_from_buffer_c[87]
+I20250701 04:05:01.641180 4188874 Sta.cc:792] assign \main_ram_c_d[88] = \q_from_buffer_c[88]
+I20250701 04:05:01.641187 4188874 Sta.cc:792] assign \main_ram_c_d[89] = \q_from_buffer_c[89]
+I20250701 04:05:01.641194 4188874 Sta.cc:792] assign \main_ram_c_d[8] = \q_from_buffer_c[8]
+I20250701 04:05:01.641201 4188874 Sta.cc:792] assign \main_ram_c_d[90] = \q_from_buffer_c[90]
+I20250701 04:05:01.641211 4188874 Sta.cc:792] assign \main_ram_c_d[91] = \q_from_buffer_c[91]
+I20250701 04:05:01.641218 4188874 Sta.cc:792] assign \main_ram_c_d[92] = \q_from_buffer_c[92]
+I20250701 04:05:01.641227 4188874 Sta.cc:792] assign \main_ram_c_d[93] = \q_from_buffer_c[93]
+I20250701 04:05:01.641235 4188874 Sta.cc:792] assign \main_ram_c_d[94] = \q_from_buffer_c[94]
+I20250701 04:05:01.641243 4188874 Sta.cc:792] assign \main_ram_c_d[95] = \q_from_buffer_c[95]
+I20250701 04:05:01.641254 4188874 Sta.cc:792] assign \main_ram_c_d[96] = \q_from_buffer_c[96]
+I20250701 04:05:01.641261 4188874 Sta.cc:792] assign \main_ram_c_d[97] = \q_from_buffer_c[97]
+I20250701 04:05:01.641268 4188874 Sta.cc:792] assign \main_ram_c_d[98] = \q_from_buffer_c[98]
+I20250701 04:05:01.641275 4188874 Sta.cc:792] assign \main_ram_c_d[99] = \q_from_buffer_c[99]
+I20250701 04:05:01.641280 4188874 Sta.cc:792] assign \main_ram_c_d[9] = \q_from_buffer_c[9]
+I20250701 04:05:01.641721 4188874 Sta.cc:920] link design accelerator end
+I20250701 04:05:01.641726 4188874 Sta.cc:922] design accelerator inst num: 818
+I20250701 04:05:01.641728 4188874 Sta.cc:924] design accelerator net num: 1349
+I20250701 04:05:01.641731 4188874 Sta.cc:926] design accelerator port num: 546
+I20250701 04:05:01.641754 4188874 Sta.cc:175] read sdc /data/stu25/s2300012745/work/yosys-sta/scripts/default.sdc start 
+I20250701 04:05:01.643311 4188874 CmdCreateClock.cc:119] create clock core_clock for pin/port: clk
+I20250701 04:05:01.643334 4188874 Sta.cc:192] read sdc /data/stu25/s2300012745/work/yosys-sta/scripts/default.sdc end 
+I20250701 04:05:01.643362 4188874 StaBuildGraph.cc:315] build graph start
+I20250701 04:05:01.653126 4188874 StaBuildGraph.cc:216] net q_from_buffer_a[0] has no driver.
+I20250701 04:05:01.653169 4188874 StaBuildGraph.cc:216] net q_from_buffer_a[1] has no driver.
+I20250701 04:05:01.653173 4188874 StaBuildGraph.cc:216] net q_from_buffer_a[2] has no driver.
+I20250701 04:05:01.653177 4188874 StaBuildGraph.cc:216] net q_from_buffer_a[3] has no driver.
+I20250701 04:05:01.653182 4188874 StaBuildGraph.cc:216] net q_from_buffer_a[4] has no driver.
+I20250701 04:05:01.653185 4188874 StaBuildGraph.cc:216] net q_from_buffer_a[5] has no driver.
+I20250701 04:05:01.653189 4188874 StaBuildGraph.cc:216] net q_from_buffer_a[6] has no driver.
+I20250701 04:05:01.653192 4188874 StaBuildGraph.cc:216] net q_from_buffer_a[7] has no driver.
+I20250701 04:05:01.653196 4188874 StaBuildGraph.cc:216] net q_from_buffer_a[8] has no driver.
+I20250701 04:05:01.653200 4188874 StaBuildGraph.cc:216] net q_from_buffer_a[9] has no driver.
+I20250701 04:05:01.653204 4188874 StaBuildGraph.cc:216] net q_from_buffer_a[10] has no driver.
+I20250701 04:05:01.653208 4188874 StaBuildGraph.cc:216] net q_from_buffer_a[11] has no driver.
+I20250701 04:05:01.653211 4188874 StaBuildGraph.cc:216] net q_from_buffer_a[12] has no driver.
+I20250701 04:05:01.653215 4188874 StaBuildGraph.cc:216] net q_from_buffer_a[13] has no driver.
+I20250701 04:05:01.653219 4188874 StaBuildGraph.cc:216] net q_from_buffer_a[14] has no driver.
+I20250701 04:05:01.653223 4188874 StaBuildGraph.cc:216] net q_from_buffer_a[15] has no driver.
+I20250701 04:05:01.653227 4188874 StaBuildGraph.cc:216] net q_from_buffer_b[0] has no driver.
+I20250701 04:05:01.653231 4188874 StaBuildGraph.cc:216] net q_from_buffer_b[1] has no driver.
+I20250701 04:05:01.653234 4188874 StaBuildGraph.cc:216] net q_from_buffer_b[2] has no driver.
+I20250701 04:05:01.653239 4188874 StaBuildGraph.cc:216] net q_from_buffer_b[3] has no driver.
+I20250701 04:05:01.653242 4188874 StaBuildGraph.cc:216] net q_from_buffer_b[4] has no driver.
+I20250701 04:05:01.653249 4188874 StaBuildGraph.cc:216] net q_from_buffer_b[5] has no driver.
+I20250701 04:05:01.653254 4188874 StaBuildGraph.cc:216] net q_from_buffer_b[6] has no driver.
+I20250701 04:05:01.653257 4188874 StaBuildGraph.cc:216] net q_from_buffer_b[7] has no driver.
+I20250701 04:05:01.653261 4188874 StaBuildGraph.cc:216] net q_from_buffer_b[8] has no driver.
+I20250701 04:05:01.653264 4188874 StaBuildGraph.cc:216] net q_from_buffer_b[9] has no driver.
+I20250701 04:05:01.653268 4188874 StaBuildGraph.cc:216] net q_from_buffer_b[10] has no driver.
+I20250701 04:05:01.653272 4188874 StaBuildGraph.cc:216] net q_from_buffer_b[11] has no driver.
+I20250701 04:05:01.653276 4188874 StaBuildGraph.cc:216] net q_from_buffer_b[12] has no driver.
+I20250701 04:05:01.653280 4188874 StaBuildGraph.cc:216] net q_from_buffer_b[13] has no driver.
+I20250701 04:05:01.653283 4188874 StaBuildGraph.cc:216] net q_from_buffer_b[14] has no driver.
+I20250701 04:05:01.653287 4188874 StaBuildGraph.cc:216] net q_from_buffer_b[15] has no driver.
+I20250701 04:05:01.653716 4188874 StaBuildGraph.cc:216] net u_central_control.state[1] has no driver.
+I20250701 04:05:01.653753 4188874 StaBuildGraph.cc:216] net u_central_control.state[3] has no driver.
+I20250701 04:05:01.655313 4188874 StaBuildGraph.cc:216] net u_skew_a.r_cnt[0] has no driver.
+I20250701 04:05:01.655362 4188874 StaBuildGraph.cc:216] net u_skew_a.r_cnt_$_AND__B_Y_$_XOR__A_Y[0] has no driver.
+I20250701 04:05:01.655367 4188874 StaBuildGraph.cc:216] net u_skew_a.r_cnt_$_AND__B_Y_$_XOR__A_Y[1] has no driver.
+I20250701 04:05:01.656703 4188874 StaBuildGraph.cc:216] net u_skew_b.r_cnt[0] has no driver.
+I20250701 04:05:01.656778 4188874 StaBuildGraph.cc:216] net u_skew_b.r_cnt_$_AND__B_Y_$_XOR__A_Y[0] has no driver.
+I20250701 04:05:01.656798 4188874 StaBuildGraph.cc:216] net u_skew_b.r_cnt_$_AND__B_Y_$_XOR__A_Y[1] has no driver.
+I20250701 04:05:01.657678 4188874 StaBuildGraph.cc:332] build graph end
+I20250701 04:05:01.657815 4188874 Sta.cc:2616] update timing start
+I20250701 04:05:01.658164 4188874 StaApplySdc.cc:694] apply sdc start
+I20250701 04:05:01.658192 4188874 StaApplySdc.cc:725] apply sdc end
+I20250701 04:05:01.658197 4188874 StaClockPropagation.cc:324] ideal clock propagation start
+I20250701 04:05:01.658201 4188874 StaClockPropagation.cc:354] clock propagation clock num: 1
+I20250701 04:05:01.658236 4188874 StaClockPropagation.cc:203] clock propagate end to vertex u_skew_b.zero_cnt_$_DFFE_PP0N__Q:CK
+I20250701 04:05:01.659006 4188874 StaClockPropagation.cc:422] ideal clock propagation end
+I20250701 04:05:01.659034 4188874 StaCheck.cc:129] found loop fwd start
+I20250701 04:05:01.659734 4188874 StaCheck.cc:148] found loop fwd end
+I20250701 04:05:01.659765 4188874 StaCheck.cc:150] found loop bwd start
+I20250701 04:05:01.660398 4188874 StaCheck.cc:172] found loop bwd end
+I20250701 04:05:01.660466 4188874 StaClockSlewDelayPropagation.cc:107] clock slew delay propagation start
+I20250701 04:05:01.660475 4188874 StaClockSlewDelayPropagation.cc:125] propagating current clock queue vertexes number is 1
+I20250701 04:05:01.660555 4188874 StaClockSlewDelayPropagation.cc:125] propagating current clock queue vertexes number is 69
+I20250701 04:05:01.660894 4188874 StaClockSlewDelayPropagation.cc:125] propagating current clock queue vertexes number is 23
+I20250701 04:05:01.661021 4188874 StaClockSlewDelayPropagation.cc:125] propagating current clock queue vertexes number is 154
+I20250701 04:05:01.661778 4188874 StaClockSlewDelayPropagation.cc:158] clock slew delay propagation end
+I20250701 04:05:01.661814 4188874 StaClockSlewDelayPropagation.cc:161] clock slew delay propagation memory usage 0MB
+I20250701 04:05:01.661835 4188874 StaClockSlewDelayPropagation.cc:164] clock slew delay propagation time elapsed 0.00137s
+I20250701 04:05:01.662420 4188874 StaClockPropagation.cc:326] propagated(kNormal) clock propagation start
+I20250701 04:05:01.662425 4188874 StaClockPropagation.cc:354] clock propagation clock num: 1
+I20250701 04:05:01.662431 4188874 StaClockPropagation.cc:424] propagated(kNormal) clock propagation end
+I20250701 04:05:01.662436 4188874 StaApplySdc.cc:694] apply sdc start
+I20250701 04:05:01.662441 4188874 StaApplySdc.cc:725] apply sdc end
+I20250701 04:05:01.662444 4188874 StaClockPropagation.cc:328] propagated(kGenerated) clock propagation start
+I20250701 04:05:01.662448 4188874 StaClockPropagation.cc:354] clock propagation clock num: 1
+I20250701 04:05:01.662451 4188874 StaClockPropagation.cc:426] propagated(kGenerated) clock propagation end
+I20250701 04:05:01.662456 4188874 StaApplySdc.cc:694] apply sdc start
+I20250701 04:05:01.662458 4188874 StaApplySdc.cc:725] apply sdc end
+I20250701 04:05:01.662462 4188874 StaBuildPropTag.cc:325] build propagation tag start
+I20250701 04:05:01.662468 4188874 StaBuildPropTag.cc:338] build propagation tag end
+I20250701 04:05:01.662473 4188874 StaDataPropagation.cc:676] data fwd propagation start
+I20250701 04:05:01.662499 4188874 StaDataPropagationBFS.cc:166] data fwd propagation bfs start
+I20250701 04:05:01.662685 4188874 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 362
+I20250701 04:05:01.663689 4189707 StaDataPropagationBFS.cc:82] Thread 137339401533120 date fwd propagate found start vertex.reset
+I20250701 04:05:01.663779 4189681 StaDataPropagationBFS.cc:82] Thread 137339644921536 date fwd propagate found start vertex.main_ram_a_q[6]
+I20250701 04:05:01.663818 4189681 StaDataPropagationBFS.cc:82] Thread 137339644921536 date fwd propagate found start vertex.main_ram_a_q[7]
+I20250701 04:05:01.663727 4189677 StaDataPropagationBFS.cc:82] Thread 137339451889344 date fwd propagate found start vertex.main_ram_a_q[1]
+I20250701 04:05:01.663735 4189707 StaDataPropagationBFS.cc:82] Thread 137339401533120 date fwd propagate found start vertex.main_ram_a_q[2]
+I20250701 04:05:01.663741 4189678 StaDataPropagationBFS.cc:82] Thread 137339460282048 date fwd propagate found start vertex.main_ram_a_q[3]
+I20250701 04:05:01.663753 4189679 StaDataPropagationBFS.cc:82] Thread 137339661706944 date fwd propagate found start vertex.main_ram_a_q[4]
+I20250701 04:05:01.663767 4189680 StaDataPropagationBFS.cc:82] Thread 137339653314240 date fwd propagate found start vertex.main_ram_a_q[5]
+E20250701 04:05:01.664044 4189707 Lib.cc:181] Warning: val outside table ranges:  val = 0; min_val = 0.00117378; max_val = 0.198535
+E20250701 04:05:01.664067 4189687 Lib.cc:181] Warning: val outside table ranges:  val = 0; min_val = 0.00117378; max_val = 0.198535
+E20250701 04:05:01.664083 4189707 Lib.cc:181] Warning: val outside table ranges:  val = 0; min_val = 0.00117378; max_val = 0.198535
+E20250701 04:05:01.664076 4189680 Lib.cc:181] Warning: val outside table ranges:  val = 0; min_val = 0.00117378; max_val = 0.198535
+E20250701 04:05:01.664098 4189680 Lib.cc:181] Warning: val outside table ranges:  val = 0; min_val = 0.00117378; max_val = 0.198535
+E20250701 04:05:01.664083 4189687 Lib.cc:181] Warning: val outside table ranges:  val = 0; min_val = 0.00117378; max_val = 0.198535
+I20250701 04:05:01.663702 4189675 StaDataPropagationBFS.cc:82] Thread 137339435103936 date fwd propagate found start vertex.start_global_computation
+E20250701 04:05:01.664096 4189707 Lib.cc:181] Warning: val outside table ranges:  val = 0; min_val = 0.00117378; max_val = 0.198535
+I20250701 04:05:01.663702 4189676 StaDataPropagationBFS.cc:82] Thread 137339443496640 date fwd propagate found start vertex.main_ram_a_q[0]
+E20250701 04:05:01.664044 4189684 Lib.cc:181] Warning: val outside table ranges:  val = 0; min_val = 0.00117378; max_val = 0.198535
+E20250701 04:05:01.664047 4189679 Lib.cc:181] Warning: val outside table ranges:  val = 0; min_val = 0.00117378; max_val = 0.198535
+E20250701 04:05:01.664098 4189688 Lib.cc:181] Warning: val outside table ranges:  val = 0; min_val = 0.00117378; max_val = 0.198535
+I20250701 04:05:01.667703 4188874 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 375
+I20250701 04:05:01.670558 4188874 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 649
+I20250701 04:05:01.674175 4188874 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 139
+I20250701 04:05:01.676662 4188874 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 322
+I20250701 04:05:01.679782 4188874 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 315
+I20250701 04:05:01.682163 4188874 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 309
+I20250701 04:05:01.684695 4188874 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 103
+I20250701 04:05:01.686367 4188874 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 171
+I20250701 04:05:01.688272 4188874 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 83
+I20250701 04:05:01.690155 4188874 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 97
+I20250701 04:05:01.691766 4188874 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 27
+I20250701 04:05:01.693156 4188874 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 38
+I20250701 04:05:01.694674 4188874 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 17
+I20250701 04:05:01.696085 4188874 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 25
+I20250701 04:05:01.698118 4188874 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 17
+I20250701 04:05:01.701138 4188874 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 30
+I20250701 04:05:01.703140 4188874 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 17
+I20250701 04:05:01.704586 4188874 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 22
+I20250701 04:05:01.706177 4188874 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 13
+I20250701 04:05:01.707679 4188874 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 14
+I20250701 04:05:01.709430 4188874 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 6
+I20250701 04:05:01.710930 4188874 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 6
+I20250701 04:05:01.712177 4188874 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 2
+I20250701 04:05:01.713411 4188874 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 2
+I20250701 04:05:01.714648 4188874 StaDataPropagationBFS.cc:229] data fwd propagation bfs end
+I20250701 04:05:01.714707 4188874 StaDataPropagationBFS.cc:232] data fwd propagation bfs memory usage 461.364MB
+I20250701 04:05:01.714721 4188874 StaDataPropagationBFS.cc:234] data fwd propagation bfs time elapsed 0.052222s
+I20250701 04:05:01.714728 4188874 StaDataPropagation.cc:695] data fwd propagation end
+I20250701 04:05:01.714735 4188874 StaDataPropagation.cc:676] data fwd propagation start
+I20250701 04:05:01.714751 4188874 StaDataPropagationBFS.cc:166] data fwd propagation bfs start
+I20250701 04:05:01.714939 4188874 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 0
+I20250701 04:05:01.716271 4188874 StaDataPropagationBFS.cc:229] data fwd propagation bfs end
+I20250701 04:05:01.716342 4188874 StaDataPropagationBFS.cc:232] data fwd propagation bfs memory usage 0MB
+I20250701 04:05:01.716356 4188874 StaDataPropagationBFS.cc:234] data fwd propagation bfs time elapsed 0.001606s
+I20250701 04:05:01.716362 4188874 StaDataPropagation.cc:695] data fwd propagation end
+I20250701 04:05:01.716369 4188874 StaAnalyze.cc:543] analyze timing path start
+I20250701 04:05:01.716374 4188874 StaAnalyze.cc:551] analyze timing path end vertex 1 total 750 start
+E20250701 04:05:01.716382 4188874 StaAnalyze.cc:328] The output port addr_to_buffer_a_read[1] is not constrained
+E20250701 04:05:01.716387 4188874 StaAnalyze.cc:328] The output port addr_to_buffer_a_read[1] is not constrained
+I20250701 04:05:01.716390 4188874 StaAnalyze.cc:585] analyze timing path end vertex 1 total 750 end
+E20250701 04:05:01.716394 4188874 StaAnalyze.cc:328] The output port addr_to_buffer_a_write[1] is not constrained
+E20250701 04:05:01.716398 4188874 StaAnalyze.cc:328] The output port addr_to_buffer_a_write[1] is not constrained
+E20250701 04:05:01.716403 4188874 StaAnalyze.cc:328] The output port addr_to_buffer_b_read[0] is not constrained
+E20250701 04:05:01.716408 4188874 StaAnalyze.cc:328] The output port addr_to_buffer_b_read[0] is not constrained
+E20250701 04:05:01.716411 4188874 StaAnalyze.cc:328] The output port addr_to_buffer_b_read[1] is not constrained
+E20250701 04:05:01.716415 4188874 StaAnalyze.cc:328] The output port addr_to_buffer_b_read[1] is not constrained
+E20250701 04:05:01.716419 4188874 StaAnalyze.cc:328] The output port addr_to_buffer_b_write[0] is not constrained
+E20250701 04:05:01.716423 4188874 StaAnalyze.cc:328] The output port addr_to_buffer_b_write[0] is not constrained
+I20250701 04:05:01.716428 4188874 StaAnalyze.cc:551] analyze timing path end vertex 11 total 750 start
+I20250701 04:05:01.716432 4188874 StaAnalyze.cc:585] analyze timing path end vertex 11 total 750 end
+I20250701 04:05:01.716439 4188874 StaAnalyze.cc:551] analyze timing path end vertex 21 total 750 start
+I20250701 04:05:01.716442 4188874 StaAnalyze.cc:585] analyze timing path end vertex 21 total 750 end
+I20250701 04:05:01.716449 4188874 StaAnalyze.cc:551] analyze timing path end vertex 31 total 750 start
+I20250701 04:05:01.716452 4188874 StaAnalyze.cc:585] analyze timing path end vertex 31 total 750 end
+I20250701 04:05:01.716457 4188874 StaAnalyze.cc:551] analyze timing path end vertex 41 total 750 start
+I20250701 04:05:01.716462 4188874 StaAnalyze.cc:585] analyze timing path end vertex 41 total 750 end
+I20250701 04:05:01.716467 4188874 StaAnalyze.cc:551] analyze timing path end vertex 51 total 750 start
+I20250701 04:05:01.716471 4188874 StaAnalyze.cc:585] analyze timing path end vertex 51 total 750 end
+I20250701 04:05:01.716477 4188874 StaAnalyze.cc:551] analyze timing path end vertex 61 total 750 start
+I20250701 04:05:01.716481 4188874 StaAnalyze.cc:585] analyze timing path end vertex 61 total 750 end
+I20250701 04:05:01.716487 4188874 StaAnalyze.cc:551] analyze timing path end vertex 71 total 750 start
+I20250701 04:05:01.716491 4188874 StaAnalyze.cc:585] analyze timing path end vertex 71 total 750 end
+I20250701 04:05:01.716497 4188874 StaAnalyze.cc:551] analyze timing path end vertex 81 total 750 start
+I20250701 04:05:01.716502 4188874 StaAnalyze.cc:585] analyze timing path end vertex 81 total 750 end
+I20250701 04:05:01.716507 4188874 StaAnalyze.cc:551] analyze timing path end vertex 91 total 750 start
+I20250701 04:05:01.716511 4188874 StaAnalyze.cc:585] analyze timing path end vertex 91 total 750 end
+I20250701 04:05:01.716517 4188874 StaAnalyze.cc:551] analyze timing path end vertex 101 total 750 start
+I20250701 04:05:01.716521 4188874 StaAnalyze.cc:585] analyze timing path end vertex 101 total 750 end
+I20250701 04:05:01.716527 4188874 StaAnalyze.cc:551] analyze timing path end vertex 111 total 750 start
+I20250701 04:05:01.716531 4188874 StaAnalyze.cc:585] analyze timing path end vertex 111 total 750 end
+I20250701 04:05:01.716536 4188874 StaAnalyze.cc:551] analyze timing path end vertex 121 total 750 start
+I20250701 04:05:01.716540 4188874 StaAnalyze.cc:585] analyze timing path end vertex 121 total 750 end
+I20250701 04:05:01.716547 4188874 StaAnalyze.cc:551] analyze timing path end vertex 131 total 750 start
+I20250701 04:05:01.716552 4188874 StaAnalyze.cc:585] analyze timing path end vertex 131 total 750 end
+I20250701 04:05:01.716557 4188874 StaAnalyze.cc:551] analyze timing path end vertex 141 total 750 start
+I20250701 04:05:01.716560 4188874 StaAnalyze.cc:585] analyze timing path end vertex 141 total 750 end
+I20250701 04:05:01.716565 4188874 StaAnalyze.cc:551] analyze timing path end vertex 151 total 750 start
+I20250701 04:05:01.716569 4188874 StaAnalyze.cc:585] analyze timing path end vertex 151 total 750 end
+I20250701 04:05:01.716575 4188874 StaAnalyze.cc:551] analyze timing path end vertex 161 total 750 start
+I20250701 04:05:01.716579 4188874 StaAnalyze.cc:585] analyze timing path end vertex 161 total 750 end
+I20250701 04:05:01.716585 4188874 StaAnalyze.cc:551] analyze timing path end vertex 171 total 750 start
+I20250701 04:05:01.716589 4188874 StaAnalyze.cc:585] analyze timing path end vertex 171 total 750 end
+I20250701 04:05:01.716594 4188874 StaAnalyze.cc:551] analyze timing path end vertex 181 total 750 start
+I20250701 04:05:01.716599 4188874 StaAnalyze.cc:585] analyze timing path end vertex 181 total 750 end
+I20250701 04:05:01.716604 4188874 StaAnalyze.cc:551] analyze timing path end vertex 191 total 750 start
+I20250701 04:05:01.716609 4188874 StaAnalyze.cc:585] analyze timing path end vertex 191 total 750 end
+I20250701 04:05:01.716614 4188874 StaAnalyze.cc:551] analyze timing path end vertex 201 total 750 start
+I20250701 04:05:01.716617 4188874 StaAnalyze.cc:585] analyze timing path end vertex 201 total 750 end
+I20250701 04:05:01.716622 4188874 StaAnalyze.cc:551] analyze timing path end vertex 211 total 750 start
+I20250701 04:05:01.716626 4188874 StaAnalyze.cc:585] analyze timing path end vertex 211 total 750 end
+I20250701 04:05:01.716631 4188874 StaAnalyze.cc:551] analyze timing path end vertex 221 total 750 start
+I20250701 04:05:01.716636 4188874 StaAnalyze.cc:585] analyze timing path end vertex 221 total 750 end
+I20250701 04:05:01.716640 4188874 StaAnalyze.cc:551] analyze timing path end vertex 231 total 750 start
+I20250701 04:05:01.716645 4188874 StaAnalyze.cc:585] analyze timing path end vertex 231 total 750 end
+I20250701 04:05:01.716650 4188874 StaAnalyze.cc:551] analyze timing path end vertex 241 total 750 start
+I20250701 04:05:01.716653 4188874 StaAnalyze.cc:585] analyze timing path end vertex 241 total 750 end
+I20250701 04:05:01.716658 4188874 StaAnalyze.cc:551] analyze timing path end vertex 251 total 750 start
+I20250701 04:05:01.716662 4188874 StaAnalyze.cc:585] analyze timing path end vertex 251 total 750 end
+I20250701 04:05:01.716667 4188874 StaAnalyze.cc:551] analyze timing path end vertex 261 total 750 start
+I20250701 04:05:01.716671 4188874 StaAnalyze.cc:585] analyze timing path end vertex 261 total 750 end
+I20250701 04:05:01.716677 4188874 StaAnalyze.cc:551] analyze timing path end vertex 271 total 750 start
+I20250701 04:05:01.716682 4188874 StaAnalyze.cc:585] analyze timing path end vertex 271 total 750 end
+I20250701 04:05:01.716687 4188874 StaAnalyze.cc:551] analyze timing path end vertex 281 total 750 start
+I20250701 04:05:01.716691 4188874 StaAnalyze.cc:585] analyze timing path end vertex 281 total 750 end
+I20250701 04:05:01.716696 4188874 StaAnalyze.cc:551] analyze timing path end vertex 291 total 750 start
+I20250701 04:05:01.716701 4188874 StaAnalyze.cc:585] analyze timing path end vertex 291 total 750 end
+I20250701 04:05:01.716706 4188874 StaAnalyze.cc:551] analyze timing path end vertex 301 total 750 start
+I20250701 04:05:01.716709 4188874 StaAnalyze.cc:585] analyze timing path end vertex 301 total 750 end
+I20250701 04:05:01.716714 4188874 StaAnalyze.cc:551] analyze timing path end vertex 311 total 750 start
+I20250701 04:05:01.716717 4188874 StaAnalyze.cc:585] analyze timing path end vertex 311 total 750 end
+I20250701 04:05:01.716723 4188874 StaAnalyze.cc:551] analyze timing path end vertex 321 total 750 start
+I20250701 04:05:01.716727 4188874 StaAnalyze.cc:585] analyze timing path end vertex 321 total 750 end
+I20250701 04:05:01.716732 4188874 StaAnalyze.cc:551] analyze timing path end vertex 331 total 750 start
+I20250701 04:05:01.716737 4188874 StaAnalyze.cc:585] analyze timing path end vertex 331 total 750 end
+I20250701 04:05:01.716742 4188874 StaAnalyze.cc:551] analyze timing path end vertex 341 total 750 start
+I20250701 04:05:01.716745 4188874 StaAnalyze.cc:585] analyze timing path end vertex 341 total 750 end
+I20250701 04:05:01.716751 4188874 StaAnalyze.cc:551] analyze timing path end vertex 351 total 750 start
+I20250701 04:05:01.716755 4188874 StaAnalyze.cc:585] analyze timing path end vertex 351 total 750 end
+I20250701 04:05:01.716760 4188874 StaAnalyze.cc:551] analyze timing path end vertex 361 total 750 start
+I20250701 04:05:01.716763 4188874 StaAnalyze.cc:585] analyze timing path end vertex 361 total 750 end
+I20250701 04:05:01.716769 4188874 StaAnalyze.cc:551] analyze timing path end vertex 371 total 750 start
+I20250701 04:05:01.716773 4188874 StaAnalyze.cc:585] analyze timing path end vertex 371 total 750 end
+I20250701 04:05:01.716778 4188874 StaAnalyze.cc:551] analyze timing path end vertex 381 total 750 start
+I20250701 04:05:01.716784 4188874 StaAnalyze.cc:585] analyze timing path end vertex 381 total 750 end
+I20250701 04:05:01.716836 4188874 StaAnalyze.cc:303] add path data num 4 to u_central_control.tile_k_cnt_$_DFFE_PP0P__Q_7:D
+I20250701 04:05:01.716903 4188874 StaAnalyze.cc:551] analyze timing path end vertex 391 total 750 start
+I20250701 04:05:01.716917 4188874 StaAnalyze.cc:585] analyze timing path end vertex 391 total 750 end
+I20250701 04:05:01.717046 4188874 StaAnalyze.cc:551] analyze timing path end vertex 401 total 750 start
+I20250701 04:05:01.717061 4188874 StaAnalyze.cc:585] analyze timing path end vertex 401 total 750 end
+I20250701 04:05:01.717149 4188874 StaAnalyze.cc:551] analyze timing path end vertex 411 total 750 start
+I20250701 04:05:01.717165 4188874 StaAnalyze.cc:585] analyze timing path end vertex 411 total 750 end
+I20250701 04:05:01.717242 4188874 StaAnalyze.cc:551] analyze timing path end vertex 421 total 750 start
+I20250701 04:05:01.717274 4188874 StaAnalyze.cc:585] analyze timing path end vertex 421 total 750 end
+I20250701 04:05:01.717326 4188874 StaAnalyze.cc:551] analyze timing path end vertex 431 total 750 start
+I20250701 04:05:01.717339 4188874 StaAnalyze.cc:585] analyze timing path end vertex 431 total 750 end
+I20250701 04:05:01.717377 4188874 StaAnalyze.cc:551] analyze timing path end vertex 441 total 750 start
+I20250701 04:05:01.717386 4188874 StaAnalyze.cc:585] analyze timing path end vertex 441 total 750 end
+I20250701 04:05:01.717415 4188874 StaAnalyze.cc:551] analyze timing path end vertex 451 total 750 start
+I20250701 04:05:01.717424 4188874 StaAnalyze.cc:585] analyze timing path end vertex 451 total 750 end
+I20250701 04:05:01.717443 4188874 StaAnalyze.cc:303] add path data num 2 to u_central_control.state_$_DFF_PP0__Q_8:D
+I20250701 04:05:01.717458 4188874 StaAnalyze.cc:551] analyze timing path end vertex 461 total 750 start
+I20250701 04:05:01.717466 4188874 StaAnalyze.cc:585] analyze timing path end vertex 461 total 750 end
+I20250701 04:05:01.717517 4188874 StaAnalyze.cc:551] analyze timing path end vertex 471 total 750 start
+I20250701 04:05:01.717526 4188874 StaAnalyze.cc:585] analyze timing path end vertex 471 total 750 end
+I20250701 04:05:01.717572 4188874 StaAnalyze.cc:551] analyze timing path end vertex 481 total 750 start
+I20250701 04:05:01.717583 4188874 StaAnalyze.cc:585] analyze timing path end vertex 481 total 750 end
+I20250701 04:05:01.717617 4188874 StaAnalyze.cc:551] analyze timing path end vertex 491 total 750 start
+I20250701 04:05:01.717631 4188874 StaAnalyze.cc:585] analyze timing path end vertex 491 total 750 end
+I20250701 04:05:01.717669 4188874 StaAnalyze.cc:551] analyze timing path end vertex 501 total 750 start
+I20250701 04:05:01.717680 4188874 StaAnalyze.cc:585] analyze timing path end vertex 501 total 750 end
+I20250701 04:05:01.717715 4188874 StaAnalyze.cc:303] add path data num 4 to u_central_control.tile_j_cnt_$_DFFE_PP0P__Q_7:D
+I20250701 04:05:01.717733 4188874 StaAnalyze.cc:551] analyze timing path end vertex 511 total 750 start
+I20250701 04:05:01.717746 4188874 StaAnalyze.cc:585] analyze timing path end vertex 511 total 750 end
+I20250701 04:05:01.717793 4188874 StaAnalyze.cc:551] analyze timing path end vertex 521 total 750 start
+I20250701 04:05:01.717805 4188874 StaAnalyze.cc:585] analyze timing path end vertex 521 total 750 end
+I20250701 04:05:01.717846 4188874 StaAnalyze.cc:551] analyze timing path end vertex 531 total 750 start
+I20250701 04:05:01.717859 4188874 StaAnalyze.cc:585] analyze timing path end vertex 531 total 750 end
+I20250701 04:05:01.717938 4188874 StaAnalyze.cc:551] analyze timing path end vertex 541 total 750 start
+I20250701 04:05:01.717949 4188874 StaAnalyze.cc:585] analyze timing path end vertex 541 total 750 end
+I20250701 04:05:01.718012 4188874 StaAnalyze.cc:551] analyze timing path end vertex 551 total 750 start
+I20250701 04:05:01.718024 4188874 StaAnalyze.cc:585] analyze timing path end vertex 551 total 750 end
+I20250701 04:05:01.718048 4188874 StaAnalyze.cc:303] add path data num 4 to u_skew_a.in_ram_addr_$_DFFE_PP0N__Q_13:D
+I20250701 04:05:01.718067 4188874 StaAnalyze.cc:551] analyze timing path end vertex 561 total 750 start
+I20250701 04:05:01.718077 4188874 StaAnalyze.cc:585] analyze timing path end vertex 561 total 750 end
+I20250701 04:05:01.718115 4188874 StaAnalyze.cc:551] analyze timing path end vertex 571 total 750 start
+I20250701 04:05:01.718128 4188874 StaAnalyze.cc:585] analyze timing path end vertex 571 total 750 end
+I20250701 04:05:01.718166 4188874 StaAnalyze.cc:551] analyze timing path end vertex 581 total 750 start
+I20250701 04:05:01.718174 4188874 StaAnalyze.cc:585] analyze timing path end vertex 581 total 750 end
+I20250701 04:05:01.718206 4188874 StaAnalyze.cc:551] analyze timing path end vertex 591 total 750 start
+I20250701 04:05:01.718219 4188874 StaAnalyze.cc:585] analyze timing path end vertex 591 total 750 end
+I20250701 04:05:01.718343 4188874 StaAnalyze.cc:551] analyze timing path end vertex 601 total 750 start
+I20250701 04:05:01.718365 4188874 StaAnalyze.cc:585] analyze timing path end vertex 601 total 750 end
+I20250701 04:05:01.718402 4188874 StaAnalyze.cc:303] add path data num 4 to u_skew_a.out_buf_d_$_DFFE_PP0P__Q_4:D
+I20250701 04:05:01.718421 4188874 StaAnalyze.cc:551] analyze timing path end vertex 611 total 750 start
+I20250701 04:05:01.718436 4188874 StaAnalyze.cc:585] analyze timing path end vertex 611 total 750 end
+I20250701 04:05:01.718474 4188874 StaAnalyze.cc:551] analyze timing path end vertex 621 total 750 start
+I20250701 04:05:01.718493 4188874 StaAnalyze.cc:585] analyze timing path end vertex 621 total 750 end
+I20250701 04:05:01.718533 4188874 StaAnalyze.cc:551] analyze timing path end vertex 631 total 750 start
+I20250701 04:05:01.718542 4188874 StaAnalyze.cc:585] analyze timing path end vertex 631 total 750 end
+I20250701 04:05:01.718580 4188874 StaAnalyze.cc:551] analyze timing path end vertex 641 total 750 start
+I20250701 04:05:01.718591 4188874 StaAnalyze.cc:585] analyze timing path end vertex 641 total 750 end
+I20250701 04:05:01.718664 4188874 StaAnalyze.cc:551] analyze timing path end vertex 651 total 750 start
+I20250701 04:05:01.718680 4188874 StaAnalyze.cc:585] analyze timing path end vertex 651 total 750 end
+I20250701 04:05:01.718736 4188874 StaAnalyze.cc:303] add path data num 4 to u_skew_b.in_buff_$_DFFE_PP__Q_8:D
+I20250701 04:05:01.718766 4188874 StaAnalyze.cc:551] analyze timing path end vertex 661 total 750 start
+I20250701 04:05:01.718781 4188874 StaAnalyze.cc:585] analyze timing path end vertex 661 total 750 end
+I20250701 04:05:01.718822 4188874 StaAnalyze.cc:551] analyze timing path end vertex 671 total 750 start
+I20250701 04:05:01.718835 4188874 StaAnalyze.cc:585] analyze timing path end vertex 671 total 750 end
+I20250701 04:05:01.718879 4188874 StaAnalyze.cc:551] analyze timing path end vertex 681 total 750 start
+I20250701 04:05:01.718894 4188874 StaAnalyze.cc:585] analyze timing path end vertex 681 total 750 end
+I20250701 04:05:01.718937 4188874 StaAnalyze.cc:551] analyze timing path end vertex 691 total 750 start
+I20250701 04:05:01.718951 4188874 StaAnalyze.cc:585] analyze timing path end vertex 691 total 750 end
+I20250701 04:05:01.718997 4188874 StaAnalyze.cc:551] analyze timing path end vertex 701 total 750 start
+I20250701 04:05:01.719014 4188874 StaAnalyze.cc:585] analyze timing path end vertex 701 total 750 end
+I20250701 04:05:01.719040 4188874 StaAnalyze.cc:303] add path data num 4 to u_skew_b.out_buf_d_$_DFFE_PP0P__Q_12:D
+I20250701 04:05:01.719061 4188874 StaAnalyze.cc:551] analyze timing path end vertex 711 total 750 start
+I20250701 04:05:01.719074 4188874 StaAnalyze.cc:585] analyze timing path end vertex 711 total 750 end
+I20250701 04:05:01.719122 4188874 StaAnalyze.cc:551] analyze timing path end vertex 721 total 750 start
+I20250701 04:05:01.719141 4188874 StaAnalyze.cc:585] analyze timing path end vertex 721 total 750 end
+I20250701 04:05:01.719185 4188874 StaAnalyze.cc:551] analyze timing path end vertex 731 total 750 start
+I20250701 04:05:01.719199 4188874 StaAnalyze.cc:585] analyze timing path end vertex 731 total 750 end
+I20250701 04:05:01.719240 4188874 StaAnalyze.cc:551] analyze timing path end vertex 741 total 750 start
+I20250701 04:05:01.719259 4188874 StaAnalyze.cc:585] analyze timing path end vertex 741 total 750 end
+I20250701 04:05:01.719302 4188874 StaAnalyze.cc:589] analyze timing path end
+I20250701 04:05:01.719308 4188874 StaApplySdc.cc:694] apply sdc start
+I20250701 04:05:01.719312 4188874 StaApplySdc.cc:725] apply sdc end
+I20250701 04:05:01.719316 4188874 StaDataPropagation.cc:698] data bwd propagation start
+I20250701 04:05:01.720242 4188874 StaDataPropagation.cc:249] propagate start vertex u_central_control.tile_k_cnt_$_DFFE_PP0P__Q_7:CK
+I20250701 04:05:01.720274 4188874 StaDataPropagation.cc:172] Thread 137339687727168 data bwd propagate found end vertex.u_central_control.we_c_buf_$_DFF_PP0__Q:D
+I20250701 04:05:01.720294 4188874 StaDataPropagation.cc:172] Thread 137339687727168 data bwd propagate found end vertex.u_central_control.state_$_DFF_PP0__Q_3:D
+I20250701 04:05:01.720305 4188874 StaDataPropagation.cc:172] Thread 137339687727168 data bwd propagate found end vertex.u_central_control.state_$_DFF_PP0__Q_7:D
+I20250701 04:05:01.720316 4188874 StaDataPropagation.cc:172] Thread 137339687727168 data bwd propagate found end vertex.u_central_control.tile_k_cnt_$_DFFE_PP0P__Q:D
+I20250701 04:05:01.720331 4188874 StaDataPropagation.cc:172] Thread 137339687727168 data bwd propagate found end vertex.u_central_control.tile_k_cnt_$_DFFE_PP0P__Q_1:D
+I20250701 04:05:01.720343 4188874 StaDataPropagation.cc:172] Thread 137339687727168 data bwd propagate found end vertex.u_central_control.tile_k_cnt_$_DFFE_PP0P__Q_2:D
+I20250701 04:05:01.720363 4188874 StaDataPropagation.cc:172] Thread 137339687727168 data bwd propagate found end vertex.u_central_control.tile_k_cnt_$_DFFE_PP0P__Q_3:D
+I20250701 04:05:01.720377 4188874 StaDataPropagation.cc:172] Thread 137339687727168 data bwd propagate found end vertex.u_central_control.tile_k_cnt_$_DFFE_PP0P__Q_4:D
+I20250701 04:05:01.720393 4188874 StaDataPropagation.cc:172] Thread 137339687727168 data bwd propagate found end vertex.u_central_control.tile_k_cnt_$_DFFE_PP0P__Q_5:D
+I20250701 04:05:01.720410 4188874 StaDataPropagation.cc:172] Thread 137339687727168 data bwd propagate found end vertex.u_central_control.tile_k_cnt_$_DFFE_PP0P__Q_6:D
+I20250701 04:05:01.726329 4188874 StaDataPropagation.cc:703] data bwd propagation end
+I20250701 04:05:01.726380 4188874 Sta.cc:2677] update timing end
+I20250701 04:05:01.726437 4188874 Sta.cc:2680] update timing memory usage 461.364MB
+I20250701 04:05:01.726452 4188874 Sta.cc:2682] update timing time elapsed 0.068636s
+I20250701 04:05:01.726557 4188874 Sta.cc:2780] start write sta report.
+I20250701 04:05:01.726562 4188874 Sta.cc:2781] output sta report path: /data/stu25/s2300012745/work/yosys-sta/lab8/result/P2/accelerator-2000MHz
+I20250701 04:05:01.726972 4188874 StaReport.cc:188] report the clock group core_clock 5 timing paths.
+I20250701 04:05:01.727017 4188874 StaReport.cc:183] report the clock group **clock_gating_default** 5 timing paths.
+I20250701 04:05:01.728183 4188874 StaReport.cc:188] report the clock group core_clock 5 timing paths.
+I20250701 04:05:01.729207 4188874 StaReport.cc:183] report the clock group **clock_gating_default** 5 timing paths.
+I20250701 04:05:01.729422 4188874 StaReport.cc:188] report the clock group core_clock 1 timing paths.
+I20250701 04:05:01.729432 4188874 StaReport.cc:183] report the clock group **clock_gating_default** 1 timing paths.
+I20250701 04:05:01.729569 4188874 StaReport.cc:188] report the clock group core_clock 5 timing paths.
+I20250701 04:05:01.729604 4188874 StaReport.cc:183] report the clock group **clock_gating_default** 5 timing paths.
+I20250701 04:05:01.730094 4188874 StaReport.cc:188] report the clock group core_clock 5 timing paths.
+I20250701 04:05:01.734555 4188874 StaReport.cc:183] report the clock group **clock_gating_default** 5 timing paths.
+I20250701 04:05:01.734830 4188874 StaReport.cc:188] report the clock group core_clock 1 timing paths.
+I20250701 04:05:01.734856 4188874 StaReport.cc:183] report the clock group **clock_gating_default** 1 timing paths.
+I20250701 04:05:01.734861 4188874 Sta.cc:1686] 
++----------------------------------------------+--------------------------+------------+------------+---------------+-------+-------+-----------+
+| Endpoint                                     | Clock Group              | Delay Type | Path Delay | Path Required | CPPR  | Slack | Freq(MHz) |
++----------------------------------------------+--------------------------+------------+------------+---------------+-------+-------+-----------+
+| u_skew_a.in_ram_addr_$_DFFE_PP0N__Q:D        | core_clock               | max        | 0.443r     | 0.464         | 0.000 | 0.021 | 2087.534  |
+| u_skew_a.in_ram_addr_$_DFFE_PP0N__Q:D        | core_clock               | max        | 0.443r     | 0.464         | 0.000 | 0.021 | 2087.534  |
+| u_central_control.state_$_DFF_PP0__Q_4:D     | core_clock               | max        | 0.420f     | 0.456         | 0.000 | 0.037 | 2158.354  |
+| u_skew_b.in_ram_addr_$_DFFE_PP0P__Q_1:D      | core_clock               | max        | 0.423r     | 0.464         | 0.000 | 0.040 | 2175.867  |
+| u_skew_b.in_ram_addr_$_DFFE_PP0P__Q_1:D      | core_clock               | max        | 0.423r     | 0.464         | 0.000 | 0.040 | 2175.867  |
+| _1084_:E                                     | **clock_gating_default** | max        | 0.431f     | 0.451         | 0.000 | 0.020 | NA        |
+| _1084_:E                                     | **clock_gating_default** | max        | 0.408r     | 0.445         | 0.000 | 0.037 | NA        |
+| _1085_:E                                     | **clock_gating_default** | max        | 0.415f     | 0.453         | 0.000 | 0.038 | NA        |
+| _1085_:E                                     | **clock_gating_default** | max        | 0.360r     | 0.448         | 0.000 | 0.088 | NA        |
+| _1069_:E                                     | **clock_gating_default** | max        | 0.331r     | 0.451         | 0.000 | 0.120 | NA        |
+| u_central_control.state_$_DFF_PP0__Q_3:D     | core_clock               | min        | 0.086f     | 0.003         | 0.000 | 0.083 | NA        |
+| u_central_control.state_$_DFF_PP0__Q:D       | core_clock               | min        | 0.087f     | 0.003         | 0.000 | 0.084 | NA        |
+| u_central_control.clear_c_buf_$_DFF_PP0__Q:D | core_clock               | min        | 0.087f     | 0.003         | 0.000 | 0.084 | NA        |
+| u_skew_b.in_ram_addr_$_DFFE_PP0P__Q_4:D      | core_clock               | min        | 0.088f     | 0.003         | 0.000 | 0.085 | NA        |
+| u_skew_b.in_ram_addr_$_DFFE_PP0P__Q_4:D      | core_clock               | min        | 0.088f     | 0.003         | 0.000 | 0.085 | NA        |
+| _1083_:E                                     | **clock_gating_default** | min        | 0.095r     | -0.001        | 0.000 | 0.095 | NA        |
+| _1083_:E                                     | **clock_gating_default** | min        | 0.086f     | -0.015        | 0.000 | 0.101 | NA        |
+| _1072_:E                                     | **clock_gating_default** | min        | 0.112r     | 0.000         | 0.000 | 0.111 | NA        |
+| _1075_:E                                     | **clock_gating_default** | min        | 0.116r     | -0.002        | 0.000 | 0.117 | NA        |
+| _1072_:E                                     | **clock_gating_default** | min        | 0.105f     | -0.015        | 0.000 | 0.120 | NA        |
++----------------------------------------------+--------------------------+------------+------------+---------------+-------+-------+-----------+
+I20250701 04:05:01.735188 4188874 Sta.cc:1687] 
++------------+------------+-------+
+| Clock      | Delay Type | TNS   |
++------------+------------+-------+
+| core_clock | max        | 0.000 |
+| core_clock | min        | 0.000 |
++------------+------------+-------+
+I20250701 04:05:01.752936 4188874 NetlistWriter.cc:52] start write verilog file /data/stu25/s2300012745/work/yosys-sta/lab8/result/P2/accelerator-2000MHz/accelerator.v
+I20250701 04:05:01.759956 4188874 NetlistWriter.cc:71] finish write verilog file /data/stu25/s2300012745/work/yosys-sta/lab8/result/P2/accelerator-2000MHz/accelerator.v
+I20250701 04:05:01.760026 4188874 Sta.cc:2893] used lib: /data/stu25/s2300012745/work/yosys-sta/scripts/../pdk/nangate45/lib/Nangate45_typ.lib
+I20250701 04:05:01.760033 4188874 Sta.cc:2878] The timing engine run success.
+I20250701 04:05:01.760152 4188874 Power.cc:718] build graph and seq graph start
+I20250701 04:05:01.760169 4188874 PwrBuildGraph.cc:80] build power graph start
+I20250701 04:05:01.764029 4188874 PwrBuildGraph.cc:170] build power graph end
+I20250701 04:05:01.764096 4188874 PwrBuildGraph.cc:172] build power graph memory usage 0MB
+I20250701 04:05:01.764108 4188874 PwrBuildGraph.cc:174] build power graph time elapsed 0.003938s
+I20250701 04:05:01.764133 4188874 PwrBuildSeqGraph.cc:326] build seq graph start
+I20250701 04:05:01.771229 4188874 PwrBuildSeqGraph.cc:330] build seq graph end
+I20250701 04:05:01.771288 4188874 PwrBuildSeqGraph.cc:332] seq inst num: 200
+I20250701 04:05:01.771293 4188874 PwrBuildSeqGraph.cc:333] input port num: 163
+I20250701 04:05:01.771297 4188874 PwrBuildSeqGraph.cc:334] output port num: 383
+I20250701 04:05:01.771299 4188874 PwrBuildSeqGraph.cc:335] seq macro num: 0
+I20250701 04:05:01.771389 4188874 PwrBuildSeqGraph.cc:336] seq arc num: 1580
+I20250701 04:05:01.771399 4188874 PwrBuildSeqGraph.cc:339] seq vertex max fanout: 144
+I20250701 04:05:01.771404 4188874 PwrBuildSeqGraph.cc:340] seq vertex max fanin: 22
+I20250701 04:05:01.771457 4188874 PwrBuildSeqGraph.cc:343] build seq graph memory usage 986.564MB
+I20250701 04:05:01.771471 4188874 PwrBuildSeqGraph.cc:345] build seq graph time elapsed 0.007337s
+I20250701 04:05:01.771478 4188874 Power.cc:725] build graph and seq graph end
+I20250701 04:05:01.771495 4188874 Power.cc:727] build graph and seq graph memory usage 986.564MB
+I20250701 04:05:01.771502 4188874 Power.cc:730] build graph and seq graph time elapsed 0.01135s
+I20250701 04:05:01.771515 4188874 Power.cc:735] power annotate vcd start
+I20250701 04:05:01.771520 4188874 Power.cc:126] annotate toggle sp start
+I20250701 04:05:01.771524 4188874 Power.cc:132] annotate toggle sp end
+I20250701 04:05:01.771528 4188874 Power.cc:742] power vcd annotate end
+I20250701 04:05:01.771540 4188874 Power.cc:744] power vcd annotate memory usage 0MB
+I20250701 04:05:01.771546 4188874 Power.cc:746] power vcd annotate time elapsed 3.1e-05s
+I20250701 04:05:01.771559 4188874 Power.cc:760] power propagation start
+I20250701 04:05:01.771585 4188874 PwrCheckPipelineLoop.cc:122] check pipeline loop start
+I20250701 04:05:01.771776 4188874 PwrCheckPipelineLoop.cc:129] check pipeline loop end
+I20250701 04:05:01.771817 4188874 PwrCheckPipelineLoop.cc:137] check pipeline loop memory usage 0MB
+I20250701 04:05:01.771822 4188874 PwrCheckPipelineLoop.cc:139] check pipeline loop time elapsed 0.000236s
+I20250701 04:05:01.771837 4188874 PwrLevelizeSeqGraph.cc:93] seq levelization start
+I20250701 04:05:01.771905 4188874 PwrLevelizeSeqGraph.cc:101] seq levelization end
+I20250701 04:05:01.771908 4188874 PwrLevelizeSeqGraph.cc:103] the seq graph's level depth 30
+I20250701 04:05:01.771927 4188874 PwrLevelizeSeqGraph.cc:116] levelization memory usage 0MB
+I20250701 04:05:01.771932 4188874 PwrLevelizeSeqGraph.cc:118] levelization time elapsed 9.5e-05s
+I20250701 04:05:01.771953 4188874 PwrPropagateConst.cc:184] propagate const start
+I20250701 04:05:01.772094 4188874 PwrPropagateConst.cc:288] propagate const end
+I20250701 04:05:01.772104 4188874 PwrPropagateConst.cc:290] propagate const memory usage 0MB
+I20250701 04:05:01.772109 4188874 PwrPropagateConst.cc:292] propagate const time elapsed 0.000155s
+I20250701 04:05:01.772123 4188874 PwrPropagateToggleSP.cc:202] propagate toggle sp start
+I20250701 04:05:01.781127 4188874 PwrPropagateToggleSP.cc:316] propagate toggle sp end
+I20250701 04:05:01.781204 4188874 PwrPropagateToggleSP.cc:319] propagate toggle sp memory usage 131.204MB
+I20250701 04:05:01.781220 4188874 PwrPropagateToggleSP.cc:321] propagate toggle sp time elapsed 0.009098s
+I20250701 04:05:01.781245 4188874 PwrPropagateClock.cc:68] propagate clock start
+I20250701 04:05:01.781323 4188874 PwrPropagateClock.cc:80] propagate clock end
+I20250701 04:05:01.781340 4188874 PwrPropagateClock.cc:82] propagate clock memory usage 0MB
+I20250701 04:05:01.781345 4188874 PwrPropagateClock.cc:84] propagate clock time elapsed 0.000101s
+I20250701 04:05:01.781351 4188874 Power.cc:778] power propagation end
+I20250701 04:05:01.781366 4188874 Power.cc:780] power propagation memory usage 131.204MB
+I20250701 04:05:01.781373 4188874 Power.cc:782] power propagation time elapsed 0.009812s
+I20250701 04:05:01.781395 4188874 Power.cc:265] power calculation start
+I20250701 04:05:01.781411 4188874 PwrCalcLeakagePower.cc:85] calc leakage power start
+I20250701 04:05:01.813187 4188874 PwrCalcLeakagePower.cc:119] calc leakage power result 0.0318297mw
+I20250701 04:05:01.813239 4188874 PwrCalcLeakagePower.cc:122] calc leakage power end
+I20250701 04:05:01.813298 4188874 PwrCalcLeakagePower.cc:124] calc leakage power memory usage 0MB
+I20250701 04:05:01.813305 4188874 PwrCalcLeakagePower.cc:126] calc leakage power time elapsed 0.031893s
+I20250701 04:05:01.813326 4188874 PwrCalcInternalPower.cc:565] calc internal power start
+E20250701 04:05:01.813624 4188874 PwrCalcInternalPower.cc:205] _0499_:A input slew is not exist.
+E20250701 04:05:01.813685 4188874 PwrCalcInternalPower.cc:205] _0504_:A2 input slew is not exist.
+E20250701 04:05:01.813736 4188874 PwrCalcInternalPower.cc:205] _0509_:A2 input slew is not exist.
+E20250701 04:05:01.813786 4188874 PwrCalcInternalPower.cc:205] _0514_:A2 input slew is not exist.
+E20250701 04:05:01.813836 4188874 PwrCalcInternalPower.cc:205] _0519_:A2 input slew is not exist.
+E20250701 04:05:01.813887 4188874 PwrCalcInternalPower.cc:205] _0524_:A2 input slew is not exist.
+E20250701 04:05:01.813937 4188874 PwrCalcInternalPower.cc:205] _0529_:A2 input slew is not exist.
+E20250701 04:05:01.813990 4188874 PwrCalcInternalPower.cc:205] _0534_:A2 input slew is not exist.
+E20250701 04:05:01.814040 4188874 PwrCalcInternalPower.cc:205] _0539_:A2 input slew is not exist.
+E20250701 04:05:01.814092 4188874 PwrCalcInternalPower.cc:205] _0544_:A2 input slew is not exist.
+E20250701 04:05:01.814148 4188874 PwrCalcInternalPower.cc:205] _0549_:A2 input slew is not exist.
+E20250701 04:05:01.814200 4188874 PwrCalcInternalPower.cc:205] _0554_:A2 input slew is not exist.
+E20250701 04:05:01.814263 4188874 PwrCalcInternalPower.cc:205] _0559_:A2 input slew is not exist.
+E20250701 04:05:01.814320 4188874 PwrCalcInternalPower.cc:205] _0564_:A2 input slew is not exist.
+E20250701 04:05:01.814376 4188874 PwrCalcInternalPower.cc:205] _0569_:A2 input slew is not exist.
+E20250701 04:05:01.814431 4188874 PwrCalcInternalPower.cc:205] _0574_:A2 input slew is not exist.
+E20250701 04:05:01.814487 4188874 PwrCalcInternalPower.cc:205] _0579_:A2 input slew is not exist.
+E20250701 04:05:01.814546 4188874 PwrCalcInternalPower.cc:205] _0584_:A2 input slew is not exist.
+E20250701 04:05:01.814603 4188874 PwrCalcInternalPower.cc:205] _0589_:A2 input slew is not exist.
+E20250701 04:05:01.814661 4188874 PwrCalcInternalPower.cc:205] _0594_:A2 input slew is not exist.
+E20250701 04:05:01.814718 4188874 PwrCalcInternalPower.cc:205] _0599_:A2 input slew is not exist.
+E20250701 04:05:01.814772 4188874 PwrCalcInternalPower.cc:205] _0604_:A2 input slew is not exist.
+E20250701 04:05:01.814828 4188874 PwrCalcInternalPower.cc:205] _0609_:A2 input slew is not exist.
+E20250701 04:05:01.814882 4188874 PwrCalcInternalPower.cc:205] _0614_:A2 input slew is not exist.
+E20250701 04:05:01.814942 4188874 PwrCalcInternalPower.cc:205] _0619_:A2 input slew is not exist.
+E20250701 04:05:01.815006 4188874 PwrCalcInternalPower.cc:205] _0624_:A2 input slew is not exist.
+E20250701 04:05:01.816376 4188874 PwrCalcInternalPower.cc:205] _0695_:A2 input slew is not exist.
+E20250701 04:05:01.817719 4188874 PwrCalcInternalPower.cc:205] _0771_:A input slew is not exist.
+E20250701 04:05:01.817853 4188874 PwrCalcInternalPower.cc:205] _0775_:A input slew is not exist.
+E20250701 04:05:01.817962 4188874 PwrCalcInternalPower.cc:205] _0779_:B input slew is not exist.
+E20250701 04:05:01.818069 4188874 PwrCalcInternalPower.cc:205] _0783_:B input slew is not exist.
+E20250701 04:05:01.818267 4188874 PwrCalcInternalPower.cc:205] _0791_:A input slew is not exist.
+E20250701 04:05:01.818744 4188874 PwrCalcInternalPower.cc:205] _0809_:A input slew is not exist.
+E20250701 04:05:01.821175 4188874 PwrCalcInternalPower.cc:205] _0929_:A input slew is not exist.
+E20250701 04:05:01.821298 4188874 PwrCalcInternalPower.cc:205] _0933_:A input slew is not exist.
+E20250701 04:05:01.821427 4188874 PwrCalcInternalPower.cc:205] _0937_:B input slew is not exist.
+E20250701 04:05:01.821545 4188874 PwrCalcInternalPower.cc:205] _0941_:B input slew is not exist.
+E20250701 04:05:01.821738 4188874 PwrCalcInternalPower.cc:205] _0948_:B input slew is not exist.
+E20250701 04:05:01.821858 4188874 PwrCalcInternalPower.cc:205] _0953_:A input slew is not exist.
+E20250701 04:05:01.822307 4188874 PwrCalcInternalPower.cc:205] _0971_:A input slew is not exist.
+E20250701 04:05:01.838496 4188874 PwrCalcInternalPower.cc:205] fanout_buf_2:A input slew is not exist.
+I20250701 04:05:01.838606 4188874 PwrCalcInternalPower.cc:605] calc internal power result 0.77509mW
+I20250701 04:05:01.838620 4188874 PwrCalcInternalPower.cc:607] calc internal power end
+I20250701 04:05:01.838672 4188874 PwrCalcInternalPower.cc:609] calc internal power memory usage 0MB
+I20250701 04:05:01.838680 4188874 PwrCalcInternalPower.cc:611] calc internal power time elapsed 0.025353s
+I20250701 04:05:01.838699 4188874 PwrCalcSwitchPower.cc:89] calc switch power start
+I20250701 04:05:01.838974 4188874 PwrCalcSwitchPower.cc:99] net _0290_ has no load, skip switch power calculation.
+I20250701 04:05:01.838979 4188874 PwrCalcSwitchPower.cc:99] net _0291_ has no load, skip switch power calculation.
+I20250701 04:05:01.838980 4188874 PwrCalcSwitchPower.cc:99] net _0292_ has no load, skip switch power calculation.
+I20250701 04:05:01.838982 4188874 PwrCalcSwitchPower.cc:99] net _0293_ has no load, skip switch power calculation.
+I20250701 04:05:01.838984 4188874 PwrCalcSwitchPower.cc:99] net _0294_ has no load, skip switch power calculation.
+I20250701 04:05:01.838986 4188874 PwrCalcSwitchPower.cc:99] net _0295_ has no load, skip switch power calculation.
+I20250701 04:05:01.838990 4188874 PwrCalcSwitchPower.cc:99] net _0296_ has no load, skip switch power calculation.
+I20250701 04:05:01.838994 4188874 PwrCalcSwitchPower.cc:99] net _0297_ has no load, skip switch power calculation.
+I20250701 04:05:01.838997 4188874 PwrCalcSwitchPower.cc:99] net _0298_ has no load, skip switch power calculation.
+I20250701 04:05:01.839001 4188874 PwrCalcSwitchPower.cc:99] net _0299_ has no load, skip switch power calculation.
+I20250701 04:05:01.839005 4188874 PwrCalcSwitchPower.cc:99] net _0300_ has no load, skip switch power calculation.
+I20250701 04:05:01.839010 4188874 PwrCalcSwitchPower.cc:99] net _0301_ has no load, skip switch power calculation.
+I20250701 04:05:01.839013 4188874 PwrCalcSwitchPower.cc:99] net _0302_ has no load, skip switch power calculation.
+I20250701 04:05:01.839017 4188874 PwrCalcSwitchPower.cc:99] net _0303_ has no load, skip switch power calculation.
+I20250701 04:05:01.839021 4188874 PwrCalcSwitchPower.cc:99] net _0304_ has no load, skip switch power calculation.
+I20250701 04:05:01.839025 4188874 PwrCalcSwitchPower.cc:99] net _0305_ has no load, skip switch power calculation.
+I20250701 04:05:01.839030 4188874 PwrCalcSwitchPower.cc:99] net _0306_ has no load, skip switch power calculation.
+I20250701 04:05:01.839032 4188874 PwrCalcSwitchPower.cc:99] net _0307_ has no load, skip switch power calculation.
+I20250701 04:05:01.839036 4188874 PwrCalcSwitchPower.cc:99] net _0308_ has no load, skip switch power calculation.
+I20250701 04:05:01.839040 4188874 PwrCalcSwitchPower.cc:99] net _0309_ has no load, skip switch power calculation.
+I20250701 04:05:01.839044 4188874 PwrCalcSwitchPower.cc:99] net _0310_ has no load, skip switch power calculation.
+I20250701 04:05:01.839048 4188874 PwrCalcSwitchPower.cc:99] net _0311_ has no load, skip switch power calculation.
+I20250701 04:05:01.839052 4188874 PwrCalcSwitchPower.cc:99] net _0312_ has no load, skip switch power calculation.
+I20250701 04:05:01.839056 4188874 PwrCalcSwitchPower.cc:99] net _0313_ has no load, skip switch power calculation.
+I20250701 04:05:01.839061 4188874 PwrCalcSwitchPower.cc:99] net _0314_ has no load, skip switch power calculation.
+I20250701 04:05:01.839064 4188874 PwrCalcSwitchPower.cc:99] net _0315_ has no load, skip switch power calculation.
+I20250701 04:05:01.839068 4188874 PwrCalcSwitchPower.cc:99] net _0316_ has no load, skip switch power calculation.
+I20250701 04:05:01.839072 4188874 PwrCalcSwitchPower.cc:99] net _0317_ has no load, skip switch power calculation.
+I20250701 04:05:01.839076 4188874 PwrCalcSwitchPower.cc:99] net _0318_ has no load, skip switch power calculation.
+I20250701 04:05:01.839080 4188874 PwrCalcSwitchPower.cc:99] net _0319_ has no load, skip switch power calculation.
+I20250701 04:05:01.839085 4188874 PwrCalcSwitchPower.cc:99] net _0320_ has no load, skip switch power calculation.
+I20250701 04:05:01.839088 4188874 PwrCalcSwitchPower.cc:99] net _0321_ has no load, skip switch power calculation.
+I20250701 04:05:01.839092 4188874 PwrCalcSwitchPower.cc:99] net _0322_ has no load, skip switch power calculation.
+I20250701 04:05:01.839097 4188874 PwrCalcSwitchPower.cc:99] net _0323_ has no load, skip switch power calculation.
+I20250701 04:05:01.839100 4188874 PwrCalcSwitchPower.cc:99] net _0324_ has no load, skip switch power calculation.
+I20250701 04:05:01.839104 4188874 PwrCalcSwitchPower.cc:99] net _0325_ has no load, skip switch power calculation.
+I20250701 04:05:01.839108 4188874 PwrCalcSwitchPower.cc:99] net _0326_ has no load, skip switch power calculation.
+I20250701 04:05:01.839112 4188874 PwrCalcSwitchPower.cc:99] net _0327_ has no load, skip switch power calculation.
+I20250701 04:05:01.839116 4188874 PwrCalcSwitchPower.cc:99] net _0328_ has no load, skip switch power calculation.
+I20250701 04:05:01.839120 4188874 PwrCalcSwitchPower.cc:99] net _0329_ has no load, skip switch power calculation.
+I20250701 04:05:01.839125 4188874 PwrCalcSwitchPower.cc:99] net _0330_ has no load, skip switch power calculation.
+I20250701 04:05:01.839129 4188874 PwrCalcSwitchPower.cc:99] net _0331_ has no load, skip switch power calculation.
+I20250701 04:05:01.839133 4188874 PwrCalcSwitchPower.cc:99] net _0332_ has no load, skip switch power calculation.
+I20250701 04:05:01.839136 4188874 PwrCalcSwitchPower.cc:99] net _0333_ has no load, skip switch power calculation.
+I20250701 04:05:01.839140 4188874 PwrCalcSwitchPower.cc:99] net _0334_ has no load, skip switch power calculation.
+I20250701 04:05:01.839144 4188874 PwrCalcSwitchPower.cc:99] net _0335_ has no load, skip switch power calculation.
+I20250701 04:05:01.839148 4188874 PwrCalcSwitchPower.cc:99] net _0336_ has no load, skip switch power calculation.
+I20250701 04:05:01.839152 4188874 PwrCalcSwitchPower.cc:99] net _0337_ has no load, skip switch power calculation.
+I20250701 04:05:01.839156 4188874 PwrCalcSwitchPower.cc:99] net _0338_ has no load, skip switch power calculation.
+I20250701 04:05:01.839160 4188874 PwrCalcSwitchPower.cc:99] net _0339_ has no load, skip switch power calculation.
+I20250701 04:05:01.839164 4188874 PwrCalcSwitchPower.cc:99] net _0340_ has no load, skip switch power calculation.
+I20250701 04:05:01.839169 4188874 PwrCalcSwitchPower.cc:99] net _0341_ has no load, skip switch power calculation.
+I20250701 04:05:01.839172 4188874 PwrCalcSwitchPower.cc:99] net _0342_ has no load, skip switch power calculation.
+I20250701 04:05:01.839176 4188874 PwrCalcSwitchPower.cc:99] net _0343_ has no load, skip switch power calculation.
+I20250701 04:05:01.839180 4188874 PwrCalcSwitchPower.cc:99] net _0344_ has no load, skip switch power calculation.
+I20250701 04:05:01.839184 4188874 PwrCalcSwitchPower.cc:99] net _0345_ has no load, skip switch power calculation.
+I20250701 04:05:01.839188 4188874 PwrCalcSwitchPower.cc:99] net _0346_ has no load, skip switch power calculation.
+I20250701 04:05:01.839192 4188874 PwrCalcSwitchPower.cc:99] net _0347_ has no load, skip switch power calculation.
+I20250701 04:05:01.839196 4188874 PwrCalcSwitchPower.cc:99] net _0348_ has no load, skip switch power calculation.
+I20250701 04:05:01.839200 4188874 PwrCalcSwitchPower.cc:99] net _0349_ has no load, skip switch power calculation.
+I20250701 04:05:01.839206 4188874 PwrCalcSwitchPower.cc:99] net _0350_ has no load, skip switch power calculation.
+I20250701 04:05:01.839210 4188874 PwrCalcSwitchPower.cc:99] net _0351_ has no load, skip switch power calculation.
+I20250701 04:05:01.839214 4188874 PwrCalcSwitchPower.cc:99] net _0352_ has no load, skip switch power calculation.
+I20250701 04:05:01.839218 4188874 PwrCalcSwitchPower.cc:99] net _0353_ has no load, skip switch power calculation.
+I20250701 04:05:01.839222 4188874 PwrCalcSwitchPower.cc:99] net _0354_ has no load, skip switch power calculation.
+I20250701 04:05:01.839226 4188874 PwrCalcSwitchPower.cc:99] net _0355_ has no load, skip switch power calculation.
+I20250701 04:05:01.839231 4188874 PwrCalcSwitchPower.cc:99] net _0356_ has no load, skip switch power calculation.
+I20250701 04:05:01.839234 4188874 PwrCalcSwitchPower.cc:99] net _0357_ has no load, skip switch power calculation.
+I20250701 04:05:01.839238 4188874 PwrCalcSwitchPower.cc:99] net _0358_ has no load, skip switch power calculation.
+I20250701 04:05:01.839242 4188874 PwrCalcSwitchPower.cc:99] net _0359_ has no load, skip switch power calculation.
+I20250701 04:05:01.839250 4188874 PwrCalcSwitchPower.cc:99] net _0360_ has no load, skip switch power calculation.
+I20250701 04:05:01.839255 4188874 PwrCalcSwitchPower.cc:99] net _0361_ has no load, skip switch power calculation.
+I20250701 04:05:01.839259 4188874 PwrCalcSwitchPower.cc:99] net _0362_ has no load, skip switch power calculation.
+I20250701 04:05:01.839262 4188874 PwrCalcSwitchPower.cc:99] net _0363_ has no load, skip switch power calculation.
+I20250701 04:05:01.839267 4188874 PwrCalcSwitchPower.cc:99] net _0364_ has no load, skip switch power calculation.
+I20250701 04:05:01.839270 4188874 PwrCalcSwitchPower.cc:99] net _0365_ has no load, skip switch power calculation.
+I20250701 04:05:01.839274 4188874 PwrCalcSwitchPower.cc:99] net _0366_ has no load, skip switch power calculation.
+I20250701 04:05:01.839278 4188874 PwrCalcSwitchPower.cc:99] net _0367_ has no load, skip switch power calculation.
+I20250701 04:05:01.839283 4188874 PwrCalcSwitchPower.cc:99] net _0368_ has no load, skip switch power calculation.
+I20250701 04:05:01.839287 4188874 PwrCalcSwitchPower.cc:99] net _0369_ has no load, skip switch power calculation.
+I20250701 04:05:01.839291 4188874 PwrCalcSwitchPower.cc:99] net _0370_ has no load, skip switch power calculation.
+I20250701 04:05:01.839295 4188874 PwrCalcSwitchPower.cc:99] net _0371_ has no load, skip switch power calculation.
+I20250701 04:05:01.839298 4188874 PwrCalcSwitchPower.cc:99] net _0372_ has no load, skip switch power calculation.
+I20250701 04:05:01.839303 4188874 PwrCalcSwitchPower.cc:99] net _0373_ has no load, skip switch power calculation.
+I20250701 04:05:01.839308 4188874 PwrCalcSwitchPower.cc:99] net _0374_ has no load, skip switch power calculation.
+I20250701 04:05:01.839313 4188874 PwrCalcSwitchPower.cc:99] net _0375_ has no load, skip switch power calculation.
+I20250701 04:05:01.839318 4188874 PwrCalcSwitchPower.cc:99] net _0376_ has no load, skip switch power calculation.
+I20250701 04:05:01.839321 4188874 PwrCalcSwitchPower.cc:99] net _0377_ has no load, skip switch power calculation.
+I20250701 04:05:01.839325 4188874 PwrCalcSwitchPower.cc:99] net _0378_ has no load, skip switch power calculation.
+I20250701 04:05:01.839329 4188874 PwrCalcSwitchPower.cc:99] net _0379_ has no load, skip switch power calculation.
+I20250701 04:05:01.839334 4188874 PwrCalcSwitchPower.cc:99] net _0380_ has no load, skip switch power calculation.
+I20250701 04:05:01.839337 4188874 PwrCalcSwitchPower.cc:99] net _0381_ has no load, skip switch power calculation.
+I20250701 04:05:01.839341 4188874 PwrCalcSwitchPower.cc:99] net _0382_ has no load, skip switch power calculation.
+I20250701 04:05:01.839345 4188874 PwrCalcSwitchPower.cc:99] net _0383_ has no load, skip switch power calculation.
+I20250701 04:05:01.839349 4188874 PwrCalcSwitchPower.cc:99] net _0384_ has no load, skip switch power calculation.
+I20250701 04:05:01.839354 4188874 PwrCalcSwitchPower.cc:99] net _0385_ has no load, skip switch power calculation.
+I20250701 04:05:01.839357 4188874 PwrCalcSwitchPower.cc:99] net _0386_ has no load, skip switch power calculation.
+I20250701 04:05:01.839363 4188874 PwrCalcSwitchPower.cc:99] net _0387_ has no load, skip switch power calculation.
+I20250701 04:05:01.839367 4188874 PwrCalcSwitchPower.cc:99] net _0388_ has no load, skip switch power calculation.
+I20250701 04:05:01.839371 4188874 PwrCalcSwitchPower.cc:99] net _0389_ has no load, skip switch power calculation.
+I20250701 04:05:01.839375 4188874 PwrCalcSwitchPower.cc:99] net _0390_ has no load, skip switch power calculation.
+I20250701 04:05:01.839380 4188874 PwrCalcSwitchPower.cc:99] net _0391_ has no load, skip switch power calculation.
+I20250701 04:05:01.839383 4188874 PwrCalcSwitchPower.cc:99] net _0392_ has no load, skip switch power calculation.
+I20250701 04:05:01.839387 4188874 PwrCalcSwitchPower.cc:99] net _0393_ has no load, skip switch power calculation.
+I20250701 04:05:01.839392 4188874 PwrCalcSwitchPower.cc:99] net _0394_ has no load, skip switch power calculation.
+I20250701 04:05:01.839396 4188874 PwrCalcSwitchPower.cc:99] net _0395_ has no load, skip switch power calculation.
+I20250701 04:05:01.839401 4188874 PwrCalcSwitchPower.cc:99] net _0396_ has no load, skip switch power calculation.
+I20250701 04:05:01.839404 4188874 PwrCalcSwitchPower.cc:99] net _0397_ has no load, skip switch power calculation.
+I20250701 04:05:01.839408 4188874 PwrCalcSwitchPower.cc:99] net _0398_ has no load, skip switch power calculation.
+I20250701 04:05:01.839412 4188874 PwrCalcSwitchPower.cc:99] net _0399_ has no load, skip switch power calculation.
+I20250701 04:05:01.839416 4188874 PwrCalcSwitchPower.cc:99] net _0400_ has no load, skip switch power calculation.
+I20250701 04:05:01.839421 4188874 PwrCalcSwitchPower.cc:99] net _0401_ has no load, skip switch power calculation.
+I20250701 04:05:01.839425 4188874 PwrCalcSwitchPower.cc:99] net _0402_ has no load, skip switch power calculation.
+I20250701 04:05:01.839429 4188874 PwrCalcSwitchPower.cc:99] net _0403_ has no load, skip switch power calculation.
+I20250701 04:05:01.839433 4188874 PwrCalcSwitchPower.cc:99] net _0404_ has no load, skip switch power calculation.
+I20250701 04:05:01.839437 4188874 PwrCalcSwitchPower.cc:99] net _0405_ has no load, skip switch power calculation.
+I20250701 04:05:01.839442 4188874 PwrCalcSwitchPower.cc:99] net _0406_ has no load, skip switch power calculation.
+I20250701 04:05:01.839445 4188874 PwrCalcSwitchPower.cc:99] net _0407_ has no load, skip switch power calculation.
+I20250701 04:05:01.839450 4188874 PwrCalcSwitchPower.cc:99] net _0408_ has no load, skip switch power calculation.
+I20250701 04:05:01.839454 4188874 PwrCalcSwitchPower.cc:99] net _0409_ has no load, skip switch power calculation.
+I20250701 04:05:01.839458 4188874 PwrCalcSwitchPower.cc:99] net _0410_ has no load, skip switch power calculation.
+I20250701 04:05:01.839462 4188874 PwrCalcSwitchPower.cc:99] net _0411_ has no load, skip switch power calculation.
+I20250701 04:05:01.839466 4188874 PwrCalcSwitchPower.cc:99] net _0412_ has no load, skip switch power calculation.
+I20250701 04:05:01.839470 4188874 PwrCalcSwitchPower.cc:99] net _0413_ has no load, skip switch power calculation.
+I20250701 04:05:01.839474 4188874 PwrCalcSwitchPower.cc:99] net _0414_ has no load, skip switch power calculation.
+I20250701 04:05:01.839478 4188874 PwrCalcSwitchPower.cc:99] net _0415_ has no load, skip switch power calculation.
+I20250701 04:05:01.839483 4188874 PwrCalcSwitchPower.cc:99] net _0416_ has no load, skip switch power calculation.
+I20250701 04:05:01.839486 4188874 PwrCalcSwitchPower.cc:99] net _0417_ has no load, skip switch power calculation.
+I20250701 04:05:01.839490 4188874 PwrCalcSwitchPower.cc:99] net _0418_ has no load, skip switch power calculation.
+I20250701 04:05:01.839494 4188874 PwrCalcSwitchPower.cc:99] net _0419_ has no load, skip switch power calculation.
+I20250701 04:05:01.839498 4188874 PwrCalcSwitchPower.cc:99] net _0420_ has no load, skip switch power calculation.
+I20250701 04:05:01.839502 4188874 PwrCalcSwitchPower.cc:99] net _0421_ has no load, skip switch power calculation.
+I20250701 04:05:01.839509 4188874 PwrCalcSwitchPower.cc:99] net _0422_ has no load, skip switch power calculation.
+I20250701 04:05:01.839514 4188874 PwrCalcSwitchPower.cc:99] net _0423_ has no load, skip switch power calculation.
+I20250701 04:05:01.839517 4188874 PwrCalcSwitchPower.cc:99] net _0424_ has no load, skip switch power calculation.
+I20250701 04:05:01.839521 4188874 PwrCalcSwitchPower.cc:99] net _0425_ has no load, skip switch power calculation.
+I20250701 04:05:01.839525 4188874 PwrCalcSwitchPower.cc:99] net _0426_ has no load, skip switch power calculation.
+I20250701 04:05:01.839529 4188874 PwrCalcSwitchPower.cc:99] net _0427_ has no load, skip switch power calculation.
+I20250701 04:05:01.839532 4188874 PwrCalcSwitchPower.cc:99] net _0428_ has no load, skip switch power calculation.
+I20250701 04:05:01.839536 4188874 PwrCalcSwitchPower.cc:99] net _0429_ has no load, skip switch power calculation.
+I20250701 04:05:01.839542 4188874 PwrCalcSwitchPower.cc:99] net _0430_ has no load, skip switch power calculation.
+I20250701 04:05:01.839546 4188874 PwrCalcSwitchPower.cc:99] net _0431_ has no load, skip switch power calculation.
+I20250701 04:05:01.839550 4188874 PwrCalcSwitchPower.cc:99] net _0432_ has no load, skip switch power calculation.
+I20250701 04:05:01.839555 4188874 PwrCalcSwitchPower.cc:99] net _0433_ has no load, skip switch power calculation.
+I20250701 04:05:01.839558 4188874 PwrCalcSwitchPower.cc:99] net _0434_ has no load, skip switch power calculation.
+I20250701 04:05:01.839562 4188874 PwrCalcSwitchPower.cc:99] net _0435_ has no load, skip switch power calculation.
+I20250701 04:05:01.839566 4188874 PwrCalcSwitchPower.cc:99] net _0436_ has no load, skip switch power calculation.
+I20250701 04:05:01.839570 4188874 PwrCalcSwitchPower.cc:99] net _0437_ has no load, skip switch power calculation.
+I20250701 04:05:01.839576 4188874 PwrCalcSwitchPower.cc:99] net _0438_ has no load, skip switch power calculation.
+I20250701 04:05:01.839581 4188874 PwrCalcSwitchPower.cc:99] net _0439_ has no load, skip switch power calculation.
+I20250701 04:05:01.839584 4188874 PwrCalcSwitchPower.cc:99] net _0440_ has no load, skip switch power calculation.
+I20250701 04:05:01.839588 4188874 PwrCalcSwitchPower.cc:99] net _0441_ has no load, skip switch power calculation.
+I20250701 04:05:01.839592 4188874 PwrCalcSwitchPower.cc:99] net _0442_ has no load, skip switch power calculation.
+I20250701 04:05:01.839596 4188874 PwrCalcSwitchPower.cc:99] net _0443_ has no load, skip switch power calculation.
+I20250701 04:05:01.839601 4188874 PwrCalcSwitchPower.cc:99] net _0444_ has no load, skip switch power calculation.
+I20250701 04:05:01.839604 4188874 PwrCalcSwitchPower.cc:99] net _0445_ has no load, skip switch power calculation.
+I20250701 04:05:01.839609 4188874 PwrCalcSwitchPower.cc:99] net _0446_ has no load, skip switch power calculation.
+I20250701 04:05:01.839613 4188874 PwrCalcSwitchPower.cc:99] net _0447_ has no load, skip switch power calculation.
+I20250701 04:05:01.839617 4188874 PwrCalcSwitchPower.cc:99] net _0448_ has no load, skip switch power calculation.
+I20250701 04:05:01.839622 4188874 PwrCalcSwitchPower.cc:99] net _0449_ has no load, skip switch power calculation.
+I20250701 04:05:01.839625 4188874 PwrCalcSwitchPower.cc:99] net _0450_ has no load, skip switch power calculation.
+I20250701 04:05:01.839629 4188874 PwrCalcSwitchPower.cc:99] net _0451_ has no load, skip switch power calculation.
+I20250701 04:05:01.839634 4188874 PwrCalcSwitchPower.cc:99] net _0452_ has no load, skip switch power calculation.
+I20250701 04:05:01.839638 4188874 PwrCalcSwitchPower.cc:99] net _0453_ has no load, skip switch power calculation.
+I20250701 04:05:01.839641 4188874 PwrCalcSwitchPower.cc:99] net _0454_ has no load, skip switch power calculation.
+I20250701 04:05:01.839645 4188874 PwrCalcSwitchPower.cc:99] net _0455_ has no load, skip switch power calculation.
+I20250701 04:05:01.839649 4188874 PwrCalcSwitchPower.cc:99] net _0456_ has no load, skip switch power calculation.
+I20250701 04:05:01.839653 4188874 PwrCalcSwitchPower.cc:99] net _0457_ has no load, skip switch power calculation.
+I20250701 04:05:01.839658 4188874 PwrCalcSwitchPower.cc:99] net _0458_ has no load, skip switch power calculation.
+I20250701 04:05:01.839663 4188874 PwrCalcSwitchPower.cc:99] net _0459_ has no load, skip switch power calculation.
+I20250701 04:05:01.839666 4188874 PwrCalcSwitchPower.cc:99] net _0460_ has no load, skip switch power calculation.
+I20250701 04:05:01.839670 4188874 PwrCalcSwitchPower.cc:99] net _0461_ has no load, skip switch power calculation.
+I20250701 04:05:01.839675 4188874 PwrCalcSwitchPower.cc:99] net _0462_ has no load, skip switch power calculation.
+I20250701 04:05:01.839679 4188874 PwrCalcSwitchPower.cc:99] net _0463_ has no load, skip switch power calculation.
+I20250701 04:05:01.839684 4188874 PwrCalcSwitchPower.cc:99] net _0464_ has no load, skip switch power calculation.
+I20250701 04:05:01.839687 4188874 PwrCalcSwitchPower.cc:99] net _0465_ has no load, skip switch power calculation.
+I20250701 04:05:01.839691 4188874 PwrCalcSwitchPower.cc:99] net _0466_ has no load, skip switch power calculation.
+I20250701 04:05:01.839695 4188874 PwrCalcSwitchPower.cc:99] net _0467_ has no load, skip switch power calculation.
+I20250701 04:05:01.839700 4188874 PwrCalcSwitchPower.cc:99] net _0468_ has no load, skip switch power calculation.
+I20250701 04:05:01.839704 4188874 PwrCalcSwitchPower.cc:99] net _0469_ has no load, skip switch power calculation.
+I20250701 04:05:01.839709 4188874 PwrCalcSwitchPower.cc:99] net _0470_ has no load, skip switch power calculation.
+I20250701 04:05:01.839713 4188874 PwrCalcSwitchPower.cc:99] net _0471_ has no load, skip switch power calculation.
+I20250701 04:05:01.839717 4188874 PwrCalcSwitchPower.cc:99] net _0472_ has no load, skip switch power calculation.
+I20250701 04:05:01.839721 4188874 PwrCalcSwitchPower.cc:99] net _0473_ has no load, skip switch power calculation.
+I20250701 04:05:01.839725 4188874 PwrCalcSwitchPower.cc:99] net _0474_ has no load, skip switch power calculation.
+I20250701 04:05:01.839730 4188874 PwrCalcSwitchPower.cc:99] net _0475_ has no load, skip switch power calculation.
+I20250701 04:05:01.839733 4188874 PwrCalcSwitchPower.cc:99] net _0476_ has no load, skip switch power calculation.
+I20250701 04:05:01.839737 4188874 PwrCalcSwitchPower.cc:99] net _0477_ has no load, skip switch power calculation.
+I20250701 04:05:01.839741 4188874 PwrCalcSwitchPower.cc:99] net _0478_ has no load, skip switch power calculation.
+I20250701 04:05:01.839745 4188874 PwrCalcSwitchPower.cc:99] net _0479_ has no load, skip switch power calculation.
+I20250701 04:05:01.839749 4188874 PwrCalcSwitchPower.cc:99] net clear_c_buf has no load, skip switch power calculation.
+I20250701 04:05:01.840044 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[0] has no load, skip switch power calculation.
+I20250701 04:05:01.840049 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[1] has no load, skip switch power calculation.
+I20250701 04:05:01.840050 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[2] has no load, skip switch power calculation.
+I20250701 04:05:01.840054 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[3] has no load, skip switch power calculation.
+I20250701 04:05:01.840057 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[4] has no load, skip switch power calculation.
+I20250701 04:05:01.840060 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[5] has no load, skip switch power calculation.
+I20250701 04:05:01.840065 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[6] has no load, skip switch power calculation.
+I20250701 04:05:01.840070 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[7] has no load, skip switch power calculation.
+I20250701 04:05:01.840073 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[8] has no load, skip switch power calculation.
+I20250701 04:05:01.840077 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[9] has no load, skip switch power calculation.
+I20250701 04:05:01.840081 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[10] has no load, skip switch power calculation.
+I20250701 04:05:01.840085 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[11] has no load, skip switch power calculation.
+I20250701 04:05:01.840090 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[12] has no load, skip switch power calculation.
+I20250701 04:05:01.840094 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[13] has no load, skip switch power calculation.
+I20250701 04:05:01.840097 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[14] has no load, skip switch power calculation.
+I20250701 04:05:01.840101 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[15] has no load, skip switch power calculation.
+I20250701 04:05:01.840106 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[16] has no load, skip switch power calculation.
+I20250701 04:05:01.840111 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[17] has no load, skip switch power calculation.
+I20250701 04:05:01.840114 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[18] has no load, skip switch power calculation.
+I20250701 04:05:01.840118 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[19] has no load, skip switch power calculation.
+I20250701 04:05:01.840124 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[20] has no load, skip switch power calculation.
+I20250701 04:05:01.840128 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[21] has no load, skip switch power calculation.
+I20250701 04:05:01.840132 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[22] has no load, skip switch power calculation.
+I20250701 04:05:01.840137 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[23] has no load, skip switch power calculation.
+I20250701 04:05:01.840140 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[24] has no load, skip switch power calculation.
+I20250701 04:05:01.840144 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[25] has no load, skip switch power calculation.
+I20250701 04:05:01.840148 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[26] has no load, skip switch power calculation.
+I20250701 04:05:01.840154 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[27] has no load, skip switch power calculation.
+I20250701 04:05:01.840158 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[28] has no load, skip switch power calculation.
+I20250701 04:05:01.840162 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[29] has no load, skip switch power calculation.
+I20250701 04:05:01.840166 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[30] has no load, skip switch power calculation.
+I20250701 04:05:01.840170 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[31] has no load, skip switch power calculation.
+I20250701 04:05:01.840174 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[32] has no load, skip switch power calculation.
+I20250701 04:05:01.840178 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[33] has no load, skip switch power calculation.
+I20250701 04:05:01.840183 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[34] has no load, skip switch power calculation.
+I20250701 04:05:01.840188 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[35] has no load, skip switch power calculation.
+I20250701 04:05:01.840191 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[36] has no load, skip switch power calculation.
+I20250701 04:05:01.840195 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[37] has no load, skip switch power calculation.
+I20250701 04:05:01.840199 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[38] has no load, skip switch power calculation.
+I20250701 04:05:01.840204 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[39] has no load, skip switch power calculation.
+I20250701 04:05:01.840207 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[40] has no load, skip switch power calculation.
+I20250701 04:05:01.840211 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[41] has no load, skip switch power calculation.
+I20250701 04:05:01.840215 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[42] has no load, skip switch power calculation.
+I20250701 04:05:01.840221 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[43] has no load, skip switch power calculation.
+I20250701 04:05:01.840225 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[44] has no load, skip switch power calculation.
+I20250701 04:05:01.840229 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[45] has no load, skip switch power calculation.
+I20250701 04:05:01.840233 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[46] has no load, skip switch power calculation.
+I20250701 04:05:01.840237 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[47] has no load, skip switch power calculation.
+I20250701 04:05:01.840241 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[48] has no load, skip switch power calculation.
+I20250701 04:05:01.840250 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[49] has no load, skip switch power calculation.
+I20250701 04:05:01.840253 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[50] has no load, skip switch power calculation.
+I20250701 04:05:01.840256 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[51] has no load, skip switch power calculation.
+I20250701 04:05:01.840260 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[52] has no load, skip switch power calculation.
+I20250701 04:05:01.840263 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[53] has no load, skip switch power calculation.
+I20250701 04:05:01.840268 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[54] has no load, skip switch power calculation.
+I20250701 04:05:01.840272 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[55] has no load, skip switch power calculation.
+I20250701 04:05:01.840276 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[56] has no load, skip switch power calculation.
+I20250701 04:05:01.840281 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[57] has no load, skip switch power calculation.
+I20250701 04:05:01.840284 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[58] has no load, skip switch power calculation.
+I20250701 04:05:01.840289 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[59] has no load, skip switch power calculation.
+I20250701 04:05:01.840293 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[60] has no load, skip switch power calculation.
+I20250701 04:05:01.840297 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[61] has no load, skip switch power calculation.
+I20250701 04:05:01.840301 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[62] has no load, skip switch power calculation.
+I20250701 04:05:01.840305 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[63] has no load, skip switch power calculation.
+I20250701 04:05:01.840309 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[64] has no load, skip switch power calculation.
+I20250701 04:05:01.840313 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[65] has no load, skip switch power calculation.
+I20250701 04:05:01.840317 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[66] has no load, skip switch power calculation.
+I20250701 04:05:01.840322 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[67] has no load, skip switch power calculation.
+I20250701 04:05:01.840325 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[68] has no load, skip switch power calculation.
+I20250701 04:05:01.840330 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[69] has no load, skip switch power calculation.
+I20250701 04:05:01.840333 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[70] has no load, skip switch power calculation.
+I20250701 04:05:01.840337 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[71] has no load, skip switch power calculation.
+I20250701 04:05:01.840341 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[72] has no load, skip switch power calculation.
+I20250701 04:05:01.840345 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[73] has no load, skip switch power calculation.
+I20250701 04:05:01.840349 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[74] has no load, skip switch power calculation.
+I20250701 04:05:01.840353 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[75] has no load, skip switch power calculation.
+I20250701 04:05:01.840358 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[76] has no load, skip switch power calculation.
+I20250701 04:05:01.840363 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[77] has no load, skip switch power calculation.
+I20250701 04:05:01.840368 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[78] has no load, skip switch power calculation.
+I20250701 04:05:01.840371 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[79] has no load, skip switch power calculation.
+I20250701 04:05:01.840375 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[80] has no load, skip switch power calculation.
+I20250701 04:05:01.840379 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[81] has no load, skip switch power calculation.
+I20250701 04:05:01.840384 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[82] has no load, skip switch power calculation.
+I20250701 04:05:01.840387 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[83] has no load, skip switch power calculation.
+I20250701 04:05:01.840391 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[84] has no load, skip switch power calculation.
+I20250701 04:05:01.840395 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[85] has no load, skip switch power calculation.
+I20250701 04:05:01.840399 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[86] has no load, skip switch power calculation.
+I20250701 04:05:01.840404 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[87] has no load, skip switch power calculation.
+I20250701 04:05:01.840407 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[88] has no load, skip switch power calculation.
+I20250701 04:05:01.840411 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[89] has no load, skip switch power calculation.
+I20250701 04:05:01.840415 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[90] has no load, skip switch power calculation.
+I20250701 04:05:01.840420 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[91] has no load, skip switch power calculation.
+I20250701 04:05:01.840425 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[92] has no load, skip switch power calculation.
+I20250701 04:05:01.840430 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[93] has no load, skip switch power calculation.
+I20250701 04:05:01.840435 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[94] has no load, skip switch power calculation.
+I20250701 04:05:01.840438 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[95] has no load, skip switch power calculation.
+I20250701 04:05:01.840442 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[96] has no load, skip switch power calculation.
+I20250701 04:05:01.840446 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[97] has no load, skip switch power calculation.
+I20250701 04:05:01.840451 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[98] has no load, skip switch power calculation.
+I20250701 04:05:01.840454 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[99] has no load, skip switch power calculation.
+I20250701 04:05:01.840458 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[100] has no load, skip switch power calculation.
+I20250701 04:05:01.840462 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[101] has no load, skip switch power calculation.
+I20250701 04:05:01.840466 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[102] has no load, skip switch power calculation.
+I20250701 04:05:01.840471 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[103] has no load, skip switch power calculation.
+I20250701 04:05:01.840474 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[104] has no load, skip switch power calculation.
+I20250701 04:05:01.840478 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[105] has no load, skip switch power calculation.
+I20250701 04:05:01.840482 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[106] has no load, skip switch power calculation.
+I20250701 04:05:01.840487 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[107] has no load, skip switch power calculation.
+I20250701 04:05:01.840490 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[108] has no load, skip switch power calculation.
+I20250701 04:05:01.840494 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[109] has no load, skip switch power calculation.
+I20250701 04:05:01.840498 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[110] has no load, skip switch power calculation.
+I20250701 04:05:01.840503 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[111] has no load, skip switch power calculation.
+I20250701 04:05:01.840509 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[112] has no load, skip switch power calculation.
+I20250701 04:05:01.840512 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[113] has no load, skip switch power calculation.
+I20250701 04:05:01.840516 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[114] has no load, skip switch power calculation.
+I20250701 04:05:01.840521 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[115] has no load, skip switch power calculation.
+I20250701 04:05:01.840525 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[116] has no load, skip switch power calculation.
+I20250701 04:05:01.840529 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[117] has no load, skip switch power calculation.
+I20250701 04:05:01.840533 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[118] has no load, skip switch power calculation.
+I20250701 04:05:01.840538 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[119] has no load, skip switch power calculation.
+I20250701 04:05:01.840541 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[120] has no load, skip switch power calculation.
+I20250701 04:05:01.840546 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[121] has no load, skip switch power calculation.
+I20250701 04:05:01.840550 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[122] has no load, skip switch power calculation.
+I20250701 04:05:01.840554 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[123] has no load, skip switch power calculation.
+I20250701 04:05:01.840559 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[124] has no load, skip switch power calculation.
+I20250701 04:05:01.840562 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[125] has no load, skip switch power calculation.
+I20250701 04:05:01.840565 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[126] has no load, skip switch power calculation.
+I20250701 04:05:01.840569 4188874 PwrCalcSwitchPower.cc:99] net main_ram_c_d[127] has no load, skip switch power calculation.
+I20250701 04:05:01.840574 4188874 PwrCalcSwitchPower.cc:99] net q_from_buffer_a[0] has no load, skip switch power calculation.
+I20250701 04:05:01.840577 4188874 PwrCalcSwitchPower.cc:99] net q_from_buffer_a[1] has no load, skip switch power calculation.
+I20250701 04:05:01.840581 4188874 PwrCalcSwitchPower.cc:99] net q_from_buffer_a[2] has no load, skip switch power calculation.
+I20250701 04:05:01.840585 4188874 PwrCalcSwitchPower.cc:99] net q_from_buffer_a[3] has no load, skip switch power calculation.
+I20250701 04:05:01.840590 4188874 PwrCalcSwitchPower.cc:99] net q_from_buffer_a[4] has no load, skip switch power calculation.
+I20250701 04:05:01.840593 4188874 PwrCalcSwitchPower.cc:99] net q_from_buffer_a[5] has no load, skip switch power calculation.
+I20250701 04:05:01.840597 4188874 PwrCalcSwitchPower.cc:99] net q_from_buffer_a[6] has no load, skip switch power calculation.
+I20250701 04:05:01.840601 4188874 PwrCalcSwitchPower.cc:99] net q_from_buffer_a[7] has no load, skip switch power calculation.
+I20250701 04:05:01.840605 4188874 PwrCalcSwitchPower.cc:99] net q_from_buffer_a[8] has no load, skip switch power calculation.
+I20250701 04:05:01.840610 4188874 PwrCalcSwitchPower.cc:99] net q_from_buffer_a[9] has no load, skip switch power calculation.
+I20250701 04:05:01.840613 4188874 PwrCalcSwitchPower.cc:99] net q_from_buffer_a[10] has no load, skip switch power calculation.
+I20250701 04:05:01.840617 4188874 PwrCalcSwitchPower.cc:99] net q_from_buffer_a[11] has no load, skip switch power calculation.
+I20250701 04:05:01.840621 4188874 PwrCalcSwitchPower.cc:99] net q_from_buffer_a[12] has no load, skip switch power calculation.
+I20250701 04:05:01.840626 4188874 PwrCalcSwitchPower.cc:99] net q_from_buffer_a[13] has no load, skip switch power calculation.
+I20250701 04:05:01.840629 4188874 PwrCalcSwitchPower.cc:99] net q_from_buffer_a[14] has no load, skip switch power calculation.
+I20250701 04:05:01.840636 4188874 PwrCalcSwitchPower.cc:99] net q_from_buffer_a[15] has no load, skip switch power calculation.
+I20250701 04:05:01.840639 4188874 PwrCalcSwitchPower.cc:99] net q_from_buffer_b[0] has no load, skip switch power calculation.
+I20250701 04:05:01.840643 4188874 PwrCalcSwitchPower.cc:99] net q_from_buffer_b[1] has no load, skip switch power calculation.
+I20250701 04:05:01.840647 4188874 PwrCalcSwitchPower.cc:99] net q_from_buffer_b[2] has no load, skip switch power calculation.
+I20250701 04:05:01.840651 4188874 PwrCalcSwitchPower.cc:99] net q_from_buffer_b[3] has no load, skip switch power calculation.
+I20250701 04:05:01.840655 4188874 PwrCalcSwitchPower.cc:99] net q_from_buffer_b[4] has no load, skip switch power calculation.
+I20250701 04:05:01.840659 4188874 PwrCalcSwitchPower.cc:99] net q_from_buffer_b[5] has no load, skip switch power calculation.
+I20250701 04:05:01.840663 4188874 PwrCalcSwitchPower.cc:99] net q_from_buffer_b[6] has no load, skip switch power calculation.
+I20250701 04:05:01.840667 4188874 PwrCalcSwitchPower.cc:99] net q_from_buffer_b[7] has no load, skip switch power calculation.
+I20250701 04:05:01.840672 4188874 PwrCalcSwitchPower.cc:99] net q_from_buffer_b[8] has no load, skip switch power calculation.
+I20250701 04:05:01.840675 4188874 PwrCalcSwitchPower.cc:99] net q_from_buffer_b[9] has no load, skip switch power calculation.
+I20250701 04:05:01.840679 4188874 PwrCalcSwitchPower.cc:99] net q_from_buffer_b[10] has no load, skip switch power calculation.
+I20250701 04:05:01.840684 4188874 PwrCalcSwitchPower.cc:99] net q_from_buffer_b[11] has no load, skip switch power calculation.
+I20250701 04:05:01.840688 4188874 PwrCalcSwitchPower.cc:99] net q_from_buffer_b[12] has no load, skip switch power calculation.
+I20250701 04:05:01.840692 4188874 PwrCalcSwitchPower.cc:99] net q_from_buffer_b[13] has no load, skip switch power calculation.
+I20250701 04:05:01.840696 4188874 PwrCalcSwitchPower.cc:99] net q_from_buffer_b[14] has no load, skip switch power calculation.
+I20250701 04:05:01.840700 4188874 PwrCalcSwitchPower.cc:99] net q_from_buffer_b[15] has no load, skip switch power calculation.
+I20250701 04:05:01.840791 4188874 PwrCalcSwitchPower.cc:99] net u_central_control.state[1] has no load, skip switch power calculation.
+I20250701 04:05:01.840795 4188874 PwrCalcSwitchPower.cc:99] net u_central_control.state[3] has no load, skip switch power calculation.
+I20250701 04:05:01.840862 4188874 PwrCalcSwitchPower.cc:99] net u_skew_a.r_cnt[0] has no load, skip switch power calculation.
+I20250701 04:05:01.840865 4188874 PwrCalcSwitchPower.cc:99] net u_skew_a.r_cnt_$_AND__B_Y_$_XOR__A_Y[0] has no load, skip switch power calculation.
+I20250701 04:05:01.840868 4188874 PwrCalcSwitchPower.cc:99] net u_skew_a.r_cnt_$_AND__B_Y_$_XOR__A_Y[1] has no load, skip switch power calculation.
+I20250701 04:05:01.840915 4188874 PwrCalcSwitchPower.cc:99] net u_skew_b.r_cnt[0] has no load, skip switch power calculation.
+I20250701 04:05:01.840921 4188874 PwrCalcSwitchPower.cc:99] net u_skew_b.r_cnt_$_AND__B_Y_$_XOR__A_Y[0] has no load, skip switch power calculation.
+I20250701 04:05:01.840925 4188874 PwrCalcSwitchPower.cc:99] net u_skew_b.r_cnt_$_AND__B_Y_$_XOR__A_Y[1] has no load, skip switch power calculation.
+I20250701 04:05:01.840950 4188874 PwrCalcSwitchPower.cc:173] calc switch power result 0mw
+I20250701 04:05:01.840955 4188874 PwrCalcSwitchPower.cc:175] calc switch power end
+I20250701 04:05:01.840979 4188874 PwrCalcSwitchPower.cc:177] calc switch power memory usage 0MB
+I20250701 04:05:01.840986 4188874 PwrCalcSwitchPower.cc:179] calc switch power time elapsed 0.002286s
+I20250701 04:05:01.843602 4188874 Power.cc:273] power calculation end
+I20250701 04:05:01.843636 4188874 Power.cc:275] power calculation memory usage 0MB
+I20250701 04:05:01.843641 4188874 Power.cc:277] power calculation time elapsed 0.062246s
+I20250701 04:05:01.843659 4188874 Power.cc:845] power report start, output dir: /data/stu25/s2300012745/work/yosys-sta/lab8/result/P2/accelerator-2000MHz
+I20250701 04:05:01.843833 4188874 Power.cc:489] 
++---------------+----------------+--------------+---------------+-------------+-----------+
+| Power Group   | Internal Power | Switch Power | Leakage Power | Total Power | (%)       |
++---------------+----------------+--------------+---------------+-------------+-----------+
+| combinational | 2.047e-04      | 0.000e+00    | 1.739e-05     | 2.221e-04   | (27.520%) |
+| sequential    | 5.704e-04      | 0.000e+00    | 1.444e-05     | 5.849e-04   | (72.480%) |
++---------------+----------------+--------------+---------------+-------------+-----------+
+I20250701 04:05:01.843945 4188874 Power.cc:541] Total Power   ==  0.00080692 W
+I20250701 04:05:01.845480 4188874 Power.cc:576] Instance Power Report: 
+I20250701 04:05:01.845487 4188874 Power.cc:577] 
++--------------------------------------------------------------+----------------+--------------+---------------+-------------+
+| Instance Name                                                | Internal Power | Switch Power | Leakage Power | Total Power |
++--------------------------------------------------------------+----------------+--------------+---------------+-------------+
+| _0480_                                                       | 9.460e-08      | 0.000e+00    | 1.435e-08     | 1.089e-07   |
+| _0481_                                                       | 2.982e-07      | 0.000e+00    | 2.120e-08     | 3.194e-07   |
+| _0482_                                                       | 9.524e-08      | 0.000e+00    | 1.435e-08     | 1.096e-07   |
+| _0483_                                                       | 3.875e-07      | 0.000e+00    | 2.292e-08     | 4.104e-07   |
+| _0484_                                                       | 3.951e-07      | 0.000e+00    | 2.533e-08     | 4.204e-07   |
+| _0485_                                                       | 7.030e-08      | 0.000e+00    | 1.116e-08     | 8.146e-08   |
+| _0486_                                                       | 2.729e-07      | 0.000e+00    | 2.120e-08     | 2.941e-07   |
+| _0487_                                                       | 3.989e-07      | 0.000e+00    | 2.533e-08     | 4.242e-07   |
+| _0488_                                                       | 9.433e-08      | 0.000e+00    | 1.435e-08     | 1.087e-07   |
+| _0489_                                                       | 2.640e-07      | 0.000e+00    | 1.739e-08     | 2.814e-07   |
+| _0490_                                                       | 9.564e-08      | 0.000e+00    | 1.435e-08     | 1.100e-07   |
+| _0491_                                                       | 2.795e-07      | 0.000e+00    | 2.120e-08     | 3.007e-07   |
+| _0492_                                                       | 9.883e-08      | 0.000e+00    | 1.435e-08     | 1.132e-07   |
+| _0493_                                                       | 2.769e-07      | 0.000e+00    | 2.120e-08     | 2.981e-07   |
+| _0494_                                                       | 4.070e-07      | 0.000e+00    | 1.581e-08     | 4.228e-07   |
+| _0495_                                                       | 9.979e-08      | 0.000e+00    | 1.435e-08     | 1.141e-07   |
+| _0496_                                                       | 5.032e-07      | 0.000e+00    | 2.507e-08     | 5.282e-07   |
+| _0497_                                                       | 1.070e-07      | 0.000e+00    | 1.435e-08     | 1.214e-07   |
+| _0498_                                                       | 4.032e-07      | 0.000e+00    | 2.533e-08     | 4.285e-07   |
+| _0499_                                                       | 8.696e-08      | 0.000e+00    | 1.435e-08     | 1.013e-07   |
+| _0500_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0501_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0502_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0503_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0504_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0505_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0506_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0507_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0508_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0509_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0510_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0511_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0512_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0513_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0514_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0515_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0516_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0517_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0518_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0519_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0520_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0521_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0522_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0523_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0524_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0525_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0526_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0527_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0528_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0529_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0530_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0531_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0532_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0533_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0534_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0535_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0536_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0537_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0538_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0539_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0540_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0541_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0542_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0543_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0544_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0545_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0546_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0547_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0548_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0549_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0550_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0551_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0552_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0553_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0554_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0555_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0556_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0557_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0558_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0559_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0560_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0561_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0562_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0563_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0564_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0565_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0566_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0567_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0568_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0569_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0570_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0571_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0572_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0573_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0574_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0575_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0576_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0577_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0578_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0579_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0580_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0581_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0582_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0583_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0584_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0585_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0586_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0587_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0588_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0589_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0590_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0591_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0592_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0593_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0594_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0595_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0596_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0597_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0598_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0599_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0600_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0601_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0602_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0603_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0604_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0605_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0606_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0607_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0608_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0609_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0610_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0611_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0612_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0613_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0614_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0615_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0616_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0617_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0618_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0619_                                                       | 4.568e-07      | 0.000e+00    | 2.507e-08     | 4.819e-07   |
+| _0620_                                                       | 5.245e-07      | 0.000e+00    | 2.507e-08     | 5.495e-07   |
+| _0621_                                                       | 5.245e-07      | 0.000e+00    | 2.507e-08     | 5.495e-07   |
+| _0622_                                                       | 5.245e-07      | 0.000e+00    | 2.507e-08     | 5.495e-07   |
+| _0623_                                                       | 5.245e-07      | 0.000e+00    | 2.507e-08     | 5.495e-07   |
+| _0624_                                                       | 5.245e-07      | 0.000e+00    | 2.507e-08     | 5.495e-07   |
+| _0625_                                                       | 5.245e-07      | 0.000e+00    | 2.507e-08     | 5.495e-07   |
+| _0626_                                                       | 5.245e-07      | 0.000e+00    | 2.507e-08     | 5.495e-07   |
+| _0627_                                                       | 5.245e-07      | 0.000e+00    | 2.507e-08     | 5.495e-07   |
+| _0628_                                                       | 4.707e-07      | 0.000e+00    | 2.269e-08     | 4.934e-07   |
+| _0629_                                                       | 9.369e-08      | 0.000e+00    | 1.435e-08     | 1.080e-07   |
+| _0630_                                                       | 2.745e-07      | 0.000e+00    | 2.120e-08     | 2.957e-07   |
+| _0631_                                                       | 2.951e-07      | 0.000e+00    | 2.120e-08     | 3.163e-07   |
+| _0632_                                                       | 4.932e-07      | 0.000e+00    | 3.340e-08     | 5.266e-07   |
+| _0633_                                                       | 5.033e-07      | 0.000e+00    | 2.269e-08     | 5.260e-07   |
+| _0634_                                                       | 1.094e-08      | 0.000e+00    | 8.200e-08     | 9.294e-08   |
+| _0635_                                                       | 1.713e-09      | 0.000e+00    | 2.559e-08     | 2.730e-08   |
+| _0636_                                                       | 3.247e-09      | 0.000e+00    | 1.027e-07     | 1.059e-07   |
+| _0637_                                                       | 1.764e-09      | 0.000e+00    | 1.027e-07     | 1.045e-07   |
+| _0638_                                                       | 9.051e-10      | 0.000e+00    | 1.027e-07     | 1.036e-07   |
+| _0639_                                                       | 1.334e-10      | 0.000e+00    | 2.559e-08     | 2.572e-08   |
+| _0640_                                                       | 7.434e-11      | 0.000e+00    | 2.559e-08     | 2.566e-08   |
+| _0641_                                                       | 1.094e-08      | 0.000e+00    | 8.200e-08     | 9.294e-08   |
+| _0642_                                                       | 1.678e-09      | 0.000e+00    | 2.559e-08     | 2.726e-08   |
+| _0643_                                                       | 9.191e-10      | 0.000e+00    | 2.559e-08     | 2.651e-08   |
+| _0644_                                                       | 1.731e-09      | 0.000e+00    | 1.027e-07     | 1.044e-07   |
+| _0645_                                                       | 2.513e-10      | 0.000e+00    | 2.559e-08     | 2.584e-08   |
+| _0646_                                                       | 1.365e-10      | 0.000e+00    | 2.559e-08     | 2.572e-08   |
+| _0647_                                                       | 1.049e-13      | 0.000e+00    | 2.033e-08     | 2.033e-08   |
+| _0648_                                                       | 1.342e-21      | 0.000e+00    | 2.025e-08     | 2.025e-08   |
+| _0649_                                                       | 9.469e-08      | 0.000e+00    | 1.435e-08     | 1.090e-07   |
+| _0650_                                                       | 5.861e-07      | 0.000e+00    | 3.825e-08     | 6.244e-07   |
+| _0651_                                                       | 4.973e-07      | 0.000e+00    | 2.507e-08     | 5.224e-07   |
+| _0652_                                                       | 5.073e-07      | 0.000e+00    | 3.340e-08     | 5.407e-07   |
+| _0653_                                                       | 9.451e-08      | 0.000e+00    | 1.435e-08     | 1.089e-07   |
+| _0654_                                                       | 2.808e-07      | 0.000e+00    | 2.120e-08     | 3.020e-07   |
+| _0655_                                                       | 5.312e-07      | 0.000e+00    | 2.531e-08     | 5.565e-07   |
+| _0656_                                                       | 1.044e-06      | 0.000e+00    | 4.198e-08     | 1.086e-06   |
+| _0657_                                                       | 9.491e-08      | 0.000e+00    | 1.223e-08     | 1.071e-07   |
+| _0658_                                                       | 2.712e-07      | 0.000e+00    | 2.208e-08     | 2.933e-07   |
+| _0659_                                                       | 5.312e-07      | 0.000e+00    | 2.531e-08     | 5.565e-07   |
+| _0660_                                                       | 1.044e-06      | 0.000e+00    | 4.198e-08     | 1.086e-06   |
+| _0661_                                                       | 2.712e-07      | 0.000e+00    | 2.208e-08     | 2.933e-07   |
+| _0662_                                                       | 3.501e-07      | 0.000e+00    | 2.032e-08     | 3.704e-07   |
+| _0663_                                                       | 4.595e-09      | 0.000e+00    | 1.012e-08     | 1.471e-08   |
+| _0664_                                                       | 4.970e-07      | 0.000e+00    | 3.340e-08     | 5.304e-07   |
+| _0665_                                                       | 5.198e-07      | 0.000e+00    | 2.507e-08     | 5.449e-07   |
+| _0666_                                                       | 3.902e-07      | 0.000e+00    | 2.533e-08     | 4.155e-07   |
+| _0667_                                                       | 2.601e-07      | 0.000e+00    | 2.546e-08     | 2.856e-07   |
+| _0668_                                                       | 1.626e-07      | 0.000e+00    | 2.552e-08     | 1.881e-07   |
+| _0669_                                                       | 1.004e-07      | 0.000e+00    | 2.555e-08     | 1.260e-07   |
+| _0670_                                                       | 1.941e-08      | 0.000e+00    | 1.005e-08     | 2.946e-08   |
+| _0671_                                                       | 5.389e-09      | 0.000e+00    | 2.412e-08     | 2.951e-08   |
+| _0672_                                                       | 2.245e-08      | 0.000e+00    | 2.052e-08     | 4.296e-08   |
+| _0673_                                                       | 9.335e-08      | 0.000e+00    | 1.435e-08     | 1.077e-07   |
+| _0674_                                                       | 9.460e-08      | 0.000e+00    | 2.383e-08     | 1.184e-07   |
+| _0675_                                                       | 9.693e-08      | 0.000e+00    | 1.223e-08     | 1.092e-07   |
+| _0676_                                                       | 3.259e-07      | 0.000e+00    | 2.752e-08     | 3.534e-07   |
+| _0677_                                                       | 5.546e-07      | 0.000e+00    | 2.883e-08     | 5.834e-07   |
+| _0678_                                                       | 3.434e-07      | 0.000e+00    | 2.787e-08     | 3.713e-07   |
+| _0679_                                                       | 2.630e-07      | 0.000e+00    | 1.739e-08     | 2.804e-07   |
+| _0680_                                                       | 8.240e-07      | 0.000e+00    | 2.648e-08     | 8.505e-07   |
+| _0681_                                                       | 9.323e-08      | 0.000e+00    | 1.435e-08     | 1.076e-07   |
+| _0682_                                                       | 2.697e-07      | 0.000e+00    | 1.739e-08     | 2.871e-07   |
+| _0683_                                                       | 1.691e-06      | 0.000e+00    | 1.368e-07     | 1.828e-06   |
+| _0684_                                                       | 5.299e-07      | 0.000e+00    | 2.683e-08     | 5.567e-07   |
+| _0685_                                                       | 4.886e-07      | 0.000e+00    | 2.269e-08     | 5.113e-07   |
+| _0686_                                                       | 4.922e-07      | 0.000e+00    | 3.340e-08     | 5.256e-07   |
+| _0687_                                                       | 1.604e-08      | 0.000e+00    | 5.343e-09     | 2.138e-08   |
+| _0688_                                                       | 4.897e-07      | 0.000e+00    | 2.455e-08     | 5.143e-07   |
+| _0689_                                                       | 5.329e-07      | 0.000e+00    | 2.254e-08     | 5.554e-07   |
+| _0690_                                                       | 9.275e-08      | 0.000e+00    | 1.435e-08     | 1.071e-07   |
+| _0691_                                                       | 4.599e-07      | 0.000e+00    | 3.606e-08     | 4.960e-07   |
+| _0692_                                                       | 2.446e-11      | 0.000e+00    | 1.010e-08     | 1.013e-08   |
+| _0693_                                                       | 9.338e-08      | 0.000e+00    | 1.435e-08     | 1.077e-07   |
+| _0694_                                                       | 1.114e-08      | 0.000e+00    | 2.999e-08     | 4.113e-08   |
+| _0695_                                                       | 2.015e-07      | 0.000e+00    | 1.577e-08     | 2.173e-07   |
+| _0696_                                                       | 2.092e-09      | 0.000e+00    | 1.011e-08     | 1.220e-08   |
+| _0697_                                                       | 6.559e-07      | 0.000e+00    | 4.976e-08     | 7.056e-07   |
+| _0698_                                                       | 2.745e-07      | 0.000e+00    | 2.063e-08     | 2.951e-07   |
+| _0699_                                                       | 7.301e-08      | 0.000e+00    | 1.118e-08     | 8.419e-08   |
+| _0700_                                                       | 3.406e-07      | 0.000e+00    | 2.756e-08     | 3.681e-07   |
+| _0701_                                                       | 4.053e-08      | 0.000e+00    | 2.022e-08     | 6.075e-08   |
+| _0702_                                                       | 4.915e-07      | 0.000e+00    | 2.626e-08     | 5.178e-07   |
+| _0703_                                                       | 5.570e-07      | 0.000e+00    | 1.502e-08     | 5.720e-07   |
+| _0704_                                                       | 5.786e-09      | 0.000e+00    | 2.298e-08     | 2.877e-08   |
+| _0705_                                                       | 5.153e-09      | 0.000e+00    | 6.970e-09     | 1.212e-08   |
+| _0706_                                                       | 2.959e-09      | 0.000e+00    | 1.633e-08     | 1.929e-08   |
+| _0707_                                                       | 5.151e-09      | 0.000e+00    | 6.971e-09     | 1.212e-08   |
+| _0708_                                                       | 2.961e-09      | 0.000e+00    | 1.633e-08     | 1.929e-08   |
+| _0709_                                                       | 5.149e-09      | 0.000e+00    | 6.972e-09     | 1.212e-08   |
+| _0710_                                                       | 2.961e-09      | 0.000e+00    | 1.633e-08     | 1.929e-08   |
+| _0711_                                                       | 5.157e-09      | 0.000e+00    | 6.975e-09     | 1.213e-08   |
+| _0712_                                                       | 2.975e-09      | 0.000e+00    | 1.634e-
+I20250701 04:05:01.857858 4188874 Power.cc:889] power report end, output dir: /data/stu25/s2300012745/work/yosys-sta/lab8/result/P2/accelerator-2000MHz
+I20250701 04:05:01.857920 4188874 Power.cc:891] power report memory usage 0MB
+I20250701 04:05:01.857928 4188874 Power.cc:893] power report time elapsed 0.01427s
