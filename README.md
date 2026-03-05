@@ -44,6 +44,8 @@ python CheckResult.py
 
 ## 📊 综合成绩与优化分析
 
+评估方式详见：https://bonany.cc/digital_logic_lab/lab8.html
+
 经过流片级特性的快速估计及逻辑综合，分别测试了 $P=8$、$P=4$ 和 $P=2$ 配置下的性能（PPA）：
 - **综合方式**：使用预设定的逻辑综合流程搭配 PDK。
 - **得分表现**：
